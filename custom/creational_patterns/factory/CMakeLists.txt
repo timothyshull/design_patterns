@@ -1,0 +1,1 @@
+add_executable(custom_factory main.cpp Factory.h Factory.cpp Product.h Product.cpp)

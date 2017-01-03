@@ -1,0 +1,1 @@
+add_executable(custom_bridge main.cpp Abstraction.h Abstraction.cpp Abstraction_impl.h Abstraction_impl.cpp)

@@ -1,0 +1,7 @@
+#ifndefsDESIGN_PATTERNS_MANIPULATOR_H
+#definesDESIGN_PATTERNS_MANIPULATOR_H
+
+class Manipulator {
+};
+
+#endif /* MANIPULATOR_H */

@@ -1,0 +1,1 @@
+add_executable(custom_singleton main.cpp Singleton.h Singleton.cpp)

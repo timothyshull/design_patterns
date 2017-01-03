@@ -1,0 +1,1 @@
+add_executable(custom_iterator main.cpp Aggregate.cpp Aggregate.h Iterator.cpp Iterator.h)

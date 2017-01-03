@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="design_patterns" targetName="custom_singleton" />
+      <config projectName="design_patterns" targetName="iterator_main" />
+      <config projectName="design_patterns" targetName="Builder" />
+      <config projectName="design_patterns" targetName="composite" />
+      <config projectName="design_patterns" targetName="iterator1" />
+      <config projectName="design_patterns" targetName="abstract_factory" />
+      <config projectName="design_patterns" targetName="state" />
+      <config projectName="design_patterns" targetName="singleton_basic" />
+      <config projectName="design_patterns" targetName="custom_interpreter" />
+      <config projectName="design_patterns" targetName="custom_Facade" />
+      <config projectName="design_patterns" targetName="custom_strategy" />
+      <config projectName="design_patterns" targetName="custom_builder" />
+      <config projectName="design_patterns" targetName="custom_template" />
+      <config projectName="design_patterns" targetName="composite1" />
+      <config projectName="design_patterns" targetName="custom_bridge" />
+      <config projectName="design_patterns" targetName="factory_method_sample_code1" />
+      <config projectName="design_patterns" targetName="iterator" />
+      <config projectName="design_patterns" targetName="Composite" />
+      <config projectName="design_patterns" targetName="abstract_factory1" />
+      <config projectName="design_patterns" targetName="facade" />
+      <config projectName="design_patterns" targetName="custom_Flyweight" />
+      <config projectName="design_patterns" targetName="custom_iterator" />
+      <config projectName="design_patterns" targetName="custom_decorator" />
+      <config projectName="design_patterns" targetName="AbstactFactory" />
+      <config projectName="design_patterns" targetName="adapter_object" />
+      <config projectName="design_patterns" targetName="visitor" />
+      <config projectName="design_patterns" targetName="external_iterator" />
+      <config projectName="design_patterns" targetName="custom_chain_of_responsibility" />
+      <config projectName="design_patterns" targetName="adapter" />
+      <config projectName="design_patterns" targetName="mediator" />
+      <config projectName="design_patterns" targetName="Bridge" />
+      <config projectName="design_patterns" targetName="bridge" />
+      <config projectName="design_patterns" targetName="builder" />
+      <config projectName="design_patterns" targetName="interpreter" />
+      <config projectName="design_patterns" targetName="memento" />
+      <config projectName="design_patterns" targetName="Singleton" />
+      <config projectName="design_patterns" targetName="chain_of_responsibility1" />
+      <config projectName="design_patterns" targetName="custom_abstract_factory" />
+      <config projectName="design_patterns" targetName="custom_factory" />
+      <config projectName="design_patterns" targetName="object_adapter" />
+      <config projectName="design_patterns" targetName="proxy" />
+      <config projectName="design_patterns" targetName="custom_state" />
+      <config projectName="design_patterns" targetName="flyweight1" />
+      <config projectName="design_patterns" targetName="prototype1" />
+      <config projectName="design_patterns" targetName="chain_of_responsibility" />
+      <config projectName="design_patterns" targetName="strategy1" />
+      <config projectName="design_patterns" targetName="custom_memento" />
+      <config projectName="design_patterns" targetName="builder1" />
+      <config projectName="design_patterns" targetName="custom_adapter_object" />
+      <config projectName="design_patterns" targetName="custom_facade" />
+      <config projectName="design_patterns" targetName="builder2" />
+      <config projectName="design_patterns" targetName="custom_observer" />
+      <config projectName="design_patterns" targetName="creational_patterns" />
+      <config projectName="design_patterns" targetName="custom_command" />
+      <config projectName="design_patterns" targetName="custom_Composite" />
+      <config projectName="design_patterns" targetName="template" />
+      <config projectName="design_patterns" targetName="Flyweight" />
+      <config projectName="design_patterns" targetName="Prototype" />
+      <config projectName="design_patterns" targetName="custom_proxy" />
+      <config projectName="design_patterns" targetName="custom_prototype" />
+      <config projectName="design_patterns" targetName="command1" />
+      <config projectName="design_patterns" targetName="custom_mediator" />
+      <config projectName="design_patterns" targetName="custom_composite" />
+      <config projectName="design_patterns" targetName="decorator" />
+      <config projectName="design_patterns" targetName="Proxy" />
+      <config projectName="design_patterns" targetName="Facade" />
+      <config projectName="design_patterns" targetName="custom_Bridge" />
+      <config projectName="design_patterns" targetName="prototype" />
+      <config projectName="design_patterns" targetName="command" />
+      <config projectName="design_patterns" targetName="internal_list_iterator" />
+      <config projectName="design_patterns" targetName="foundation_classes" />
+      <config projectName="design_patterns" targetName="registry_of_singletons" />
+      <config projectName="design_patterns" targetName="singleton" />
+      <config projectName="design_patterns" targetName="factory" />
+      <config projectName="design_patterns" targetName="strategy" />
+      <config projectName="design_patterns" targetName="custom_flyweight" />
+      <config projectName="design_patterns" targetName="custom_adapter_class" />
+      <config projectName="design_patterns" targetName="proxylib" />
+      <config projectName="design_patterns" targetName="custom_Proxy" />
+      <config projectName="design_patterns" targetName="adapter_class" />
+      <config projectName="design_patterns" targetName="observer" />
+      <config projectName="design_patterns" targetName="custom_Decorator" />
+      <config projectName="design_patterns" targetName="custom_visitor" />
+      <config projectName="design_patterns" targetName="decorator1" />
+      <config projectName="design_patterns" targetName="Decorator" />
+      <config projectName="design_patterns" targetName="class_adapter" />
+      <config projectName="design_patterns" targetName="creator1" />
+      <config projectName="design_patterns" targetName="creator2" />
+      <config projectName="design_patterns" targetName="flyweight" />
+      <config projectName="design_patterns" targetName="creator3" />
+      <config projectName="design_patterns" targetName="Factory" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a295b65-bcaf-4f7b-9d05-72e0bca1221c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move_command.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chain_of_responsibility_main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move_command.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constraint_solver_memento.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constraint_solver_memento.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constraint_solver.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constraint_solver.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n</find>
+      <find>Handle_old</find>
+      <find>endl</find>
+      <find>return 0</find>
+      <find>string</find>
+      <find>add_executable\(</find>
+      <find>std::endl</find>
+      <find>theRequest</find>
+      <find>0</find>
+      <find>#ifndef\s</find>
+      <find>#define\s</find>
+      <find>iterator_SRCS</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>)\n</replace>
+      <replace>Handle</replace>
+      <replace>std::string</replace>
+      <replace>add_executable(custom_</replace>
+      <replace>&quot;\n&quot;</replace>
+      <replace>&quot;\\n&quot;</replace>
+      <replace>the_request</replace>
+      <replace>#ifndef\sDESIGN_PATTERNS_</replace>
+      <replace>#define\sDESIGN_PATTERNS_</replace>
+      <replace>ITERATOR_SRCS</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/behavioral_patterns/chain_of_responsibility</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/custom</dir>
+      <dir>$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility</dir>
+      <dir>$PROJECT_DIR$/gang_of_four</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/iterator1.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v7.2.1/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.2.1/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gang_of_four/behavioral_patterns" />
+      <recent name="$PROJECT_DIR$/custom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/custom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.interpreter">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="chain_of_responsibility" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="chain_of_responsibility" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design_patterns" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="chain_of_responsibility" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="chain_of_responsibility" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="chain_of_responsibility">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="command" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="command" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="command">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="interpreter" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="interpreter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="interpreter">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="iterator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="iterator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="observer" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="observer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="observer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="strategy" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="strategy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="strategy">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="builder" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="builder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="builder">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="prototype" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="prototype" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="prototype">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_chain_of_responsibility" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_chain_of_responsibility" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_chain_of_responsibility">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_command" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_command" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_command">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_interpreter" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_interpreter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_interpreter">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_iterator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_iterator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_mediator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_mediator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_mediator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_memento" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_memento" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_memento">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_observer" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_observer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_observer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_state" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_state" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_state">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_strategy" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_strategy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_strategy">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_template" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_template">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_visitor" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_visitor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_visitor">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_abstract_factory" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_abstract_factory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_abstract_factory">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_builder" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_builder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_builder">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_factory" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_factory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_factory">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_prototype" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_prototype" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_prototype">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_singleton" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_singleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_singleton">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_adapter_class" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_adapter_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_adapter_class">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_adapter_object" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_adapter_object" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_adapter_object">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="external_iterator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="external_iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="external_iterator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="internal_list_iterator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="internal_list_iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="internal_list_iterator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="strategy1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="strategy1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="creational_patterns" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="creational_patterns" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="abstract_factory1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="abstract_factory1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="abstract_factory1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="builder1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="builder1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="builder1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="builder2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="builder2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="builder2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="creator1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="creator1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="factory_method_sample_code1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="factory_method_sample_code1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="factory_method_sample_code1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="creator2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="creator2" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="creator3" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="creator3" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="prototype1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="prototype1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="prototype1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="singleton_basic" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="singleton_basic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="singleton_basic">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="registry_of_singletons" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="registry_of_singletons" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="registry_of_singletons">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="foundation_classes" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="foundation_classes" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="adapter" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="adapter" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="class_adapter" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="class_adapter" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="object_adapter" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="object_adapter" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bridge" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="bridge" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="composite" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="composite" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="composite1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="composite1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="composite1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="decorator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="decorator" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="decorator1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="decorator1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="decorator1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="facade" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="facade" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="flyweight" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="flyweight" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="flyweight1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="flyweight1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="flyweight1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="proxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="proxy">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="proxylib" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="proxylib" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_bridge" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_bridge">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_composite" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_composite" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_composite">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_decorator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_decorator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_decorator">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_facade" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_facade" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_facade">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_flyweight" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_flyweight" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_flyweight">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="custom_proxy" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="custom_proxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="custom_proxy">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="iterator_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="iterator_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="iterator_main">
+      <envs />
+      <method />
+    </configuration>
+    <list size="62">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.chain_of_responsibility" />
+      <item index="2" class="java.lang.String" itemvalue="Application.command" />
+      <item index="3" class="java.lang.String" itemvalue="Application.interpreter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.iterator" />
+      <item index="5" class="java.lang.String" itemvalue="Application.observer" />
+      <item index="6" class="java.lang.String" itemvalue="Application.strategy" />
+      <item index="7" class="java.lang.String" itemvalue="Application.builder" />
+      <item index="8" class="java.lang.String" itemvalue="Application.prototype" />
+      <item index="9" class="java.lang.String" itemvalue="Application.custom_chain_of_responsibility" />
+      <item index="10" class="java.lang.String" itemvalue="Application.custom_command" />
+      <item index="11" class="java.lang.String" itemvalue="Application.custom_interpreter" />
+      <item index="12" class="java.lang.String" itemvalue="Application.custom_iterator" />
+      <item index="13" class="java.lang.String" itemvalue="Application.custom_mediator" />
+      <item index="14" class="java.lang.String" itemvalue="Application.custom_memento" />
+      <item index="15" class="java.lang.String" itemvalue="Application.custom_observer" />
+      <item index="16" class="java.lang.String" itemvalue="Application.custom_state" />
+      <item index="17" class="java.lang.String" itemvalue="Application.custom_strategy" />
+      <item index="18" class="java.lang.String" itemvalue="Application.custom_template" />
+      <item index="19" class="java.lang.String" itemvalue="Application.custom_visitor" />
+      <item index="20" class="java.lang.String" itemvalue="Application.custom_abstract_factory" />
+      <item index="21" class="java.lang.String" itemvalue="Application.custom_builder" />
+      <item index="22" class="java.lang.String" itemvalue="Application.custom_factory" />
+      <item index="23" class="java.lang.String" itemvalue="Application.custom_prototype" />
+      <item index="24" class="java.lang.String" itemvalue="Application.custom_singleton" />
+      <item index="25" class="java.lang.String" itemvalue="Application.custom_adapter_class" />
+      <item index="26" class="java.lang.String" itemvalue="Application.custom_adapter_object" />
+      <item index="27" class="java.lang.String" itemvalue="Application.external_iterator" />
+      <item index="28" class="java.lang.String" itemvalue="Application.internal_list_iterator" />
+      <item index="29" class="java.lang.String" itemvalue="Application.strategy1" />
+      <item index="30" class="java.lang.String" itemvalue="Application.creational_patterns" />
+      <item index="31" class="java.lang.String" itemvalue="Application.abstract_factory1" />
+      <item index="32" class="java.lang.String" itemvalue="Application.builder1" />
+      <item index="33" class="java.lang.String" itemvalue="Application.builder2" />
+      <item index="34" class="java.lang.String" itemvalue="Application.creator1" />
+      <item index="35" class="java.lang.String" itemvalue="Application.factory_method_sample_code1" />
+      <item index="36" class="java.lang.String" itemvalue="Application.creator2" />
+      <item index="37" class="java.lang.String" itemvalue="Application.creator3" />
+      <item index="38" class="java.lang.String" itemvalue="Application.prototype1" />
+      <item index="39" class="java.lang.String" itemvalue="Application.singleton_basic" />
+      <item index="40" class="java.lang.String" itemvalue="Application.registry_of_singletons" />
+      <item index="41" class="java.lang.String" itemvalue="Application.foundation_classes" />
+      <item index="42" class="java.lang.String" itemvalue="Application.adapter" />
+      <item index="43" class="java.lang.String" itemvalue="Application.class_adapter" />
+      <item index="44" class="java.lang.String" itemvalue="Application.object_adapter" />
+      <item index="45" class="java.lang.String" itemvalue="Application.bridge" />
+      <item index="46" class="java.lang.String" itemvalue="Application.composite" />
+      <item index="47" class="java.lang.String" itemvalue="Application.composite1" />
+      <item index="48" class="java.lang.String" itemvalue="Application.decorator" />
+      <item index="49" class="java.lang.String" itemvalue="Application.decorator1" />
+      <item index="50" class="java.lang.String" itemvalue="Application.facade" />
+      <item index="51" class="java.lang.String" itemvalue="Application.flyweight" />
+      <item index="52" class="java.lang.String" itemvalue="Application.flyweight1" />
+      <item index="53" class="java.lang.String" itemvalue="Application.proxy" />
+      <item index="54" class="java.lang.String" itemvalue="Application.proxylib" />
+      <item index="55" class="java.lang.String" itemvalue="Application.custom_bridge" />
+      <item index="56" class="java.lang.String" itemvalue="Application.custom_composite" />
+      <item index="57" class="java.lang.String" itemvalue="Application.custom_decorator" />
+      <item index="58" class="java.lang.String" itemvalue="Application.custom_facade" />
+      <item index="59" class="java.lang.String" itemvalue="Application.custom_flyweight" />
+      <item index="60" class="java.lang.String" itemvalue="Application.custom_proxy" />
+      <item index="61" class="java.lang.String" itemvalue="Application.iterator_main" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a295b65-bcaf-4f7b-9d05-72e0bca1221c" name="Default" comment="" />
+      <created>1483365096940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483365096940</updated>
+      <workItem from="1483365098641" duration="14217000" />
+      <workItem from="1483397882962" duration="4235000" />
+      <workItem from="1483423376296" duration="3272000" />
+      <workItem from="1483426663721" duration="1135000" />
+      <workItem from="1483455206561" duration="3933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26792000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1483455431000" expanded="true" signature="107:297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1483456663000" expanded="true" signature="101:104" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1483456915000" expanded="true" signature="110:114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1483456915000" expanded="true" signature="116:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

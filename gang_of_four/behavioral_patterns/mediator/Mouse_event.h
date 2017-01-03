@@ -1,0 +1,8 @@
+#ifndef DESIGN_PATTERNS_MOUSE_EVENT_H
+#define DESIGN_PATTERNS_MOUSE_EVENT_H
+
+class Mouse_event {
+
+};
+
+#endif //DESIGN_PATTERNS_MOUSE_EVENT_H

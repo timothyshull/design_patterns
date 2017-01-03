@@ -1,0 +1,1 @@
+add_executable(custom_flyweight main.cpp Flyweight.h Flyweight.cpp Flyweight_factory.h Flyweight_factory.cpp)

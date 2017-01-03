@@ -1,0 +1,1 @@
+add_executable(custom_interpreter main.cpp Context.cpp Context.h Interpret.cpp Interpret.h)

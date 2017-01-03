@@ -1,0 +1,1 @@
+add_executable(custom_visitor main.cpp Element.h Element.cpp Visitor.h Visitor.cpp)

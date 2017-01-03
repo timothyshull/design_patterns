@@ -1,0 +1,4 @@
+add_subdirectory(foundation_classes)
+add_subdirectory(behavioral_patterns)
+add_subdirectory(creational_patterns)
+add_subdirectory(structural_patterns)

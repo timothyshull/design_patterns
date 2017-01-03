@@ -1,0 +1,1 @@
+add_executable(custom_prototype main.cpp Prototype.h Prototype.cpp)

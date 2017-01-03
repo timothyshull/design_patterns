@@ -1,0 +1,1 @@
+add_executable(custom_adapter_class main.cpp Adapter.h Adapter.cpp)
