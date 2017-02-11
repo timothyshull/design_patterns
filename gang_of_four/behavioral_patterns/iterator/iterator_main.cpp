@@ -1,16 +1,16 @@
-#include"Employee.h"
-#include"Iterator.h"
-#include"List.h"
-#include"ListIterator.h"
-#include"ReverseListIterator.h"
-#include"SkipList.h"
+#include "Employee.h"
+#include "Iterator.h"
+#include "List.h"
+#include "ListIterator.h"
+#include "ReverseListIterator.h"
+#include "SkipList.h"
 
-void PrintEmployees (Iterator<Employee*>& i) {
+void PrintEmployees(Iterator<Employee*>& i)
+{
     for (i.First(); !i.IsDone(); i.Next()) {
         i.CurrentItem()->Print();
     }
 }
-
 
 int main()
 {

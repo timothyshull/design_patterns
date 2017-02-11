@@ -1,6 +1,6 @@
-#include"Macro_command.h"
-#include"Command.h"
-#include"ListIterator.h"
+#include "Macro_command.h"
+#include "Command.h"
+#include "ListIterator.h"
 
 void Macro_command::execute()
 {

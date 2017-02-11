@@ -1,32 +1,25 @@
 #include "Maze.h"
 
-#include <vector>
+Maze::Maze() : _room_vector(new std::vector<Room*>) {}
 
-Maze::Maze()
-  : mRoomVec(new std::vector<Room*>)
+Room* Maze::room_number(int n) const
 {
+    std::vector<Room*>::const_iterator it = _room_vector->begin();
+    for (; it != _room_vector->end(); ++it) {
+        if ((*it)->get_room_number() == n) {
+            return (*it);
+            break;
+        }
+    }
+    return 0;
 }
 
-Room* Maze::RoomNo(int n) const  
-{  
-    std::vector<Room*>::const_iterator it = mRoomVec->begin();  
-    for ( ; it != mRoomVec->end(); ++it)  
-    {  
-        if ( (*it)->GetRoomNumber() == n )
-        {  
-            return (*it);  
-            break;  
-        }  
-    }  
-    return 0;  
-}  
-
-void Maze::AddRoom(Room *room)
+void Maze::add_room(Room* room)
 {
-    mRoomVec->push_back(room);
+    _room_vector->push_back(room);
 }
 
-
-Maze* Maze::Clone() const {
+Maze* Maze::clone() const
+{
     return new Maze(*this);
 }

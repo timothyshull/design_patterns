@@ -1,18 +1,21 @@
-#ifndefsDESIGN_PATTERNS_SINGLETON_H
-#definesDESIGN_PATTERNS_SINGLETON_H
+#ifndef SINGLETON_H
+#define SINGLETON_H
 
 #include "List.h"
-#include "NameSingletonPair.h"
+#include "Name_singleton_pair.h"
 
 class Singleton {
 public:
-    static void Register(const char* name, Singleton*);
-    static Singleton* Instance();
+    static void register_singleton(const char* name, Singleton* singleton);
+
+    static Singleton* instance();
+
 protected:
-    static Singleton* Lookup(const char* name);
+    static Singleton* lookup(const char* name);
+
 private:
     static Singleton* _instance;
-    static List<NameSingletonPair>* _registry;
+    static List<Name_singleton_pair>* _registry;
 };
 
-#endif /* SINGLETON_H */
+#endif // SINGLETON_H

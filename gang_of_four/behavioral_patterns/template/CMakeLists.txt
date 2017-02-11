@@ -1,0 +1,1 @@
+add_executable(template_method template_method_main.cpp View.cpp View.h)

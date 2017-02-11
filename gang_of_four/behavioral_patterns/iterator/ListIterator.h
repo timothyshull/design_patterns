@@ -1,8 +1,8 @@
-#ifndef DESIGN_PATTERNS_LIST_ITERATOR_H
-#define DESIGN_PATTERNS_LIST_ITERATOR_H
+#ifndef LIST_ITERATOR_H
+#define LIST_ITERATOR_H
 
-#include"Iterator.h"
-#include"List.h"
+#include "Iterator.h"
+#include "List.h"
 
 template<typename Item>
 class ListIterator : public Iterator<Item> {
@@ -53,6 +53,6 @@ Item ListIterator<Item>::CurrentItem() const
     return _list->Get(_current);
 }
 
-// #include"ListIterator.cpp"
+// #include "ListIterator.cpp"
 
-#endif//DESIGN_PATTERNS_LIST_ITERATOR_H
+#endif // LIST_ITERATOR_H

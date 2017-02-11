@@ -10,7 +10,7 @@ class Observer {
 public:
     virtual ~Observer();
 
-    virtual void update(Subject* sub) = 0;
+    virtual void update(Subject* the_changed_subject) = 0;
 
     virtual void print_info() = 0;
 

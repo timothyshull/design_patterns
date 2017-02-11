@@ -1,4 +1,4 @@
-#include"Constraint_solver.h"
+#include "Constraint_solver.h"
 
 Constraint_solver* Constraint_solver::instance()
 {

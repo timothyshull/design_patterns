@@ -1,23 +1,26 @@
-#ifndef DESIGN_PATTERNS_HELP_HANDLER_H
-#define DESIGN_PATTERNS_HELP_HANDLER_H
+#ifndef HELP_HANDLER_H
+#define HELP_HANDLER_H
 
-using Topic = int;
-
-const Topic NO_HELP_TOPIC = -1;
+enum class Help_topic {
+    no_help_topic = -1,
+    print_topic = 1,
+    paper_orientation_topic = 2,
+    application_topic = 3
+};
 
 class Help_handler {
 public:
-    Help_handler(Help_handler* = nullptr, Topic = NO_HELP_TOPIC);
+    Help_handler(Help_handler* = nullptr, Help_topic = Help_topic::no_help_topic);
 
     virtual bool has_help();
 
-    virtual void set_handler(Help_handler*, Topic);
+    virtual void set_handler(Help_handler*, Help_topic);
 
     virtual void handle_help();
 
 private:
     Help_handler* _successor;
-    Topic _topic;
+    Help_topic _topic;
 };
 
-#endif//DESIGN_PATTERNS_HELP_HANDLER_H
+#endif // HELP_HANDLER_H

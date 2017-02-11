@@ -1,14 +1,17 @@
-#ifndefsDESIGN_PATTERNS_WALL_H
-#definesDESIGN_PATTERNS_WALL_H
+#ifndef WALL_H
+#define WALL_H
 
-#include "MapSite.h"
+#include "Map_site.h"
 
-class Wall : public MapSite {
+class Wall : public Map_site {
 public:
     Wall();
+
     Wall(const Wall&);
-    virtual Wall* Clone() const;
-    virtual void Enter();
+
+    virtual Wall* clone() const;
+
+    virtual void enter();
 };
 
-#endif /* WALL_H */
+#endif // WALL_H

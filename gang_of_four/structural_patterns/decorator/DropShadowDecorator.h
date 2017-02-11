@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_DROP_SHADOW_DECORATOR_H
-#definesDESIGN_PATTERNS_DROP_SHADOW_DECORATOR_H
+#ifndef DROP_SHADOW_DECORATOR_H
+#define DROP_SHADOW_DECORATOR_H
 
 #include "Decorator.h"
 
@@ -10,4 +10,4 @@ public:
     DropShadowDecorator(VisualComponent*);
 };
 
-#endif /* DROP_SHADOW_DECORATOR_H */
+#endif // DROP_SHADOW_DECORATOR_H

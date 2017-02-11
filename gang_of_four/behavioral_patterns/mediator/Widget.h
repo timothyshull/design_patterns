@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_WIDGET_H
-#define DESIGN_PATTERNS_WIDGET_H
+#ifndef WIDGET_H
+#define WIDGET_H
 
-#include"Dialog_director.h"
+#include "Dialog_director.h"
 
 class Mouse_event;
 
@@ -17,4 +17,4 @@ private:
     Dialog_director* _director;
 };
 
-#endif //DESIGN_PATTERNS_WIDGET_H
+#endif //WIDGET_H

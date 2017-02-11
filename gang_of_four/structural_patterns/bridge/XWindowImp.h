@@ -1,11 +1,13 @@
-#ifndefsDESIGN_PATTERNS_X_WINDOW_IMP_H
-#definesDESIGN_PATTERNS_X_WINDOW_IMP_H
+#ifndef X_WINDOW_IMP_H
+#define X_WINDOW_IMP_H
 
 #include "Coord.h"
 #include "WindowImp.h"
 
 class Display;
+
 class Drawable {};
+
 class GC {};
 
 class XWindowImp : public WindowImp {
@@ -17,9 +19,10 @@ public:
 private:
     // lots of X window system-specific state, including:
     void XDrawRectangle(Display*, Drawable, GC, int, int, int, int);
+
     Display* _dpy;
     Drawable _winid;  // window id
     GC _gc;           // window graphic context
 };
 
-#endif /* X_WINDOW_IMP_H */
+#endif // X_WINDOW_IMP_H

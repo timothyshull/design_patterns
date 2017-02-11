@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CONTEXT_H
-#define DESIGN_PATTERNS_CONTEXT_H
+#ifndef CONTEXT_H
+#define CONTEXT_H
 
 class Variable_exp;
 
@@ -10,4 +10,4 @@ public:
     void assign(Variable_exp*, bool);
 };
 
-#endif //DESIGN_PATTERNS_CONTEXT_H
+#endif //CONTEXT_H

@@ -2,5 +2,6 @@
 
 int main()
 {
-    Singleton* singleton = Singleton::Instance();
+    Singleton* singleton = Singleton::instance();
+    return 0;
 }

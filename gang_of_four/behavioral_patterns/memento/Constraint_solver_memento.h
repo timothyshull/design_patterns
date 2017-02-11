@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CONSTRAINT_SOLVER_MEMENTO_H
-#define DESIGN_PATTERNS_CONSTRAINT_SOLVER_MEMENTO_H
+#ifndef CONSTRAINT_SOLVER_MEMENTO_H
+#define CONSTRAINT_SOLVER_MEMENTO_H
 
 class Constraint_solver_memento {
 public:
@@ -13,4 +13,4 @@ private:
     // private constraint solver state
 };
 
-#endif //DESIGN_PATTERNS_CONSTRAINT_SOLVER_MEMENTO_H
+#endif //CONSTRAINT_SOLVER_MEMENTO_H

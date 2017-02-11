@@ -1,8 +1,8 @@
-#include<iostream>
-#include"Handler.h"
-#include"Request.h"
-#include"Help_request.h"
-#include"Print_request.h"
+#include <iostream>
+#include "Handler.h"
+#include "Request.h"
+#include "Help_request.h"
+#include "Print_request.h"
 
 void Handler::handle_request(Request* the_request)
 {
@@ -25,10 +25,10 @@ void Handler::handle_request(Request* the_request)
 
 void Handler::handle_help(Help_request* the_request)
 {
-    std::cout << "Handler::handle_help(Help_request* the_request)\n";
+    std::cout << "Handler::handle_help(Help_request* the_request = " << (the_request ? std::to_string(static_cast<int>(the_request->get_kind())) : "nullptr") << ")\n";
 }
 
 void Handler::handle_print(Print_request* the_request)
 {
-    std::cout << "void Handler::handle_print(Print_request* the_request)\n";
+    std::cout << "void Handler::handle_print(Print_request* the_request = " << (the_request ? std::to_string(static_cast<int>(the_request->get_kind())) : "nullptr") << "\n";
 }

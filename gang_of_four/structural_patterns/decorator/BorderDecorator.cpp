@@ -2,10 +2,10 @@
 #include <iostream>
 
 BorderDecorator::BorderDecorator(VisualComponent* component, int borderWidth)
-  : Decorator(component), _width(borderWidth)
-{}
+        : Decorator(component), _width(borderWidth) {}
 
-void BorderDecorator::Draw () {
+void BorderDecorator::Draw()
+{
     Decorator::Draw();
     DrawBorder(_width);
 }
@@ -15,7 +15,8 @@ void BorderDecorator::DrawBorder(int width)
     std::cout << "BorderDecorator::DrawBorder(" << width << ")" << "\n";
 }
 
-void DrawBorder(int borderWidth) {
+void DrawBorder(int borderWidth)
+{
     std::cout << "Drawing border with width "
               << borderWidth << "." << "\n";
 }

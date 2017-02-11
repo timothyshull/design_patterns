@@ -1,26 +1,24 @@
 #include "FloppyDisk.h"
 
 FloppyDisk::FloppyDisk(const char* name)
-  : Equipment(name)
-{}
+        : Equipment(name) {}
 
-FloppyDisk::~FloppyDisk()
-{}
+FloppyDisk::~FloppyDisk() {}
 
 Watt FloppyDisk::Power()
 {
-  Watt w(10);
-  return w;
+    Watt w(10);
+    return w;
 }
 
 Currency FloppyDisk::NetPrice()
 {
-  Currency c(10);
-  return c;
+    Currency c(10);
+    return c;
 }
 
 Currency FloppyDisk::DiscountPrice()
 {
-  Currency c(5);
-  return c;
+    Currency c(5);
+    return c;
 }

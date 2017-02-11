@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Context.h"
+#include <iostream>
+#include "Context.h"
 
 bool Context::lookup(const char* str) const
 {

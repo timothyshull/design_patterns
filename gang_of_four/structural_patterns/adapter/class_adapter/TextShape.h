@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_TEXTSHAPE_H
-#definesDESIGN_PATTERNS_TEXTSHAPE_H
+#ifndef TEXTSHAPE_H
+#define TEXTSHAPE_H
 
 #include "Point.h"
 #include "Shape.h"
@@ -12,10 +12,12 @@ public:
     TextShape();
 
     virtual void BoundingBox(
-        Point& bottomLeft, Point& topRight
+            Point& bottomLeft, Point& topRight
     ) const;
+
     virtual bool IsEmpty() const;
+
     virtual Manipulator* CreateManipulator() const;
 };
 
-#endif /* TEXTSHAPE_H */
+#endif // TEXTSHAPE_H

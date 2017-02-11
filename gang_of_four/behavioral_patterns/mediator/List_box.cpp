@@ -1,6 +1,7 @@
-#include"List_box.h"
+#include "List_box.h"
 
-List_box::List_box(Dialog_director* dialog_director) : Widget(dialog_director) {
+List_box::List_box(Dialog_director* dialog_director) : Widget(dialog_director)
+{
 }
 
 const char* List_box::get_selection()

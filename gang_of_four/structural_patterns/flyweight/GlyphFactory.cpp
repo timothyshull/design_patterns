@@ -5,12 +5,12 @@
 
 GlyphFactory::GlyphFactory()
 {
-  for (int i = 0; i < NCHARCODES; ++i) {
-      _character[i] = 0;
-  }
+    for (int i = 0; i < NCHARCODES; ++i) {
+        _character[i] = 0;
+    }
 }
 
-GlyphFactory:: ~GlyphFactory()
+GlyphFactory::~GlyphFactory()
 {
     delete[] _character;
 }
@@ -24,10 +24,12 @@ Character* GlyphFactory::CreateCharacter(char c)
     return _character[c];
 }
 
-Row* GlyphFactory::CreateRow() {
+Row* GlyphFactory::CreateRow()
+{
     return new Row;
 }
 
-Column* GlyphFactory::CreateColumn() {
+Column* GlyphFactory::CreateColumn()
+{
     return new Column;
 }

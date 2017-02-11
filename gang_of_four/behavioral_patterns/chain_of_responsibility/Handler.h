@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_HANDLER_H
-#define DESIGN_PATTERNS_HANDLER_H
+#ifndef HANDLER_H
+#define HANDLER_H
 
 class Request;
 
@@ -17,4 +17,4 @@ private:
     void handle_print(Print_request* the_request);
 };
 
-#endif//DESIGN_PATTERNS_HANDLER_H
+#endif // HANDLER_H

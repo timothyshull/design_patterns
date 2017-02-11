@@ -3,9 +3,10 @@
 #include "Manipulator.h"
 #include "TextManipulator.h"
 
-void TextShape::BoundingBox (
-    Point& bottomLeft, Point& topRight
-) const {
+void TextShape::BoundingBox(
+        Point& bottomLeft, Point& topRight
+) const
+{
     Coord bottom, left, width, height;
 
     GetOrigin(bottom, left);
@@ -15,12 +16,12 @@ void TextShape::BoundingBox (
     topRight = Point(bottom + height, left + width);
 }
 
-
-bool TextShape::IsEmpty () const {
+bool TextShape::IsEmpty() const
+{
     return TextView::IsEmpty();
 }
 
-
-Manipulator* TextShape::CreateManipulator () const {
+Manipulator* TextShape::CreateManipulator() const
+{
     return new TextManipulator(this);
 }

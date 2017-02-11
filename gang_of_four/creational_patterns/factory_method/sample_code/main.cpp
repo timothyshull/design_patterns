@@ -1,16 +1,16 @@
 #include <iostream>
 
-#include "BombedMazeGame.h"
+#include "Bombed_maze_game.h"
 #include "Maze.h"
-#include "MazeGame.h"
+#include "Maze_game.h"
 
 int main()
 {
-    MazeGame myGame;
-    Maze* m1 = myGame.CreateMaze();
+    Maze_game myGame;
+    Maze* m1 = myGame.create_maze();
     std::cout << m1 << "\n";
 
-    BombedMazeGame myBombedGame;
-    Maze* m2 = myBombedGame.CreateMaze();
+    Bombed_maze_game myBombedGame;
+    Maze* m2 = myBombedGame.create_maze();
     std::cout << m2 << "\n";
 }

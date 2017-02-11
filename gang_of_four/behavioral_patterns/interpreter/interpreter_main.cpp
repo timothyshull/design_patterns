@@ -1,9 +1,9 @@
-#include<iostream>
-#include"Constant.h"
-#include"Variable_exp.h"
-#include"And_exp.h"
-#include"Or_exp.h"
-#include"Not_exp.h"
+#include <iostream>
+#include "Constant.h"
+#include "Variable_exp.h"
+#include "And_exp.h"
+#include "Or_exp.h"
+#include "Not_exp.h"
 
 int main()
 {

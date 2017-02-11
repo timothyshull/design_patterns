@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_RECT_H
-#definesDESIGN_PATTERNS_RECT_H
+#ifndef RECT_H
+#define RECT_H
 
 #include "Coord.h"
 #include "Point.h"
@@ -45,4 +45,4 @@ public:
     bool Contains(const Point&) const;
 };
 
-#endif /* RECT_H */
+#endif // RECT_H

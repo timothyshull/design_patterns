@@ -10,19 +10,19 @@ Subject::Subject()
 
 Subject::~Subject() {}
 
-void Subject::Attach(Observer* obv)
+void Subject::attach(Observer* obv)
 {
     _obvs->push_front(obv);
 }
 
-void Subject::Detach(Observer* obv)
+void Subject::detach(Observer* obv)
 {
     if (obv != nullptr) {
         _obvs->remove(obv);
     }
 }
 
-void Subject::Notify()
+void Subject::notify()
 {
     std::list<Observer*>::iterator it;
     it = _obvs->begin();

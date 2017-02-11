@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_COMMAND_H
-#define DESIGN_PATTERNS_COMMAND_H
+#ifndef COMMAND_H
+#define COMMAND_H
 
 class Command {
 public:
@@ -11,4 +11,4 @@ protected:
     Command();
 };
 
-#endif//DESIGN_PATTERNS_COMMAND_H
+#endif // COMMAND_H

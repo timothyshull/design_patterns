@@ -1,4 +1,4 @@
-#include"Button.h"
+#include "Button.h"
 
 Button::Button(Dialog_director* dialog_director) : Widget(dialog_director)
 {

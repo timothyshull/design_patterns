@@ -1,10 +1,9 @@
-#include<iostream>
-#include"Button.h"
-#include"Help_handler.h"
+#include <iostream>
+#include "Button.h"
 
 class Widget;
 
-Button::Button(Widget* h, Topic t) : Widget(h, t) {}
+Button::Button(Widget* h, Help_topic t) : Widget(h, t) {}
 
 void Button::handle_help()
 {

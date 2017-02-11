@@ -1,24 +1,28 @@
-#ifndefsDESIGN_PATTERNS_DOOR_H
-#definesDESIGN_PATTERNS_DOOR_H
+#ifndef DOOR_H
+#define DOOR_H
 
-#include "MapSite.h"
+#include "Map_site.h"
 #include "Room.h"
 
-class Door : public MapSite {
+class Door : public Map_site {
 public:
     Door();
+
     Door(Room* r1, Room* r2);
+
     Door(const Door&);
 
-    virtual void Initialize(Room*, Room*);
-    virtual Door* Clone() const;
+    virtual void initialize(Room* r1, Room* r2);
 
-    virtual void Enter();
-    Room* OtherSideFrom(Room*);
+    virtual Door* clone() const;
+
+    virtual void enter();
+
+    Room* other_side_from(Room*);
 
 private:
     Room* _room1;
     Room* _room2;
 };
 
-#endif /* DOOR_H */
+#endif // DOOR_H

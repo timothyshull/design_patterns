@@ -1,12 +1,12 @@
-#ifndef DESIGN_PATTERNS_DIALOG_H
-#define DESIGN_PATTERNS_DIALOG_H
+#ifndef DIALOG_H
+#define DIALOG_H
 
-#include"Help_handler.h"
-#include"Widget.h"
+#include "Help_handler.h"
+#include "Widget.h"
 
 class Dialog : public Widget {
 public:
-    Dialog(Help_handler* h, Topic t = NO_HELP_TOPIC);
+    Dialog(Help_handler* h, Help_topic t = Help_topic::no_help_topic);
 
     virtual void handle_help();
 
@@ -14,4 +14,4 @@ public:
     // ...
 };
 
-#endif//DESIGN_PATTERNS_DIALOG_H
+#endif // DIALOG_H

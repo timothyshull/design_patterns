@@ -1,13 +1,15 @@
-#ifndefsDESIGN_PATTERNS_SINGLETON_H
-#definesDESIGN_PATTERNS_SINGLETON_H
+#ifndef SINGLETON_H
+#define SINGLETON_H
 
 class Singleton {
 public:
-    static Singleton* Instance();
+    static Singleton* instance();
+
 protected:
     Singleton();
+
 private:
     static Singleton* _instance;
 };
 
-#endif /* SINGLETON_H */
+#endif // SINGLETON_H

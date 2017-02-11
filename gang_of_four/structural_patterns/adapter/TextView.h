@@ -1,14 +1,18 @@
-#ifndefsDESIGN_PATTERNS_TEXTVIEW_H
-#definesDESIGN_PATTERNS_TEXTVIEW_H
+#ifndef TEXTVIEW_H
+#define TEXTVIEW_H
 
 #include "Coord.h"
 
 class TextView {
 public:
     TextView();
+
     void GetOrigin(Coord& x, Coord& y) const;
+
     void GetExtent(Coord& width, Coord& height) const;
+
     virtual bool IsEmpty() const;
+
 private:
     Coord _x;
     Coord _y;
@@ -16,4 +20,4 @@ private:
     Coord _height;
 };
 
-#endif /* TEXTVIEW_H */
+#endif // TEXTVIEW_H

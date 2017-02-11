@@ -1,10 +1,10 @@
 set(decorator_SRCS
-    BorderDecorator.cpp
-    Decorator.cpp
-    ScrollDecorator.cpp
-    DropShadowDecorator.cpp
-    VisualComponent.cpp
-    Window.cpp)
+        BorderDecorator.cpp
+        Decorator.cpp
+        ScrollDecorator.cpp
+        DropShadowDecorator.cpp
+        VisualComponent.cpp
+        Window.cpp)
 
 add_library(decorator SHARED ${decorator_SRCS})
 

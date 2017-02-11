@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_NOT_EXP_H
-#define DESIGN_PATTERNS_NOT_EXP_H
+#ifndef NOT_EXP_H
+#define NOT_EXP_H
 
-#include"Boolean_exp.h"
+#include "Boolean_exp.h"
 
 class Not_exp : public Boolean_exp {
 public:
@@ -19,4 +19,4 @@ private:
     Boolean_exp* _operand;
 };
 
-#endif //DESIGN_PATTERNS_NOT_EXP_H
+#endif //NOT_EXP_H

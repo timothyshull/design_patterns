@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_AND_EXP_H
-#define DESIGN_PATTERNS_AND_EXP_H
+#ifndef AND_EXP_H
+#define AND_EXP_H
 
-#include"Boolean_exp.h"
+#include "Boolean_exp.h"
 
 class And_exp : public Boolean_exp {
 public:
@@ -20,4 +20,4 @@ private:
     Boolean_exp* _operand2;
 };
 
-#endif //DESIGN_PATTERNS_AND_EXP_H
+#endif //AND_EXP_H

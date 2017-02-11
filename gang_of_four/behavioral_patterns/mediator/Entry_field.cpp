@@ -1,4 +1,4 @@
-#include"Entry_field.h"
+#include "Entry_field.h"
 
 Entry_field::Entry_field(Dialog_director* dialog_director) : Widget(dialog_director)
 {

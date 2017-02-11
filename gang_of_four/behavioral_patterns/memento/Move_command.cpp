@@ -1,5 +1,5 @@
-#include"Move_command.h"
-#include"Constraint_solver.h"
+#include "Move_command.h"
+#include "Constraint_solver.h"
 
 Move_command::Move_command(Graphic* target, const Point& delta)
 {

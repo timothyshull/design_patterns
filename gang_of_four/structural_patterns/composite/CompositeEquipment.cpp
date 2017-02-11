@@ -3,14 +3,12 @@
 #include "Iterator.h"
 
 CompositeEquipment::CompositeEquipment(const char* name)
-  : Equipment(name)
-{}
+        : Equipment(name) {}
 
-CompositeEquipment::~CompositeEquipment()
-{}
+CompositeEquipment::~CompositeEquipment() {}
 
-
-Watt CompositeEquipment::Power() {
+Watt CompositeEquipment::Power()
+{
     Iterator<Equipment*>* i = CreateIterator(); // ERRATUM: book had different iterator.
     Watt total = 0;
 
@@ -21,8 +19,8 @@ Watt CompositeEquipment::Power() {
     return total;
 }
 
-
-Currency CompositeEquipment::NetPrice () {
+Currency CompositeEquipment::NetPrice()
+{
     Iterator<Equipment*>* i = CreateIterator();
     Currency total = 0;
 
@@ -33,8 +31,8 @@ Currency CompositeEquipment::NetPrice () {
     return total;
 }
 
-
-Currency CompositeEquipment::DiscountPrice () {
+Currency CompositeEquipment::DiscountPrice()
+{
     Iterator<Equipment*>* i = CreateIterator();
     Currency total = 0;
 

@@ -1,11 +1,11 @@
 include_directories(./ ../../foundation_classes)
 
 set(strategy_SRCS
-    Composition.cpp
-    Compositor.cpp
-    SimpleCompositor.cpp
-    TeXCompositor.cpp
-    ArrayCompositor.cpp)
+        Composition.cpp
+        Compositor.cpp
+        SimpleCompositor.cpp
+        TeXCompositor.cpp
+        ArrayCompositor.cpp)
 
 add_library(strategy1 SHARED ${strategy_SRCS})
 target_link_libraries(strategy1 foundation_classes)

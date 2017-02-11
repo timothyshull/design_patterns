@@ -22,5 +22,5 @@ void TextView::GetExtent(Coord& width, Coord& height) const
 
 bool TextView::IsEmpty() const
 {
-  return _width == 0 || _height == 0;
+    return _width == 0 || _height == 0;
 }

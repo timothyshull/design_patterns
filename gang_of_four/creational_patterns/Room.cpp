@@ -2,25 +2,24 @@
 #include "Room.h"
 
 class Wall;
+
 class Door;
 
-Room::Room(int n)
-  : _roomNumber(n)
-{}
+Room::Room(int n) : _room_number(n) {}
 
-void Room::SetSide(Direction direction, MapSite* ms)
+void Room::set_side(Direction direction, Map_site* ms)
 {
-    _sides[direction] = ms;
+    _sides[static_cast<int>(direction)] = ms;
 }
 
-int Room::GetRoomNumber()
+int Room::get_room_number()
 {
-    return _roomNumber;
+    return _room_number;
 }
 
-Room* Room::Clone() const {
+Room* Room::clone() const
+{
     return new Room(*this);
 }
 
-void Room::Enter()
-{}
+void Room::enter() {}

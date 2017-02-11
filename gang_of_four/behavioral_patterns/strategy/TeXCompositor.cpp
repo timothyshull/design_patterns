@@ -8,8 +8,8 @@ TeXCompositor::TeXCompositor()
 }
 
 int TeXCompositor::Compose(
-    Coord natural[], Coord stretch[], Coord shrink[],
-    int componentCount, int lineWidth, int breaks[]
+        Coord natural[], Coord stretch[], Coord shrink[],
+        int componentCount, int lineWidth, int breaks[]
 )
 {
     std::cout << "TeXCompositor::Compose(...)" << "\n";

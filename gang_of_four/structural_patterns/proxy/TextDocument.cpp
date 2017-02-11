@@ -1,7 +1,5 @@
 #include "TextDocument.h"
 
-TextDocument::TextDocument()
-{}
+TextDocument::TextDocument() {}
 
-void TextDocument::Insert(Graphic*)
-{}
+void TextDocument::Insert(Graphic*) {}

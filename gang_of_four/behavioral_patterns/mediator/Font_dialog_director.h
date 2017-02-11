@@ -1,11 +1,11 @@
-#ifndef DESIGN_PATTERNS_FONT_DIALOG_DIRECTOR_H
-#define DESIGN_PATTERNS_FONT_DIALOG_DIRECTOR_H
+#ifndef FONT_DIALOG_DIRECTOR_H
+#define FONT_DIALOG_DIRECTOR_H
 
-#include"Dialog_director.h"
-#include"Widget.h"
-#include"List_box.h"
-#include"Button.h"
-#include"Entry_field.h"
+#include "Dialog_director.h"
+#include "Widget.h"
+#include "List_box.h"
+#include "Button.h"
+#include "Entry_field.h"
 
 class Font_dialog_director : public Dialog_director {
 public:
@@ -25,4 +25,4 @@ private:
     Entry_field* _font_name;
 };
 
-#endif //DESIGN_PATTERNS_FONT_DIALOG_DIRECTOR_H
+#endif //FONT_DIALOG_DIRECTOR_H

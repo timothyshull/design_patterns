@@ -1,6 +1,6 @@
-#include"Open_command.h"
-#include"Application.h"
-#include"Document.h"
+#include "Open_command.h"
+#include "Application.h"
+#include "Document.h"
 
 Open_command::Open_command(Application* a)
 {

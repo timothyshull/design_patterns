@@ -1,8 +1,8 @@
-#ifndef DESIGN_PATTERNS_GRAPHIC_H
-#define DESIGN_PATTERNS_GRAPHIC_H
+#ifndef GRAPHIC_H
+#define GRAPHIC_H
 
 class Graphic {
 
 };
 
-#endif //DESIGN_PATTERNS_GRAPHIC_H
+#endif //GRAPHIC_H

@@ -1,23 +1,26 @@
-#ifndefsDESIGN_PATTERNS_ROOM_H
-#definesDESIGN_PATTERNS_ROOM_H
+#ifndef ROOM_H
+#define ROOM_H
 
-#include "MapSite.h"
-#include "MazeParts.h"
+#include <array>
+#include "Map_site.h"
+#include "Maze_parts.h"
 
-class Room : MapSite {
+class Room : Map_site {
 public:
     Room(int n = 0);
 
-    virtual Room* Clone() const;
+    virtual Room* clone() const;
 
-    void SetSide(Direction direction, MapSite* ms);
-    int GetRoomNumber();
+    void set_side(Direction direction, Map_site* ms);
 
-    virtual void Enter();
+    int get_room_number();
+
+    virtual void enter();
 
 private:
-    MapSite* _sides[4];
-    int _roomNumber;
+    std::array<Map_site*, 4> _sides;
+    // Map_site* _sides[4];
+    int _room_number;
 };
 
-#endif /* ROOM_H */
+#endif // ROOM_H

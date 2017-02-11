@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Widget.h"
+#include <iostream>
+#include "Widget.h"
 
 Widget::Widget(Dialog_director* dialog_director) : _director{dialog_director}
 {

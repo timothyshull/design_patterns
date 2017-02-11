@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_SCROLL_DECORATOR_H
-#definesDESIGN_PATTERNS_SCROLL_DECORATOR_H
+#ifndef SCROLL_DECORATOR_H
+#define SCROLL_DECORATOR_H
 
 #include "Decorator.h"
 
@@ -8,4 +8,4 @@ public:
     ScrollDecorator(VisualComponent*);
 };
 
-#endif /* SCROLL_DECORATOR_H */
+#endif // SCROLL_DECORATOR_H

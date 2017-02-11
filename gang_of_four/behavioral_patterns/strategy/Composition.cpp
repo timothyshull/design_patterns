@@ -4,13 +4,15 @@
 
 class Coord;
 
-Composition::Composition(Compositor* compositor) {
+Composition::Composition(Compositor* compositor)
+{
 
     _compositor = compositor;
 
 }
 
-void Composition::Repair() {
+void Composition::Repair()
+{
     Coord* natural;
     Coord* stretchability;
     Coord* shrinkability;
@@ -23,8 +25,8 @@ void Composition::Repair() {
     // determine where the breaks are:
     int breakCount;
     breakCount = _compositor->Compose(
-        natural, stretchability, shrinkability,
-        componentCount, _lineWidth, breaks
+            natural, stretchability, shrinkability,
+            componentCount, _lineWidth, breaks
     );
 
     // lay out components according to breaks

@@ -1,9 +1,9 @@
-#ifndefsDESIGN_PATTERNS_STANDARD_MAZE_BUILDER_H
-#definesDESIGN_PATTERNS_STANDARD_MAZE_BUILDER_H
+#ifndef STANDARD_MAZE_BUILDER_H
+#define STANDARD_MAZE_BUILDER_H
 
 #include "MazeBuilder.h"
 #include "Room.h"
-#include "MazeParts.h"
+#include "Maze_parts.h"
 
 class Maze;
 
@@ -12,13 +12,17 @@ public:
     StandardMazeBuilder();
 
     virtual void BuildMaze();
+
     virtual void BuildRoom(int);
+
     virtual void BuildDoor(int, int);
 
     virtual Maze* GetMaze();
+
 private:
     Direction CommonWall(Room*, Room*);
+
     Maze* _currentMaze;
 };
 
-#endif /* STANDARD_MAZE_BUILDER_H */
+#endif // STANDARD_MAZE_BUILDER_H

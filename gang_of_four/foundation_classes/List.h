@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_LIST_H
-#define DESIGN_PATTERNS_LIST_H
+#ifndef LIST_H
+#define LIST_H
 
-#include"Iterator.h"
+#include "Iterator.h"
 
 const long DEFAULT_LIST_CAPACITY = 200;
 
@@ -55,6 +55,6 @@ private:
     long _count;
 };
 
-#include"List.cpp"
+#include "List.cpp"
 
-#endif//DESIGN_PATTERNS_LIST_H
+#endif // LIST_H

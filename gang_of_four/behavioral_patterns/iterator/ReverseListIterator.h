@@ -1,16 +1,20 @@
-#ifndefsDESIGN_PATTERNS_REVERSE_LIST_ITERATOR_H
-#definesDESIGN_PATTERNS_REVERSE_LIST_ITERATOR_H
+#ifndef REVERSE_LIST_ITERATOR_H
+#define REVERSE_LIST_ITERATOR_H
 
 #include "Iterator.h"
 #include "List.h"
 
-template <class Item>
+template<class Item>
 class ReverseListIterator : public Iterator<Item> {
 public:
     ReverseListIterator(const List<Item>* aList);
+
     virtual void First();
+
     virtual void Next();
+
     virtual bool IsDone() const;
+
     virtual Item CurrentItem() const;
 
 private:
@@ -20,4 +24,4 @@ private:
 
 #include "ReverseListIterator.cpp"
 
-#endif /* REVERSE_LIST_ITERATOR_H */
+#endif // REVERSE_LIST_ITERATOR_H

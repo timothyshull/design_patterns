@@ -8,8 +8,8 @@ SimpleCompositor::SimpleCompositor()
 }
 
 int SimpleCompositor::Compose(
-    Coord natural[], Coord stretch[], Coord shrink[],
-    int componentCount, int lineWidth, int breaks[]
+        Coord natural[], Coord stretch[], Coord shrink[],
+        int componentCount, int lineWidth, int breaks[]
 )
 {
     std::cout << "SimpleCompositor::Compose(...)" << "\n";

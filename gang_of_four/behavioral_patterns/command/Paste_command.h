@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_PASTE_COMMAND_H
-#define DESIGN_PATTERNS_PASTE_COMMAND_H
+#ifndef PASTE_COMMAND_H
+#define PASTE_COMMAND_H
 
-#include"Command.h"
+#include "Command.h"
 
 class Document;
 
@@ -15,4 +15,4 @@ private:
     Document* _document;
 };
 
-#endif//DESIGN_PATTERNS_PASTE_COMMAND_H
+#endif // PASTE_COMMAND_H

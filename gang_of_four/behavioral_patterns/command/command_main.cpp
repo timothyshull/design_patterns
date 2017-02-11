@@ -1,6 +1,6 @@
-#include"Command.h"
-#include"Simple_command.h"
-#include"My_class.h"
+#include "Command.h"
+#include "Simple_command.h"
+#include "My_class.h"
 
 int main()
 {

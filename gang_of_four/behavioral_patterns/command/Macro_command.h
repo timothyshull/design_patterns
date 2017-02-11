@@ -1,8 +1,8 @@
-#ifndef DESIGN_PATTERNS_MACRO_COMMAND_H
-#define DESIGN_PATTERNS_MACRO_COMMAND_H
+#ifndef MACRO_COMMAND_H
+#define MACRO_COMMAND_H
 
-#include"Command.h"
-#include"List.h"
+#include "Command.h"
+#include "List.h"
 
 class Macro_command : public Command {
 public:
@@ -20,4 +20,4 @@ private:
     List<Command*>* _cmds;
 };
 
-#endif//DESIGN_PATTERNS_MACRO_COMMAND_H
+#endif // MACRO_COMMAND_H

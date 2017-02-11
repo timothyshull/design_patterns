@@ -1,4 +1,3 @@
 #include "MazeBuilder.h"
 
-MazeBuilder::MazeBuilder()
-{}
+MazeBuilder::MazeBuilder() {}

@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_EXTENDED_HANDLER_H
-#define DESIGN_PATTERNS_EXTENDED_HANDLER_H
+#ifndef EXTENDED_HANDLER_H
+#define EXTENDED_HANDLER_H
 
-#include"Handler.h"
+#include "Handler.h"
 
 class Request;
 
@@ -11,4 +11,4 @@ public:
     // ...
 };
 
-#endif//DESIGN_PATTERNS_EXTENDED_HANDLER_H
+#endif // EXTENDED_HANDLER_H

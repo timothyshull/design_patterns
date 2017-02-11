@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_ENTRY_FIELD_H
-#define DESIGN_PATTERNS_ENTRY_FIELD_H
+#ifndef ENTRY_FIELD_H
+#define ENTRY_FIELD_H
 
-#include"Widget.h"
+#include "Widget.h"
 
 class Entry_field : public Widget {
 public:
@@ -15,4 +15,4 @@ public:
     // ...
 };
 
-#endif //DESIGN_PATTERNS_ENTRY_FIELD_H
+#endif //ENTRY_FIELD_H

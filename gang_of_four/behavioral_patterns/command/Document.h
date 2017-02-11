@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_DOCUMENT_H
-#define DESIGN_PATTERNS_DOCUMENT_H
+#ifndef DOCUMENT_H
+#define DOCUMENT_H
 
 class Document {
 public:
@@ -10,4 +10,4 @@ public:
     void paste();
 };
 
-#endif//DESIGN_PATTERNS_DOCUMENT_H
+#endif // DOCUMENT_H

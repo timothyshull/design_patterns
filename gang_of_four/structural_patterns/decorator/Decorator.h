@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_DECORATOR_H
-#definesDESIGN_PATTERNS_DECORATOR_H
+#ifndef DECORATOR_H
+#define DECORATOR_H
 
 #include "VisualComponent.h"
 
@@ -8,10 +8,11 @@ public:
     Decorator(VisualComponent*);
 
     virtual void Draw();
+
     virtual void Resize();
     // ...
 private:
     VisualComponent* _component;
 };
 
-#endif /* DECORATOR_H */
+#endif // DECORATOR_H

@@ -1,10 +1,10 @@
-#ifndefsDESIGN_PATTERNS_SKIP_LISTITERATOR_H
-#definesDESIGN_PATTERNS_SKIP_LISTITERATOR_H
+#ifndef SKIP_LISTITERATOR_H
+#define SKIP_LISTITERATOR_H
 
 #include "ListIterator.h"
 #include "SkipList.h"
 
-template <class Item>
+template<class Item>
 class SkipListIterator : public ListIterator<Item> {
 public:
     SkipListIterator(const List<Item>* aList);
@@ -16,4 +16,4 @@ public:
 
 #include "SkipListIterator.cpp"
 
-#endif /* SKIP_LISTITERATOR_H */
+#endif // SKIP_LISTITERATOR_H

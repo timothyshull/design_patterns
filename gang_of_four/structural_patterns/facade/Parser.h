@@ -1,14 +1,15 @@
-#ifndefsDESIGN_PATTERNS_PARSER_H
-#definesDESIGN_PATTERNS_PARSER_H
+#ifndef PARSER_H
+#define PARSER_H
 
 class ProgramNodeBuilder;
 
 class Parser {
 public:
     Parser();
+
     virtual ~Parser();
 
     virtual void Parse(Scanner&, ProgramNodeBuilder&);
 };
 
-#endif /* PARSER_H */
+#endif // PARSER_H

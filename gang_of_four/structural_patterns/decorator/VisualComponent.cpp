@@ -1,10 +1,7 @@
 #include "VisualComponent.h"
 
-VisualComponent::VisualComponent()
-{}
+VisualComponent::VisualComponent() {}
 
-void VisualComponent::Draw()
-{}
+void VisualComponent::Draw() {}
 
-void VisualComponent::Resize()
-{}
+void VisualComponent::Resize() {}

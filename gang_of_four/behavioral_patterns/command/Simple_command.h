@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SIMPLE_COMMAND_H
-#define DESIGN_PATTERNS_SIMPLE_COMMAND_H
+#ifndef SIMPLE_COMMAND_H
+#define SIMPLE_COMMAND_H
 
 template<typename Receiver>
 class Simple_command : public Command {
@@ -21,4 +21,4 @@ void Simple_command<Receiver>::execute()
     (_receiver->*_action)();
 }
 
-#endif//DESIGN_PATTERNS_SIMPLE_COMMAND_H
+#endif // SIMPLE_COMMAND_H

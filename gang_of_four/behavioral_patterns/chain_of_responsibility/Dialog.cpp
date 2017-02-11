@@ -1,8 +1,7 @@
-#include<iostream>
-#include"Dialog.h"
-#include"Help_handler.h"
+#include <iostream>
+#include "Dialog.h"
 
-Dialog::Dialog(Help_handler* h, Topic t) : Widget(nullptr)
+Dialog::Dialog(Help_handler* h, Help_topic t) : Widget(nullptr)
 {
     set_handler(h, t);
 }

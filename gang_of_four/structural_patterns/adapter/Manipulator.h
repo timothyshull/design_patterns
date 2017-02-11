@@ -1,7 +1,7 @@
-#ifndefsDESIGN_PATTERNS_MANIPULATOR_H
-#definesDESIGN_PATTERNS_MANIPULATOR_H
+#ifndef MANIPULATOR_H
+#define MANIPULATOR_H
 
 class Manipulator {
 };
 
-#endif /* MANIPULATOR_H */
+#endif // MANIPULATOR_H

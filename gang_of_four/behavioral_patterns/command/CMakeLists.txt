@@ -20,9 +20,9 @@ set(CMD_SRCS
 
         ../iterator/Iterator.h
         ../iterator/ListIterator.h
-#        ../iterator/ListIterator.cpp
+        #        ../iterator/ListIterator.cpp
         ../../foundation_classes/List.h
-#        ../../foundation_classes/List.cpp
+        #        ../../foundation_classes/List.cpp
         )
 
 add_executable(command ${CMD_SRCS})

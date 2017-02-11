@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Not_exp.h"
+#include <iostream>
+#include "Not_exp.h"
 
 Not_exp::Not_exp(Boolean_exp* op) : _operand{op}
 {

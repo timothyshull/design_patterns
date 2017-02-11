@@ -2,26 +2,24 @@
 #include "Equipment.h"
 
 Card::Card(const char* name)
-  : Equipment(name)
-{}
+        : Equipment(name) {}
 
-Card::~Card()
-{}
+Card::~Card() {}
 
 Watt Card::Power()
 {
-  Watt w(3);
-  return w;
+    Watt w(3);
+    return w;
 }
 
 Currency Card::NetPrice()
 {
-  Currency c(11);
-  return c;
+    Currency c(11);
+    return c;
 }
 
 Currency Card::DiscountPrice()
 {
-  Currency c(6);
-  return c;
+    Currency c(6);
+    return c;
 }

@@ -1,5 +1,4 @@
 #include "Font.h"
 
 Font::Font(char* name)
-  : _name(name)
-{}
+        : _name(name) {}

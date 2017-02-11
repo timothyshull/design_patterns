@@ -1,6 +1,6 @@
 set(adapter_SRCS
-    TextManipulator.cpp
-    TextView.cpp)
+        TextManipulator.cpp
+        TextView.cpp)
 
 add_library(adapter SHARED ${adapter_SRCS})
 

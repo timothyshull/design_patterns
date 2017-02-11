@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_REQUEST_H
-#define DESIGN_PATTERNS_REQUEST_H
+#ifndef REQUEST_H
+#define REQUEST_H
 
 enum class Request_type { help, print, preview };
 
@@ -8,4 +8,4 @@ public:
     virtual Request_type get_kind() = 0;
 };
 
-#endif//DESIGN_PATTERNS_REQUEST_H
+#endif // REQUEST_H

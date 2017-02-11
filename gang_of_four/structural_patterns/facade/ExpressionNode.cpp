@@ -3,7 +3,8 @@
 #include "CodeGenerator.h"
 #include "ListIterator.h"
 
-void ExpressionNode::Traverse (CodeGenerator& cg) {
+void ExpressionNode::Traverse(CodeGenerator& cg)
+{
     cg.Visit(this);
 
     ListIterator<ProgramNode*> i(_children);

@@ -1,5 +1,5 @@
-#include<iostream>
-#include"My_class.h"
+#include <iostream>
+#include "My_class.h"
 
 void My_class::action()
 {

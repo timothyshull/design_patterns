@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
+      <config projectName="design_patterns" targetName="template_method" />
       <config projectName="design_patterns" targetName="custom_singleton" />
       <config projectName="design_patterns" targetName="iterator_main" />
       <config projectName="design_patterns" targetName="Builder" />
@@ -101,7 +102,300 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a295b65-bcaf-4f7b-9d05-72e0bca1221c" name="Default" comment="" />
+    <list default="true" id="2a295b65-bcaf-4f7b-9d05-72e0bca1221c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Cast_spell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door_needing_spell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_game.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_parts.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/DigitalClock.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/CastSpell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/DoorNeedingSpell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/EnchantedMazeGame.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MazeGame.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MazeParts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/MazePrototypeFactory.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/MySingleton.h" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/AnalogClock.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Analog_clock.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/ClockTimer.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/ClockTimer.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/DigitalClock.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedMazeFactory.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_factory.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedMazeFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_factory.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedMazeGame.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_game.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedMazeGame.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_game.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedWall.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_wall.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/BombedWall.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_wall.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/DoorNeedingSpell.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door_needing_spell.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/EnchantedMazeFactory.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_factory.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/EnchantedMazeFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_factory.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/EnchantedRoom.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/EnchantedRoom.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MapSite.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Map_site.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MazeFactory.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MazeFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/MazeGame.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/RoomWithABomb.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/RoomWithABomb.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/MazePrototypeFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/MySingleton.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/NameSingletonPair.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/NameSingletonPair.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/main.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Application.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Application.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Application.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Application.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Dialog.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Dialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Dialog.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Dialog.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Extended_handler.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Extended_handler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Extended_handler.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Extended_handler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Handler.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Handler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Handler.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Handler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_handler.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_handler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_handler.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_handler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_request.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Help_request.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Print_request.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Print_request.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Request.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Request.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Widget.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Widget.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Widget.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Widget.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Command.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Command.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Document.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Document.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Document.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Document.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Macro_command.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Macro_command.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Macro_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Macro_command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/My_class.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/My_class.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/My_class.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/My_class.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Simple_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Simple_command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/AbstractList.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/AbstractList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/FilteringListTraverser.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/FilteringListTraverser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/FilteringListTraverser.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/FilteringListTraverser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Iterator.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Iterator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/IteratorOutOfBounds.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/IteratorOutOfBounds.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/IteratorPtr.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/IteratorPtr.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListIterator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListIterator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListIterator.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListIterator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListTraverser.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListTraverser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListTraverser.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ListTraverser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/PrintNEmployees.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/PrintNEmployees.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ReverseListIterator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ReverseListIterator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ReverseListIterator.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/ReverseListIterator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipList.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipList.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipList.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipListIterator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipListIterator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipListIterator.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/SkipListIterator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/external_iterator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/external_iterator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/iterator_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/iterator_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Widget.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Widget.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/ArrayCompositor.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/ArrayCompositor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/ArrayCompositor.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/ArrayCompositor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Composition.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Composition.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Composition.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Composition.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Compositor.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/Compositor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/SimpleCompositor.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/SimpleCompositor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/SimpleCompositor.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/SimpleCompositor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/TeXCompositor.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/TeXCompositor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/TeXCompositor.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/strategy/TeXCompositor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Door.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Spell.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Spell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/abstract_factory/main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/abstract_factory/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder1.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder2.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/parameterized_factory_methods/Creator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/parameterized_factory_methods/Creator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/sample_code/main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/sample_code/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/templates_to_avoid_subclassing/Creator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/templates_to_avoid_subclassing/Creator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/with_lazy_evaluation/Creator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/factory_method/with_lazy_evaluation/Creator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/prototype1.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/prototype1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.h" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.h" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/List.cpp" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/List.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/List.h" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/List.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/Rect.h" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/Rect.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Manipulator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Manipulator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Shape.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Shape.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextManipulator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextManipulator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextManipulator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextManipulator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/class_adapter/TextShape.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/class_adapter/TextShape.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/class_adapter/TextShape.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/class_adapter/TextShape.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/object_adapter/TextShape.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/object_adapter/TextShape.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/object_adapter/TextShape.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/object_adapter/TextShape.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/ApplicationWindow.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/ApplicationWindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/ApplicationWindow.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/ApplicationWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/IconWindow.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/IconWindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/IconWindow.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/IconWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/PMWindowImp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/PMWindowImp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/PMWindowImp.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/PMWindowImp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/View.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/View.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/View.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/View.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowImp.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowImp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowSystemFactory.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowSystemFactory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowSystemFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/WindowSystemFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/XWindowImp.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/XWindowImp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/XWindowImp.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/XWindowImp.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Bus.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Bus.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Bus.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Bus.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Cabinet.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Cabinet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Cabinet.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Cabinet.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Card.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Card.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Card.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Card.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Chassis.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Chassis.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Chassis.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Chassis.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CompositeEquipment.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CompositeEquipment.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CompositeEquipment.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/CompositeEquipment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Equipment.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Equipment.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Equipment.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/Equipment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/FloppyDisk.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/FloppyDisk.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/FloppyDisk.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/FloppyDisk.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/composite/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/BorderDecorator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/BorderDecorator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/BorderDecorator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/BorderDecorator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Decorator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Decorator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Decorator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Decorator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/DropShadowDecorator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/DropShadowDecorator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/DropShadowDecorator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/DropShadowDecorator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/ScrollDecorator.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/ScrollDecorator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/ScrollDecorator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/ScrollDecorator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/TextView.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/TextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/VisualComponent.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/VisualComponent.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/VisualComponent.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/VisualComponent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Window.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/Window.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/decorator1.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/decorator/decorator1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/BytecodeStream.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/BytecodeStream.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/CodeGenerator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/CodeGenerator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Compiler.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Compiler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Compiler.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Compiler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ExpressionNode.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ExpressionNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ExpressionNode.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ExpressionNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Parser.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Parser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ProgramNode.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ProgramNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ProgramNodeBuilder.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/ProgramNodeBuilder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/RISCCodeGenerator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/RISCCodeGenerator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Scanner.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Scanner.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/StackMachineCodeGenerator.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/StackMachineCodeGenerator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/StatementNode.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/StatementNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Token.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/facade/Token.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Character.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Character.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Character.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Character.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Column.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Column.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Font.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Font.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Font.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Font.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Glyph.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Glyph.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Glyph.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Glyph.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphContext.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphContext.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphContext.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphContext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphFactory.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphFactory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphFactory.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/GlyphFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Row.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/Row.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/flyweight1.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/flyweight/flyweight1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Graphic.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Graphic.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Graphic.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Graphic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Image.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Image.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Image.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/Image.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/ImageProxy.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/ImageProxy.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/ImageProxy.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/ImageProxy.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/TextDocument.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/TextDocument.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/TextDocument.h" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/proxy/TextDocument.h" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,28 +410,58 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt">
+      <file leaf-file-name="Rect.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Rect.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Move_command.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp">
+      <file leaf-file-name="Subject.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp">
+      <file leaf-file-name="Analog_clock.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Analog_clock.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clock_timer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clock_timer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Digital_clock.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -146,71 +470,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chain_of_responsibility_main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp">
+      <file leaf-file-name="Digital_clock.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Observer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Move_command.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constraint_solver_memento.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp">
+      <file leaf-file-name="Subject.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constraint_solver_memento.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constraint_solver.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp">
+      <file leaf-file-name="Widget.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Widget.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constraint_solver.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -232,6 +526,18 @@
       <find>#ifndef\s</find>
       <find>#define\s</find>
       <find>iterator_SRCS</find>
+      <find>#include&quot;</find>
+      <find>#include&lt;</find>
+      <find>NO_HELP_TOPIC</find>
+      <find>Topic</find>
+      <find>APPLICATION_TOPIC</find>
+      <find>#endif//(\w)</find>
+      <find>DESIGN_PATTERNS_</find>
+      <find>#ifndefs</find>
+      <find>#defines</find>
+      <find>#endif /\* (.*) \*/</find>
+      <find>Maze_parts.h</find>
+      <find>Direction</find>
     </findStrings>
     <replaceStrings>
       <replace>)\n</replace>
@@ -244,6 +550,17 @@
       <replace>#ifndef\sDESIGN_PATTERNS_</replace>
       <replace>#define\sDESIGN_PATTERNS_</replace>
       <replace>ITERATOR_SRCS</replace>
+      <replace>#include &quot;</replace>
+      <replace>#include &lt;</replace>
+      <replace>Help_topics::no_help_topic</replace>
+      <replace>Help_topic</replace>
+      <replace>Help_topic::application_topic</replace>
+      <replace>DESIGN_PATTERNS_</replace>
+      <replace />
+      <replace>#ifndef</replace>
+      <replace>#define</replace>
+      <replace>#define</replace>
+      <replace>#endif // $1</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/behavioral_patterns/chain_of_responsibility</dir>
@@ -251,62 +568,66 @@
       <dir>$PROJECT_DIR$/custom</dir>
       <dir>$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility</dir>
       <dir>$PROJECT_DIR$/gang_of_four</dir>
+      <dir>$PROJECT_DIR$/gang_of_four/creational_patterns</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Open_command.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Paste_command.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/iterator1.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h" />
-        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_game.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_factory.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_maze_factory.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_wall.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/FilteringListTraverser.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/AbstractList.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Bombed_wall.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Cast_spell.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Door.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Door_needing_spell.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Door_needing_spell.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_factory.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_game.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_parts.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Room.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Spell.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/prototype1.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/abstract_factory/main.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder1.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/ClockTimer.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Analog_clock.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/DigitalClock.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h" />
       </list>
     </option>
   </component>
@@ -320,6 +641,9 @@
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1023" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -345,6 +669,132 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structural_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structural_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation_classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behavioral_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behavioral_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,7 +1245,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="62">
+    <configuration default="false" name="template_method" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="template_method" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="template_method">
+      <envs />
+      <method />
+    </configuration>
+    <list size="63">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.chain_of_responsibility" />
       <item index="2" class="java.lang.String" itemvalue="Application.command" />
@@ -858,6 +1312,7 @@
       <item index="59" class="java.lang.String" itemvalue="Application.custom_flyweight" />
       <item index="60" class="java.lang.String" itemvalue="Application.custom_proxy" />
       <item index="61" class="java.lang.String" itemvalue="Application.iterator_main" />
+      <item index="62" class="java.lang.String" itemvalue="Application.template_method" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -874,24 +1329,31 @@
       <workItem from="1483397882962" duration="4235000" />
       <workItem from="1483423376296" duration="3272000" />
       <workItem from="1483426663721" duration="1135000" />
-      <workItem from="1483455206561" duration="3933000" />
+      <workItem from="1483455206561" duration="3991000" />
+      <workItem from="1483489758993" duration="24000" />
+      <workItem from="1483489794763" duration="1230000" />
+      <workItem from="1483565722716" duration="8000" />
+      <workItem from="1486355059176" duration="231000" />
+      <workItem from="1486390155474" duration="3637000" />
+      <workItem from="1486789910597" duration="1945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26792000" />
+    <option name="totallyTimeSpent" value="33925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -900,7 +1362,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -916,373 +1377,271 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/Employee.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/iterator/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Door_needing_spell.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Or_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_factory.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_factory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Constant.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1483455431000" expanded="true" signature="107:297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/mediator_main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Dialog_director.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Mouse_event.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Widget.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_maze_game.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/List_box.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1483456663000" expanded="true" signature="101:104" ph="{...}" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Enchanted_room.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Entry_field.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1483456915000" expanded="true" signature="110:114" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <marker date="1483456915000" expanded="true" signature="116:266" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Button.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/mediator/Font_dialog_director.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Map_site.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Graphic.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_factory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/memento_main.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="89" lean-forward="true" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Maze_parts.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Room.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Room.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Room_with_a_bomb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Spell.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Singleton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Name_singleton_pair.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/Custom_singleton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/registry_of_singletons/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/Singleton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/singleton/basic_implementation/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/Wall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/prototype1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Constraint_solver_memento.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/Maze_prototype_factory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/prototype/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/abstract_factory/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder1.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -1290,15 +1649,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/memento/Move_command.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Point.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1306,18 +1673,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Rect.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Analog_clock.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Clock_timer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Widget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

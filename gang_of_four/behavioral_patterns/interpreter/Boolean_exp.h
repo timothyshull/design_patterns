@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_BOOLEAN_EXP_H
-#define DESIGN_PATTERNS_BOOLEAN_EXP_H
+#ifndef BOOLEAN_EXP_H
+#define BOOLEAN_EXP_H
 
-#include"Context.h"
+#include "Context.h"
 
 class Boolean_exp {
 public:
@@ -16,4 +16,4 @@ public:
     virtual Boolean_exp* copy() const = 0;
 };
 
-#endif //DESIGN_PATTERNS_BOOLEAN_EXP_H
+#endif //BOOLEAN_EXP_H

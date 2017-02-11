@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_COORD_H
-#definesDESIGN_PATTERNS_COORD_H
+#ifndef COORD_H
+#define COORD_H
 
 typedef float Coord;
 
@@ -11,4 +11,4 @@ Coord abs(Coord x);
 
 int round(Coord x);
 
-#endif /* COORD_H */
+#endif // COORD_H

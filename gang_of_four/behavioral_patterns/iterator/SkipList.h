@@ -1,9 +1,9 @@
-#ifndefsDESIGN_PATTERNS_SKIP_LIST_H
-#definesDESIGN_PATTERNS_SKIP_LIST_H
+#ifndef SKIP_LIST_H
+#define SKIP_LIST_H
 
 #include "List.h"
 
-template <class Item>
+template<class Item>
 class SkipList : public List<Item> {
 public:
     Iterator<Item>* CreateIterator() const;
@@ -11,4 +11,4 @@ public:
 
 #include "SkipList.cpp"
 
-#endif /* SKIP_LIST_H */
+#endif // SKIP_LIST_H

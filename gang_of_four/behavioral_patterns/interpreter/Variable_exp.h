@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_VARIABLE_EXP_H
-#define DESIGN_PATTERNS_VARIABLE_EXP_H
+#ifndef VARIABLE_EXP_H
+#define VARIABLE_EXP_H
 
-#include"Boolean_exp.h"
+#include "Boolean_exp.h"
 
 class Variable_exp : public Boolean_exp {
 public:
@@ -19,4 +19,4 @@ private:
     char* _name;
 };
 
-#endif //DESIGN_PATTERNS_VARIABLE_EXP_H
+#endif //VARIABLE_EXP_H

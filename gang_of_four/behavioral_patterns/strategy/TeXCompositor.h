@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_TEX_COMPOSITOR_H
-#definesDESIGN_PATTERNS_TEX_COMPOSITOR_H
+#ifndef TEX_COMPOSITOR_H
+#define TEX_COMPOSITOR_H
 
 #include "Compositor.h"
 
@@ -10,8 +10,8 @@ public:
     TeXCompositor();
 
     virtual int Compose(
-        Coord natural[], Coord stretch[], Coord shrink[],
-        int componentCount, int lineWidth, int breaks[]
+            Coord natural[], Coord stretch[], Coord shrink[],
+            int componentCount, int lineWidth, int breaks[]
     );
     // ...
 };

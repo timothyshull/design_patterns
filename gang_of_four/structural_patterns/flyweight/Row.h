@@ -1,7 +1,7 @@
-#ifndefsDESIGN_PATTERNS_ROW_H
-#definesDESIGN_PATTERNS_ROW_H
+#ifndef ROW_H
+#define ROW_H
 
 class Row {
 };
 
-#endif /* ROW_H */
+#endif // ROW_H

@@ -1,9 +1,9 @@
-#ifndef DESIGN_PATTERNS_EMPLOYEE_H
-#define DESIGN_PATTERNS_EMPLOYEE_H
+#ifndef EMPLOYEE_H
+#define EMPLOYEE_H
 
 class Employee {
 public:
     void Print() const;
 };
 
-#endif /* EMPLOYEE_H */
+#endif // EMPLOYEE_H

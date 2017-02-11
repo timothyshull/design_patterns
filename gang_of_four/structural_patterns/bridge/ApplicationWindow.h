@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_APPLICATION_WINDOW_H
-#definesDESIGN_PATTERNS_APPLICATION_WINDOW_H
+#ifndef APPLICATION_WINDOW_H
+#define APPLICATION_WINDOW_H
 
 #include "Window.h"
 
@@ -9,4 +9,4 @@ public:
     virtual void DrawContents();
 };
 
-#endif /* APPLICATION_WINDOW_H */
+#endif // APPLICATION_WINDOW_H

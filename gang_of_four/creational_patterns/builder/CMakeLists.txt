@@ -1,9 +1,9 @@
 include_directories(../)
 
 set(builder_SRCS
-    CountingMazeBuilder.cpp
-    MazeBuilder.cpp
-    StandardMazeBuilder.cpp)
+        CountingMazeBuilder.cpp
+        MazeBuilder.cpp
+        StandardMazeBuilder.cpp)
 
 add_library(builder SHARED ${builder_SRCS})
 

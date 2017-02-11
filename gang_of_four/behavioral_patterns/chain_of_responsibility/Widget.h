@@ -1,14 +1,14 @@
-#ifndef DESIGN_PATTERNS_WIDGET_H
-#define DESIGN_PATTERNS_WIDGET_H
+#ifndef WIDGET_H
+#define WIDGET_H
 
-#include"Help_handler.h"
+#include "Help_handler.h"
 
 class Widget : public Help_handler {
 protected:
-    Widget(Widget* parent, Topic t = NO_HELP_TOPIC);
+    Widget(Widget* parent, Help_topic t = Help_topic::no_help_topic);
 
 private:
     Widget* _parent;
 };
 
-#endif//DESIGN_PATTERNS_WIDGET_H
+#endif // WIDGET_H

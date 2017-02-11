@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_DIALOG_DIRECTOR_H
-#define DESIGN_PATTERNS_DIALOG_DIRECTOR_H
+#ifndef DIALOG_DIRECTOR_H
+#define DIALOG_DIRECTOR_H
 
 class Dialog_director {
 public:
@@ -15,4 +15,4 @@ protected:
     virtual void create_widgets() = 0;
 };
 
-#endif //DESIGN_PATTERNS_DIALOG_DIRECTOR_H
+#endif //DIALOG_DIRECTOR_H

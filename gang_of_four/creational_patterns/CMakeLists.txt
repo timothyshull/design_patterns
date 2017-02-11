@@ -1,19 +1,24 @@
 include_directories(builder abstract_factory)
 
 set(creational_patterns_SRCS
-    BombedMazeFactory.cpp
-    BombedMazeGame.cpp
-    BombedWall.cpp
-    Door.cpp
-    DoorNeedingSpell.cpp
-    EnchantedMazeFactory.cpp
-    EnchantedRoom.cpp
-    Maze.cpp
-    MazeFactory.cpp
-    MazeGame.cpp
-    Room.cpp
-    RoomWithABomb.cpp
-    Wall.cpp)
+        Bombed_maze_factory.cpp
+        Bombed_maze_game.cpp
+        Bombed_wall.cpp
+        Cast_spell.h
+        Door.cpp
+        Door_needing_spell.cpp
+        Enchanted_maze_factory.cpp
+        Enchanted_maze_game.h
+        Enchanted_room.cpp
+        Map_site.h
+        Maze.cpp
+        Maze_factory.cpp
+        Maze_game.cpp
+        Maze_parts.h
+        Room.cpp
+        Room_with_a_bomb.cpp
+        Spell.h
+        Wall.cpp)
 
 add_library(creational_patterns SHARED ${creational_patterns_SRCS})
 

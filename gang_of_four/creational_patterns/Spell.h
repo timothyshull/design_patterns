@@ -1,7 +1,6 @@
-#ifndefsDESIGN_PATTERNS_SPELL_H
-#definesDESIGN_PATTERNS_SPELL_H
+#ifndef SPELL_H
+#define SPELL_H
 
-class Spell {
-};
+class Spell {};
 
-#endif /* SPELL_H */
+#endif // SPELL_H

@@ -1,18 +1,22 @@
-#ifndefsDESIGN_PATTERNS_FILTERING_LIST_TRAVERSER_H
-#definesDESIGN_PATTERNS_FILTERING_LIST_TRAVERSER_H
+#ifndef FILTERING_LIST_TRAVERSER_H
+#define FILTERING_LIST_TRAVERSER_H
 
-template <class Item>
+template<class Item>
 class FilteringListTraverser {
 public:
-    FilteringListTraverser(List<Item>* aList);
+    FilteringListTraverser(List <Item>* aList);
+
     bool Traverse();
+
 protected:
     virtual bool ProcessItem(const Item&) = 0;
+
     virtual bool TestItem(const Item&) = 0;
+
 private:
-    ListIterator<Item> _iterator;
+    ListIterator <Item> _iterator;
 };
 
 #include "FilteringListTraverser.cpp"
 
-#endif /* FILTERING_LIST_TRAVERSER_H */
+#endif // FILTERING_LIST_TRAVERSER_H

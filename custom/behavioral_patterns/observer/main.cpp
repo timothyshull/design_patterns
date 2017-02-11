@@ -8,8 +8,8 @@ int main(int argc, char* argv[])
     Observer* o1 = new Concrete_observer_a(sub);
     Observer* o2 = new Concrete_observer_b(sub);
     sub->set_state("old");
-    sub->Notify();
+    sub->notify();
     sub->set_state("new");
-    sub->Notify();
+    sub->notify();
     return 0;
 }

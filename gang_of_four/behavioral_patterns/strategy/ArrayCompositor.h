@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_ARRAY_COMPOSITOR_H
-#definesDESIGN_PATTERNS_ARRAY_COMPOSITOR_H
+#ifndef ARRAY_COMPOSITOR_H
+#define ARRAY_COMPOSITOR_H
 
 #include "Compositor.h"
 
@@ -10,8 +10,8 @@ public:
     ArrayCompositor(int interval);
 
     virtual int Compose(
-        Coord natural[], Coord stretch[], Coord shrink[],
-        int componentCount, int lineWidth, int breaks[]
+            Coord natural[], Coord stretch[], Coord shrink[],
+            int componentCount, int lineWidth, int breaks[]
     );
     // ...
 };

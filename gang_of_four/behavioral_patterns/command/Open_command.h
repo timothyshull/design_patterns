@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_OPEN_COMMAND_H
-#define DESIGN_PATTERNS_OPEN_COMMAND_H
+#ifndef OPEN_COMMAND_H
+#define OPEN_COMMAND_H
 
-#include"Command.h"
+#include "Command.h"
 
 class Application;
 
@@ -19,4 +19,4 @@ private:
     char* _response;
 };
 
-#endif//DESIGN_PATTERNS_OPEN_COMMAND_H
+#endif // OPEN_COMMAND_H

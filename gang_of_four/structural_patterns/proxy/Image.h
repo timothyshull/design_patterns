@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_IMAGE_H
-#definesDESIGN_PATTERNS_IMAGE_h
+#ifndef IMAGE_H
+#define IMAGE_h
 
 #include "Graphic.h"
 
@@ -9,15 +9,18 @@ public:
     virtual ~Image();
 
     virtual void Draw(const Point& at);
+
     virtual void HandleMouse(Event& event);
 
     virtual const Point& GetExtent();
 
     virtual void Load(istream& from);
+
     virtual void Save(ostream& to);
+
 private:
     Point _extent;
     char* _fileName;
 };
 
-#endif /* IMAGE_H */
+#endif // IMAGE_H

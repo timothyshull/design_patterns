@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_CONSTANT_H
-#define DESIGN_PATTERNS_CONSTANT_H
+#ifndef CONSTANT_H
+#define CONSTANT_H
 
-#include"Boolean_exp.h"
+#include "Boolean_exp.h"
 
 class Constant : public Boolean_exp {
 public:
@@ -19,4 +19,4 @@ private:
     bool _constant;
 };
 
-#endif //DESIGN_PATTERNS_CONSTANT_H
+#endif //CONSTANT_H

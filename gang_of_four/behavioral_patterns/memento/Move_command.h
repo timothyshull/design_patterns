@@ -1,9 +1,9 @@
-#ifndef DESIGN_PATTERNS_MOVE_COMMAND_H
-#define DESIGN_PATTERNS_MOVE_COMMAND_H
+#ifndef MOVE_COMMAND_H
+#define MOVE_COMMAND_H
 
-#include"Point.h"
-#include"Graphic.h"
-#include"Constraint_solver_memento.h"
+#include "Point.h"
+#include "Graphic.h"
+#include "Constraint_solver_memento.h"
 
 class Move_command {
 public:
@@ -19,4 +19,4 @@ private:
     Graphic* _target;
 };
 
-#endif //DESIGN_PATTERNS_MOVE_COMMAND_H
+#endif //MOVE_COMMAND_H

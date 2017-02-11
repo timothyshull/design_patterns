@@ -1,13 +1,13 @@
-#include"Help_handler.h"
+#include "Help_handler.h"
 
-Help_handler::Help_handler(Help_handler* h, Topic t) : _successor(h), _topic(t) {}
+Help_handler::Help_handler(Help_handler* h, Help_topic t) : _successor(h), _topic(t) {}
 
 bool Help_handler::has_help()
 {
-    return _topic != NO_HELP_TOPIC;
+    return _topic != Help_topic::no_help_topic;
 }
 
-void Help_handler::set_handler(Help_handler* help_handler, Topic topic)
+void Help_handler::set_handler(Help_handler* help_handler, Help_topic topic)
 {
     _successor = help_handler;
     _topic = topic;

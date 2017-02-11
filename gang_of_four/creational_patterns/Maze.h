@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_MAZE_H
-#definesDESIGN_PATTERNS_MAZE_H
+#ifndef MAZE_H
+#define MAZE_H
 
 #include <vector>
 #include "Room.h"
@@ -7,14 +7,17 @@
 class Maze {
 
 public:
-  Maze();
-  Room* RoomNo(int n) const;
-  void AddRoom(Room *room);
-  virtual Maze* Clone() const;
+    Maze();
+
+    Room* room_number(int n) const;
+
+    void add_room(Room* room);
+
+    virtual Maze* clone() const;
 
 private:
-  std::vector<Room*> *mRoomVec; 
+    std::vector<Room*>* _room_vector;
 
 };
 
-#endif /* MAZE_H */
+#endif // MAZE_H

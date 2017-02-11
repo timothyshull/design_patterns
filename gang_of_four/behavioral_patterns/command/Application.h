@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_APPLICATION_H
-#define DESIGN_PATTERNS_APPLICATION_H
+#ifndef APPLICATION_H
+#define APPLICATION_H
 
 class Document;
 
@@ -8,4 +8,4 @@ public:
     void add(Document* doc);
 };
 
-#endif//DESIGN_PATTERNS_APPLICATION_H
+#endif // APPLICATION_H

@@ -1,16 +1,13 @@
-#include"Application.h"
-#include"Button.h"
-#include"Dialog.h"
+#include "Application.h"
+#include "Button.h"
+#include "Dialog.h"
 
 int main()
 {
-    const Topic PRINT_TOPIC = 1;
-    const Topic PAPER_ORIENTATION_TOPIC = 2;
-    const Topic APPLICATION_TOPIC = 3;
-
-    Application* application{new Application(APPLICATION_TOPIC)};
-    Dialog* dialog{new Dialog(application, PRINT_TOPIC)};
-    Button* button{new Button(dialog, PAPER_ORIENTATION_TOPIC)};
+    // moved topics to enum class definition
+    Application* application{new Application(Help_topic::application_topic)};
+    Dialog* dialog{new Dialog(application, Help_topic::print_topic)};
+    Button* button{new Button(dialog, Help_topic::paper_orientation_topic)};
     button->handle_help();
     return 0;
 }

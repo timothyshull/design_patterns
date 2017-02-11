@@ -2,7 +2,8 @@
 
 WindowSystemFactory* WindowSystemFactory::_instance = 0;
 
-WindowSystemFactory* WindowSystemFactory::Instance () {
+WindowSystemFactory* WindowSystemFactory::Instance()
+{
     if (_instance == 0) {
         _instance = new WindowSystemFactory;
     }

@@ -12,11 +12,11 @@ class Subject {
 public:
     virtual ~Subject();
 
-    virtual void Attach(Observer* obv);
+    virtual void attach(Observer* obv);
 
-    virtual void Detach(Observer* obv);
+    virtual void detach(Observer* obv);
 
-    virtual void Notify();
+    virtual void notify();
 
     virtual void set_state(const State& st) = 0;
 

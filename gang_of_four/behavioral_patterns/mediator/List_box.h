@@ -1,10 +1,10 @@
-#ifndef DESIGN_PATTERNS_LIST_BOX_H
-#define DESIGN_PATTERNS_LIST_BOX_H
+#ifndef LIST_BOX_H
+#define LIST_BOX_H
 
-#include"Dialog_director.h"
-#include"List.h"
-#include"Mouse_event.h"
-#include"Widget.h"
+#include "Dialog_director.h"
+#include "List.h"
+#include "Mouse_event.h"
+#include "Widget.h"
 
 class List_box : public Widget {
 public:
@@ -19,4 +19,4 @@ public:
     // ...
 };
 
-#endif //DESIGN_PATTERNS_LIST_BOX_H
+#endif //LIST_BOX_H

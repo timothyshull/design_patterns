@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Font_dialog_director.h"
+#include <iostream>
+#include "Font_dialog_director.h"
 
 Font_dialog_director::Font_dialog_director() : _ok{nullptr}, _cancel{nullptr}, _font_list{nullptr}, _font_name{nullptr}
 {

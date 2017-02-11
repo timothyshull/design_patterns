@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_VIEW_H
-#definesDESIGN_PATTERNS_VIEW_H
+#ifndef VIEW_H
+#define VIEW_H
 
 class ApplicationWindow;
 
@@ -8,4 +8,4 @@ public:
     void DrawOn(const ApplicationWindow* w) const;
 };
 
-#endif /* VIEW */
+#endif // VIEW

@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Dialog_director.h"
+#include <iostream>
+#include "Dialog_director.h"
 
 Dialog_director::Dialog_director()
 {

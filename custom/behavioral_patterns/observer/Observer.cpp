@@ -13,12 +13,12 @@ Observer::~Observer() {}
 Concrete_observer_a::Concrete_observer_a(Subject* sub)
 {
     _sub = sub;
-    _sub->Attach(this);
+    _sub->attach(this);
 }
 
 Concrete_observer_a::~Concrete_observer_a()
 {
-    _sub->Detach(this);
+    _sub->detach(this);
     if (_sub != 0) {
         delete _sub;
     }
@@ -43,12 +43,12 @@ void Concrete_observer_a::update(Subject* sub)
 Concrete_observer_b::Concrete_observer_b(Subject* sub)
 {
     _sub = sub;
-    _sub->Attach(this);
+    _sub->attach(this);
 }
 
 Concrete_observer_b::~Concrete_observer_b()
 {
-    _sub->Detach(this);
+    _sub->detach(this);
     if (_sub != 0) {
         delete _sub;
     }

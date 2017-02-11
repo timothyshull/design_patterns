@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_TEXT_DOCUMENT_H
-#definesDESIGN_PATTERNS_TEXT_DOCUMENT_H
+#ifndef TEXT_DOCUMENT_H
+#define TEXT_DOCUMENT_H
 
 #include "Graphic.h"
 
@@ -11,4 +11,4 @@ public:
     // ...
 };
 
-#endif /* TEXT_DOCUMENT */
+#endif // TEXT_DOCUMENT

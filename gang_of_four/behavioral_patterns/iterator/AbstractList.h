@@ -1,13 +1,13 @@
-#ifndefsDESIGN_PATTERNS_ABSTRACT_LIST_H
-#definesDESIGN_PATTERNS_ABSTRACT_LIST_H
+#ifndef ABSTRACT_LIST_H
+#define ABSTRACT_LIST_H
 
 // TODO: make it work with AbstractList.
 
-template <class Item>
+template<class Item>
 class AbstractList {
 public:
-    virtual Iterator<Item>* CreateIterator() const = 0;
+    virtual Iterator <Item>* CreateIterator() const = 0;
     // ...
 };
 
-#endif /* ABSTRACT_LIST_H */
+#endif // ABSTRACT_LIST_H

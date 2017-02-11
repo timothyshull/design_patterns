@@ -1,5 +1,5 @@
-#include<cstring>
-#include"Variable_exp.h"
+#include <cstring>
+#include "Variable_exp.h"
 
 Variable_exp::Variable_exp(const char* name) : _name{strdup(name)} {}
 

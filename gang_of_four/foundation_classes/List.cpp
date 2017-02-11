@@ -4,8 +4,8 @@
  *   [1] http://st-www.cs.illinois.edu/patterns/dpbook/Source.html
  */
 
-#include<iostream>
-#include"ListIterator.h"
+#include <iostream>
+#include "ListIterator.h"
 
 template<class Item>
 List<Item>::List(long size) : _size(size), _count(0)
@@ -148,7 +148,7 @@ void List<Item>::RemoveAt(long index)
 }
 
 template<class Item>
-Iterator<Item>* List<Item>::CreateIterator() const
+Iterator <Item>* List<Item>::CreateIterator() const
 {
     return new ListIterator<Item>(this);
 }

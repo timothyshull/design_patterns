@@ -1,7 +1,7 @@
-#ifndef DESIGN_PATTERNS_BUTTON_H
-#define DESIGN_PATTERNS_BUTTON_H
+#ifndef BUTTON_H
+#define BUTTON_H
 
-#include"Widget.h"
+#include "Widget.h"
 
 class Button : public Widget {
 public:
@@ -13,4 +13,4 @@ public:
     // ...
 };
 
-#endif //DESIGN_PATTERNS_BUTTON_H
+#endif //BUTTON_H

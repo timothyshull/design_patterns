@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Boolean_exp.h"
+#include <iostream>
+#include "Boolean_exp.h"
 
 Boolean_exp::Boolean_exp()
 {

@@ -1,8 +1,8 @@
-#ifndef DESIGN_PATTERNS_CONSTRAINT_SOLVER_H
-#define DESIGN_PATTERNS_CONSTRAINT_SOLVER_H
+#ifndef CONSTRAINT_SOLVER_H
+#define CONSTRAINT_SOLVER_H
 
-#include"Graphic.h"
-#include"Constraint_solver_memento.h"
+#include "Graphic.h"
+#include "Constraint_solver_memento.h"
 
 class Constraint_solver {
 public:
@@ -23,4 +23,4 @@ private:
     // connectivity semantics
 };
 
-#endif //DESIGN_PATTERNS_CONSTRAINT_SOLVER_H
+#endif //CONSTRAINT_SOLVER_H

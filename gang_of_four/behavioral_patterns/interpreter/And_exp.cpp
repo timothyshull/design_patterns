@@ -1,5 +1,5 @@
-#include<iostream>
-#include"And_exp.h"
+#include <iostream>
+#include "And_exp.h"
 
 And_exp::And_exp(Boolean_exp* op1, Boolean_exp* op2) : _operand1{op1}, _operand2{op2}
 {

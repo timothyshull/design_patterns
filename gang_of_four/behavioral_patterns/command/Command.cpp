@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Command.h"
+#include <iostream>
+#include "Command.h"
 
 Command::Command()
 {

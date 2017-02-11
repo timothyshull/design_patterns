@@ -9,8 +9,8 @@ int main()
     TextView* textView = new TextView;
 
     window->SetContents(
-        new BorderDecorator(
-            new ScrollDecorator(textView), 1
-        )
+            new BorderDecorator(
+                    new ScrollDecorator(textView), 1
+            )
     );
 }

@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Constant.h"
+#include <iostream>
+#include "Constant.h"
 
 Constant::Constant(bool val) : _constant{val}
 {

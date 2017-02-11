@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_PROGRAM_NODE_H
-#definesDESIGN_PATTERNS_PROGRAM_NODE_H
+#ifndef PROGRAM_NODE_H
+#define PROGRAM_NODE_H
 
 class CodeGenerator;
 
@@ -11,12 +11,14 @@ public:
 
     // child manipulation
     virtual void Add(ProgramNode*);
+
     virtual void Remove(ProgramNode*);
     // ...
 
     virtual void Traverse(CodeGenerator&);
+
 protected:
     ProgramNode();
 };
 
-#endif /* PROGRAM_NODE_H */
+#endif // PROGRAM_NODE_H

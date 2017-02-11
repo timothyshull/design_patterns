@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Document.h"
+#include <iostream>
+#include "Document.h"
 
 Document::Document(const char* name)
 {

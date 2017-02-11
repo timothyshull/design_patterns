@@ -5,8 +5,7 @@ Equipment::Equipment(const char* name)
     _name = name;
 }
 
-Equipment::~Equipment()
-{}
+Equipment::~Equipment() {}
 
 Watt Equipment::Power()
 {

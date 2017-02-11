@@ -1,15 +1,17 @@
-#include "Singleton.h"
-
 #include <iostream>
 
-Singleton* Singleton::_instance = 0;
+#include "Singleton.h"
 
-Singleton::Singleton() {
-    std::cout << "singleton::singleton()" << "\n";
+Singleton* Singleton::_instance = nullptr;
+
+Singleton::Singleton()
+{
+    std::cout << "Singleton::Singleton()" << "\n";
 }
 
-Singleton* Singleton::Instance () {
-    if (_instance == 0) {
+Singleton* Singleton::instance()
+{
+    if (_instance == nullptr) {
         _instance = new Singleton;
     }
     return _instance;

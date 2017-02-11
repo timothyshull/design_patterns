@@ -1,10 +1,11 @@
-#ifndefsDESIGN_PATTERNS_COMPILER_H
-#definesDESIGN_PATTERNS_COMPILER_H
+#ifndef COMPILER_H
+#define COMPILER_H
 
 #include <istream>
 #include "BytecodeStream.h"
+
 using namespace std;
- 
+
 class Compiler {
 public:
     Compiler();
@@ -12,4 +13,4 @@ public:
     virtual void Compile(istream&, BytecodeStream&);
 };
 
-#endif /* COMPILER_H */
+#endif // COMPILER_H

@@ -2,6 +2,7 @@
 #include <cstring>
 
 class Event;
+
 class Point;
 
 Image::Image(const char* file)

@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_SIMPLE_COMPOSITOR_H
-#definesDESIGN_PATTERNS_SIMPLE_COMPOSITOR_H
+#ifndef SIMPLE_COMPOSITOR_H
+#define SIMPLE_COMPOSITOR_H
 
 #include "Compositor.h"
 
@@ -10,8 +10,8 @@ public:
     SimpleCompositor();
 
     virtual int Compose(
-        Coord natural[], Coord stretch[], Coord shrink[],
-        int componentCount, int lineWidth, int breaks[]
+            Coord natural[], Coord stretch[], Coord shrink[],
+            int componentCount, int lineWidth, int breaks[]
     );
     // ...
 };

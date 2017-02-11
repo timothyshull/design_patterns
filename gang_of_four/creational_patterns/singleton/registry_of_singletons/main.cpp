@@ -3,13 +3,13 @@
  * program.  Currently, the only option is "MySingleton".
  */
 
-#include "MySingleton.h"
-#include "Singleton.h"
+#include "Custom_singleton.h"
 
 int main()
 {
-    Singleton* mySingleton= MySingleton::Instance();
+    Singleton* singleton1{Custom_singleton::instance()};
+    Singleton::register_singleton("Custom_singleton", singleton1);
+    Singleton* singleton{Singleton::instance()};
 
-    Singleton::Register("MySingleton", mySingleton);
-    Singleton* singleton = Singleton::Instance();
+    return 0;
 }

@@ -5,9 +5,10 @@
 #include "ProgramNodeBuilder.h"
 #include "RISCCodeGenerator.h"
 
-void Compiler::Compile (
-    istream& input, BytecodeStream& output
-) {
+void Compiler::Compile(
+        istream& input, BytecodeStream& output
+)
+{
     Scanner scanner(input);
     ProgramNodeBuilder builder;
     Parser parser;

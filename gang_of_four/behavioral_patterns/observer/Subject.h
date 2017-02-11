@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_SUBJECT_H
-#definesDESIGN_PATTERNS_SUBJECT_H
+#ifndef SUBJECT_H
+#define SUBJECT_H
 
 #include "List.h"
 
@@ -9,13 +9,17 @@ class Subject {
 public:
     virtual ~Subject();
 
-    virtual void Attach(Observer*);
-    virtual void Detach(Observer*);
-    virtual void Notify();
+    virtual void attach(Observer*);
+
+    virtual void detach(Observer*);
+
+    virtual void notify();
+
 protected:
     Subject();
+
 private:
-    List<Observer*> *_observers;
+    List<Observer*>* _observers;
 };
 
-#endif /* SUBJECT_H */
+#endif // SUBJECT_H

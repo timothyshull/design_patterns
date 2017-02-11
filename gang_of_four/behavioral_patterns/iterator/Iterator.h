@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ITERATOR_H
-#define DESIGN_PATTERNS_ITERATOR_H
+#ifndef ITERATOR_H
+#define ITERATOR_H
 
 template<typename Item>
 class Iterator {
@@ -19,4 +19,4 @@ protected:
 template<typename Item>
 Iterator<Item>::Iterator() {}
 
-#endif//DESIGN_PATTERNS_ITERATOR_H
+#endif // ITERATOR_H

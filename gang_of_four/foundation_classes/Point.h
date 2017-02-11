@@ -1,5 +1,5 @@
-#ifndefsDESIGN_PATTERNS_POINT_H
-#definesDESIGN_PATTERNS_POINT_H
+#ifndef POINT_H
+#define POINT_H
 
 #include <iostream>
 #include "Coord.h"
@@ -51,4 +51,4 @@ private:
     Coord _y;
 };
 
-#endif /* POINT_H */
+#endif // POINT_H

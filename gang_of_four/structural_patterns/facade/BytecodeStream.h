@@ -1,7 +1,7 @@
-#ifndefsDESIGN_PATTERNS_BYTECODE_STREAM_H
-#definesDESIGN_PATTERNS_BYTECODE_STREAM_H
+#ifndef BYTECODE_STREAM_H
+#define BYTECODE_STREAM_H
 
 class BytecodeStream {
 };
 
-#endif /* BYTECODE_STREAM_H */
+#endif // BYTECODE_STREAM_H

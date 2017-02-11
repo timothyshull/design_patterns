@@ -1,5 +1,5 @@
-#include"Paste_command.h"
-#include"Document.h"
+#include "Paste_command.h"
+#include "Document.h"
 
 Paste_command::Paste_command(Document* doc) : _document{doc} {}
 
