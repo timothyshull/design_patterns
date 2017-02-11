@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Factory.h"
-#include"Product.h"
+#include <iostream>
+#include "Factory.h"
+#include "Product.h"
 
 int main(int argc, char* argv[])
 {

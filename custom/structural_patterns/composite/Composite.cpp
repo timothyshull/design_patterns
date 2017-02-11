@@ -1,6 +1,6 @@
-#include<algorithm>
-#include"Composite.h"
-#include"Component.h"
+#include <algorithm>
+#include "Composite.h"
+#include "Component.h"
 
 Composite::Composite() {}
 

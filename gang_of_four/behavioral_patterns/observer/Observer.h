@@ -7,7 +7,7 @@ class Observer {
 public:
     virtual ~Observer();
 
-    virtual void update(Subject* the_changed_subject) = 0;
+    virtual void update(Subject* changed_subject) = 0;
 
 protected:
     Observer();

@@ -1,7 +1,7 @@
 #ifndef COORD_H
 #define COORD_H
 
-typedef float Coord;
+using Coord = float;
 
 Coord min(Coord x, Coord y);
 

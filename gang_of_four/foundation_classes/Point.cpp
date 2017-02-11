@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Point.h"
 
-const Point Point::Zero(0, 0);
+const Point Point::zero(0, 0);
 
 Point::Point(Coord x, Coord y)
         : _x(x), _y(y) {}

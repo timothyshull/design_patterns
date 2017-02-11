@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATTERNS_COLLAGE_H
 #define DESIGN_PATTERNS_COLLAGE_H
 
-#include<string>
+#include <string>
 
 class Mediator;
 

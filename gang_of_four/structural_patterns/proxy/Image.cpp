@@ -1,42 +1,42 @@
 #include "Image.h"
-#include <cstring>
 
-class Event;
-
-class Point;
-
-Image::Image(const char* file)
+Image::Image(std::string& file)
+        : _filename{file}
 {
-    strcpy(_fileName, file);
     std::cout << "Constructing image from file " << file << "." << "\n";
 }
 
-Image::~Image()
-{
-    delete _fileName;
-}
+//Image::~Image()
+//{
+//    delete _filename;
+//}
 
-void Image::Draw(const Point& at)
+void Image::draw(const Point& at)
 {
     std::cout << "Drawing image at point " << at << "." << "\n";
 }
 
-void Image::HandleMouse(Event& event)
+void Image::handle_mouse(Event& event)
 {
-    //std::cout << "Handling mouse event " << event << "\n";
+    std::cout << "Handling mouse event " << event << "\n";
 }
 
-const Point& Image::GetExtent()
+const Point& Image::get_extent()
 {
     return _extent;
 }
 
-void Image::Load(istream& from)
+void Image::load(istream& from)
 {
-    std::cout << "Loading image from input stream " << from << "." << "\n";
+    std::cout << "Loading image from input stream " << from.rdbuf() << "." << "\n";
 }
 
-void Image::Save(ostream& to)
+void Image::save(ostream& to)
 {
-    std::cout << "Saving image to output stream " << to << "." << "\n";
+    std::cout << "Saving image to output stream " << to.rdbuf() << "." << "\n";
 }
+
+//Image::Image() : Graphic()
+//{
+//
+//}

@@ -1,8 +1,8 @@
 #ifndef DESIGN_PATTERNS_SUBJECT_H
 #define DESIGN_PATTERNS_SUBJECT_H
 
-#include<list>
-#include<string>
+#include <list>
+#include <string>
 
 using State = std::string;
 

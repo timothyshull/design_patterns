@@ -1,4 +1,4 @@
-#include"Mediator.h"
+#include "Mediator.h"
 #include "Colleague.h"
 
 Mediator::Mediator() {}

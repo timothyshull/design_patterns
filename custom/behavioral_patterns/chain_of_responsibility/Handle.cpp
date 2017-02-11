@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Handle.h"
+#include <iostream>
+#include "Handle.h"
 
 Handle::Handle() : _succ{nullptr} {}
 

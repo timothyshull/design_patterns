@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 #include "Abstract_factory.h"
-#include"Product.h"
+#include "Product.h"
 
 Abstract_factory::Abstract_factory() {}
 

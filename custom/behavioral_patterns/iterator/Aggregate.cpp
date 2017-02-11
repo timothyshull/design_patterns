@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Aggregate.h"
-#include"Iterator.h"
+#include <iostream>
+#include "Aggregate.h"
+#include "Iterator.h"
 
 Aggregate::Aggregate() {}
 

@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Proxy.h"
+#include <iostream>
+#include "Proxy.h"
 
 int main(int argc, char* argv[])
 {

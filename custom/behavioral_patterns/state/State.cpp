@@ -1,6 +1,6 @@
-#include<iostream>
-#include"State.h"
-#include"Context.h"
+#include <iostream>
+#include "State.h"
+#include "Context.h"
 
 State::State() {}
 

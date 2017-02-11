@@ -1,8 +1,8 @@
 #ifndef DESIGN_PATTERNS_OBSERVER_H
 #define DESIGN_PATTERNS_OBSERVER_H
 
-#include<string>
-#include"Subject.h"
+#include <string>
+#include "Subject.h"
 
 using State = std::string;
 
@@ -10,7 +10,7 @@ class Observer {
 public:
     virtual ~Observer();
 
-    virtual void update(Subject* the_changed_subject) = 0;
+    virtual void update(Subject* changed_subject) = 0;
 
     virtual void print_info() = 0;
 

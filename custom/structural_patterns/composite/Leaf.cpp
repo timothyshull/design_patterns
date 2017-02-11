@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Leaf.h"
+#include <iostream>
+#include "Leaf.h"
 
 Leaf::Leaf() {}
 

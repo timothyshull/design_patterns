@@ -3,7 +3,6 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer" />
       <file path="$PROJECT_DIR$/gang_of_four/foundation_classes" />
     </sourceRoots>
   </component>

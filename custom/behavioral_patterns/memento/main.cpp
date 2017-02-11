@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Memento.h"
+#include <iostream>
+#include "Memento.h"
 
 int main(int argc, char* argv[])
 {

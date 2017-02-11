@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATTERNS_SINGLETON_H
 #define DESIGN_PATTERNS_SINGLETON_H
 
-#include<iostream>
+#include <iostream>
 
 class Singleton {
 public:

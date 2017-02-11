@@ -1,14 +1,18 @@
-#ifndef IMAGE_H
-#define IMAGE_H
+#ifndef IMAGE_PROXY_H
+#define IMAGE_PROXY_H
 
 #include "Event.h"
 #include "Graphic.h"
+#include "Image.h"
+#include "Point.h"
 
-class Image : virtual public Graphic {
+class Image_proxy : public Graphic {
 public:
-    Image(std::string& file);
+    Image_proxy(std::string& image_file);
 
-    ~Image() = default;
+    Image_proxy(std::string&& image_file);
+
+    virtual ~Image_proxy();
 
     virtual void draw(const Point& at);
 
@@ -21,11 +25,12 @@ public:
     virtual void save(ostream& to);
 
 protected:
-    Image() = default;
+    Image* get_image();
 
 private:
+    Image* _image;
     Point _extent;
     std::string _filename;
 };
 
-#endif // IMAGE_H
+#endif // IMAGE_PROXY_H

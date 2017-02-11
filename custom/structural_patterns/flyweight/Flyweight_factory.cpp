@@ -1,7 +1,7 @@
-#include<iostream>
-#include<string>
-#include<cassert>
-#include"Flyweight_factory.h"
+#include <iostream>
+#include <string>
+#include <cassert>
+#include "Flyweight_factory.h"
 
 Flyweight_factory::Flyweight_factory() {}
 

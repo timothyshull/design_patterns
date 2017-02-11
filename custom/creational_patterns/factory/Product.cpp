@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Product.h"
+#include <iostream>
+#include "Product.h"
 
 Product::Product() {}
 

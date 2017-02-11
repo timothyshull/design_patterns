@@ -5,13 +5,13 @@
 
 class Clock_timer : public Subject {
 public:
-    Clock_timer();
+    Clock_timer() = 0;
 
-    virtual int get_hour();
+    virtual int get_hour() = 0;
 
-    virtual int get_minute();
+    virtual int get_minute() = 0;
 
-    virtual int get_second();
+    virtual int get_second() = 0;
 
     void tick();
 };

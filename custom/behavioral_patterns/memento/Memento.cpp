@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Memento.h"
+#include <iostream>
+#include "Memento.h"
 
 Originator::Originator() : _sdt{""}, _mt{nullptr} {}
 

@@ -1,5 +1,5 @@
-#include"Singleton.h"
-#include<iostream>
+#include "Singleton.h"
+#include <iostream>
 
 Singleton* Singleton::_instance = nullptr;
 

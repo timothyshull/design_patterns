@@ -1,5 +1,5 @@
-#include"Flyweight.h"
-#include<iostream>
+#include "Flyweight.h"
+#include <iostream>
 
 Flyweight::Flyweight(std::string intrinsicState)
 {

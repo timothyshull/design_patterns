@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Decorator.h"
+#include <iostream>
+#include "Decorator.h"
 
 int main(int argc, char* argv[])
 {

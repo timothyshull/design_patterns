@@ -1,9 +1,9 @@
 #ifndef DESIGN_PATTERNS_FLYWEIGHT_FACTORY_H
 #define DESIGN_PATTERNS_FLYWEIGHT_FACTORY_H
 
-#include<string>
-#include<vector>
-#include"Flyweight.h"
+#include <string>
+#include <vector>
+#include "Flyweight.h"
 
 class Flyweight_factory {
 public:

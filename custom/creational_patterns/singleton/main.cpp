@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Singleton.h"
+#include <iostream>
+#include "Singleton.h"
 
 int main(int argc, char* argv[])
 {

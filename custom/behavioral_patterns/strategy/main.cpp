@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Context.h"
-#include"Strategy.h"
+#include <iostream>
+#include "Context.h"
+#include "Strategy.h"
 
 int main(int argc, char* argv[])
 {

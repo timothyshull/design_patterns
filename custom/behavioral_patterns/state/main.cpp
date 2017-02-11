@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Context.h"
-#include"State.h"
+#include <iostream>
+#include "Context.h"
+#include "State.h"
 
 int main(int argc, char* argv[])
 {

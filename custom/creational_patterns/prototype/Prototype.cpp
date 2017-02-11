@@ -1,5 +1,5 @@
-#include"Prototype.h"
-#include<iostream>
+#include "Prototype.h"
+#include <iostream>
 
 Prototype::Prototype() {}
 

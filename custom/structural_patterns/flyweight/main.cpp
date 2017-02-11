@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Flyweight.h"
-#include"Flyweight_factory.h"
+#include <iostream>
+#include "Flyweight.h"
+#include "Flyweight_factory.h"
 
 int main(int argc, char* argv[])
 {

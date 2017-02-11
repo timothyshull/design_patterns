@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Decorator.h"
+#include <iostream>
+#include "Decorator.h"
 
 Component::Component() {}
 

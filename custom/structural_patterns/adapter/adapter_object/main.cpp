@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Adapter.h"
+#include <iostream>
+#include "Adapter.h"
 
 int main(int argc, char* argv[])
 {

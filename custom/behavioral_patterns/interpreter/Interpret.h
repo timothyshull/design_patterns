@@ -1,8 +1,8 @@
 #ifndef DESIGN_PATTERNS_INTERPRET_H
 #define DESIGN_PATTERNS_INTERPRET_H
 
-#include<string>
-#include"Context.h"
+#include <string>
+#include "Context.h"
 
 class Abstract_expression {
 public:

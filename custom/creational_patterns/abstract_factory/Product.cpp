@@ -1,5 +1,5 @@
-#include"Product.h"
-#include<iostream>
+#include "Product.h"
+#include <iostream>
 
 Abstract_product_a::Abstract_product_a() {}
 

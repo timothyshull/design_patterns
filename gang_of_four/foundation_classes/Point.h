@@ -8,7 +8,7 @@ using namespace std;
 
 class Point {
 public:
-    static const Point Zero;
+    static const Point zero;
 
     Point(Coord x = 0.0, Coord y = 0.0);
 

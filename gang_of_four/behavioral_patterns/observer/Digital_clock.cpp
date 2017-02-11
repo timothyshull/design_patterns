@@ -1,6 +1,5 @@
 #include "Digital_clock.h"
 #include "Clock_timer.h"
-#include <iostream>
 
 Digital_clock::Digital_clock(Clock_timer* s)
 {

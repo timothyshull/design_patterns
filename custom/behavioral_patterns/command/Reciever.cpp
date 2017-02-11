@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Reciever.h"
+#include <iostream>
+#include "Reciever.h"
 
 Reciever::Reciever() {}
 

@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Context.h"
-#include"Interpret.h"
+#include <iostream>
+#include "Context.h"
+#include "Interpret.h"
 
 int main(int argc, char* argv[])
 {

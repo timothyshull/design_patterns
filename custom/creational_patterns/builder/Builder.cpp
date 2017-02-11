@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Builder.h"
-#include"Product.h"
+#include <iostream>
+#include "Builder.h"
+#include "Product.h"
 
 Builder::Builder() {}
 

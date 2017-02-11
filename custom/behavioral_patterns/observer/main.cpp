@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Subject.h"
-#include"Observer.h"
+#include <iostream>
+#include "Subject.h"
+#include "Observer.h"
 
 int main(int argc, char* argv[])
 {

@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Command.h"
-#include"Reciever.h"
+#include <iostream>
+#include "Command.h"
+#include "Reciever.h"
 
 Command::Command() {}
 

@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Template.h"
+#include <iostream>
+#include "Template.h"
 
 Abstract_class::Abstract_class() {}
 

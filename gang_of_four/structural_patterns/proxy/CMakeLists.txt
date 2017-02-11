@@ -2,9 +2,9 @@ include_directories(../../foundation_classes)
 
 set(proxy_SRCS
         Graphic.cpp
-        TextDocument.cpp
+        Text_document.cpp
         Image.cpp
-        ImageProxy.cpp)
+        Image_proxy.cpp)
 
 add_executable(proxy main.cpp)
 add_library(proxylib SHARED ${proxy_SRCS})

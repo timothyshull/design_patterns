@@ -2,6 +2,7 @@ include_directories(../behavioral_patterns/iterator)
 
 set(foundation_classes_SRCS
         Coord.cpp
+        Event.cpp
         Point.cpp
         Rect.cpp)
 

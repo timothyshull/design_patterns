@@ -3,11 +3,11 @@
 
 #include "Graphic.h"
 
-class TextDocument {
+class Text_document {
 public:
-    TextDocument();
+    Text_document();
 
-    void Insert(Graphic*);
+    void insert(Graphic*);
     // ...
 };
 

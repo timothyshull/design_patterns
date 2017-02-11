@@ -1,7 +1,7 @@
-#include<iostream>
-#include<string>
-#include"Observer.h"
-#include"Subject.h"
+#include <iostream>
+#include <string>
+#include "Observer.h"
+#include "Subject.h"
 
 Observer::Observer()
 {

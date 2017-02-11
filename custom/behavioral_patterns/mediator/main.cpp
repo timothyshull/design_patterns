@@ -1,6 +1,6 @@
-#include<iostream>
-#include"Mediator.h"
-#include"Colleague.h"
+#include <iostream>
+#include "Mediator.h"
+#include "Colleague.h"
 
 int main(int argc, char* argv[])
 {

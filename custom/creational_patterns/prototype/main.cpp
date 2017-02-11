@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Prototype.h"
+#include <iostream>
+#include "Prototype.h"
 
 int main(int argc, char* argv[])
 {

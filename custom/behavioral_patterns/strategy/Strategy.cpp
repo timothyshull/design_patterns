@@ -1,5 +1,5 @@
-#include<iostream>
-#include"Strategy.h"
+#include <iostream>
+#include "Strategy.h"
 
 Strategy::Strategy() {}
 

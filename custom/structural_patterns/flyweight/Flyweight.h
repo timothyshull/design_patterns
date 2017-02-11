@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATTERNS_FLYWEIGHT_H
 #define DESIGN_PATTERNS_FLYWEIGHT_H
 
-#include<string>
+#include <string>
 
 class Flyweight {
 public:

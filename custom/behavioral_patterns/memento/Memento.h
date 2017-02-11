@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATTERNS_MEMENTO_H
 #define DESIGN_PATTERNS_MEMENTO_H
 
-#include<string>
+#include <string>
 
 class Memento;
 

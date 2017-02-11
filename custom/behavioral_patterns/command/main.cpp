@@ -1,7 +1,7 @@
-#include<iostream>
-#include"Command.h"
-#include"Invoker.h"
-#include"Reciever.h"
+#include <iostream>
+#include "Command.h"
+#include "Invoker.h"
+#include "Reciever.h"
 
 int main(int argc, char* argv[])
 {

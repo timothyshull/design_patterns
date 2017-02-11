@@ -1,8 +1,8 @@
 #ifndef DESIGN_PATTERNS_COMPOSITE_H
 #define DESIGN_PATTERNS_COMPOSITE_H
 
-#include<vector>
-#include"Component.h"
+#include <vector>
+#include "Component.h"
 
 class Composite : public Component {
 public:

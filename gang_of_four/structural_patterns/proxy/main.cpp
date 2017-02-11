@@ -1,9 +1,11 @@
-#include "TextDocument.h"
-#include "ImageProxy.h"
+#include "Text_document.h"
+#include "Image_proxy.h"
 
 int main()
 {
-    TextDocument* text = new TextDocument();
+    Text_document* text = new Text_document();
     // ...
-    text->Insert(new ImageProxy("anImageFileName"));
+    text->insert(new Image_proxy("image_filename.jpg"));
+
+    return 0;
 }

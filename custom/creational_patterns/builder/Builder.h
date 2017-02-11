@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATTERNS_BUILDER_H
 #define DESIGN_PATTERNS_BUILDER_H
 
-#include<string>
+#include <string>
 
 class Product;
 
