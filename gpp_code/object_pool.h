@@ -1,5 +1,5 @@
-#ifndef GPP_OBJECT_POOL
-#define GPP_OBJECT_POOL
+#ifndef GPP_OBJECT_POOL_H
+#define GPP_OBJECT_POOL_H
 
 #include <iostream>
 
@@ -320,4 +320,4 @@ void TestParticlePool()
     // pool.update();
 }
 
-#endif // GPP_OBJECT_POOL
+#endif // GPP_OBJECT_POOL_H

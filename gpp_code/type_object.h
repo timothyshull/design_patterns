@@ -1,5 +1,5 @@
-#ifndef GPP_TYPE_OBJECT
-#define GPP_TYPE_OBJECT
+#ifndef GPP_TYPE_OBJECT_H
+#define GPP_TYPE_OBJECT_H
 
 #include "common.h"
 
@@ -280,4 +280,4 @@ namespace OverrideAttack {
     //^12
 }
 
-#endif // GPP_TYPE_OBJECT
+#endif // GPP_TYPE_OBJECT_H

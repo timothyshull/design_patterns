@@ -1,5 +1,5 @@
-#ifndef GPP_SERVICE_LOCATOR
-#define GPP_SERVICE_LOCATOR
+#ifndef GPP_SERVICE_LOCATOR_H
+#define GPP_SERVICE_LOCATOR_H
 
 #include <iostream>
 
@@ -239,4 +239,4 @@ namespace Version5 {
     //^13
 }
 
-#endif // GPP_SERVICE_LOCATOR
+#endif // GPP_SERVICE_LOCATOR_H

@@ -1,5 +1,5 @@
-#ifndef GPP_SPATIAL_PARTITION
-#define GPP_SPATIAL_PARTITION
+#ifndef GPP_SPATIAL_PARTITION_H
+#define GPP_SPATIAL_PARTITION_H
 
 #include <vector>
 #include "expect.h"
@@ -539,4 +539,4 @@ namespace SpatialPartition {
     }
 }
 
-#endif // GPP_SPATIAL_PARTITION
+#endif // GPP_SPATIAL_PARTITION_H

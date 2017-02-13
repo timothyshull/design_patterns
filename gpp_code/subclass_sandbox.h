@@ -1,5 +1,5 @@
-#ifndef GPP_SUBCLASS_SANDBOX
-#define GPP_SUBCLASS_SANDBOX
+#ifndef GPP_SUBCLASS_SANDBOX_H
+#define GPP_SUBCLASS_SANDBOX_H
 
 typedef int SoundId;
 
@@ -308,4 +308,4 @@ namespace UseServiceLocator {
     //^12
 }
 
-#endif // GPP_SUBCLASS_SANDBOX
+#endif // GPP_SUBCLASS_SANDBOX_H

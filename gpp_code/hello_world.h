@@ -1,5 +1,5 @@
-#ifndef GPP_HELLO_WORLD
-#define GPP_HELLO_WORLD
+#ifndef GPP_HELLO_WORLD_H
+#define GPP_HELLO_WORLD_H
 
 #include <iostream>
 
@@ -16,4 +16,4 @@ public:
     //^1
 };
 
-#endif // GPP_HELLO_WORLD
+#endif // GPP_HELLO_WORLD_H
