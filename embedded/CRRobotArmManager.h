@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CRROBOTARMMANAGER_H
-#define DESIGN_PATTERNS_CRROBOTARMMANAGER_H
+#ifndef CRROBOTARMMANAGER_H
+#define CRROBOTARMMANAGER_H
 
 struct CRDisplay;
 struct RobotArm;
@@ -37,4 +37,4 @@ void CRRobotArmManager_setItsUserInput(CRRobotArmManager* const me, struct UserI
 
 CRRobotArmManager* CRRobotArmManager_Create(void);
 
-#endif // DESIGN_PATTERNS_CRROBOTARMMANAGER_H
+#endif // CRROBOTARMMANAGER_H

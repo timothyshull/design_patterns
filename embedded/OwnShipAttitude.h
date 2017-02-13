@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_OWNSHIPATTITUDE_H
-#define DESIGN_PATTERNS_OWNSHIPATTITUDE_H
+#ifndef OWNSHIPATTITUDE_H
+#define OWNSHIPATTITUDE_H
 
 #include "AttitudeDataType.h"
 
@@ -34,4 +34,4 @@ OwnShipAttitude* OwnShipAttitude_Create(void);
 
 void OwnShipAttitude_Destroy(OwnShipAttitude* const me);
 
-#endif // DESIGN_PATTERNS_OWNSHIPATTITUDE_H
+#endif // OWNSHIPATTITUDE_H

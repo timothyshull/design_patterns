@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_NONUMBERSTATE_H
-#define DESIGN_PATTERNS_NONUMBERSTATE_H
+#ifndef NONUMBERSTATE_H
+#define NONUMBERSTATE_H
 
 #include "StatePattern.h"
 #include "StateActionSet.h"
@@ -41,4 +41,4 @@ NoNumberState* NoNumberState_Create(void);
 
 void NoNumberState_Destroy(NoNumberState* const me);
 
-#endif // DESIGN_PATTERNS_NONUMBERSTATE_H
+#endif // NONUMBERSTATE_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_LIGHTPKG_H
-#define DESIGN_PATTERNS_LIGHTPKG_H
+#ifndef LIGHTPKG_H
+#define LIGHTPKG_H
 
 struct AndStateList;
 struct DecompBuilder;
@@ -54,4 +54,4 @@ typedef int (* ActionPtr0)(void*);
 /* This action pointer accepts the me object pointer and no other parameters. */
 typedef int (* ActionPtr1)(void*, int);
 
-#endif // DESIGN_PATTERNS_LIGHTPKG_H
+#endif // LIGHTPKG_H

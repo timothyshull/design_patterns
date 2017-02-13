@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SENSORMASTER_H
-#define DESIGN_PATTERNS_SENSORMASTER_H
+#ifndef SENSORMASTER_H
+#define SENSORMASTER_H
 
 #include "Position.h"
 
@@ -67,4 +67,4 @@ SensorMaster* SensorMaster_Create(void);
 
 void SensorMaster_Destroy(SensorMaster* const me);
 
-#endif // DESIGN_PATTERNS_SENSORMASTER_H
+#endif // SENSORMASTER_H

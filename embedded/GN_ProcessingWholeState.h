@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GN_PROCESSINGWHOLESTATE_H
-#define DESIGN_PATTERNS_GN_PROCESSINGWHOLESTATE_H
+#ifndef GN_PROCESSINGWHOLESTATE_H
+#define GN_PROCESSINGWHOLESTATE_H
 
 #include "StatePattern.h"
 #include "StateActionSet.h"
@@ -41,4 +41,4 @@ GN_ProcessingWholeState* GN_ProcessingWholeState_Create(void);
 
 void GN_ProcessingWholeState_Destroy(GN_ProcessingWholeState* const me);
 
-#endif // DESIGN_PATTERNS_GN_PROCESSINGWHOLESTATE_H
+#endif // GN_PROCESSINGWHOLESTATE_H

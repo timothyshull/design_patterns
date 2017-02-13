@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_VELOCITYSENSOR_H
-#define DESIGN_PATTERNS_VELOCITYSENSOR_H
+#ifndef VELOCITYSENSOR_H
+#define VELOCITYSENSOR_H
 
 /* brings in the error codes */
 #include "OrderedLockingExample.h"
@@ -43,4 +43,4 @@ VelocitySensor* VelocitySensor_Create(void);
 
 void VelocitySensor_Destroy(VelocitySensor* const me);
 
-#endif // DESIGN_PATTERNS_VELOCITYSENSOR_H
+#endif // VELOCITYSENSOR_H

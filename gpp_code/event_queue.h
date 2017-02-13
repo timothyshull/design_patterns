@@ -1,5 +1,5 @@
-#ifndef CPP_EVENT_QUEUE_H
-#define CPP_EVENT_QUEUE_H
+#ifndef GPP_EVENT_QUEUE_H
+#define GPP_EVENT_QUEUE_H
 
 namespace EventQueue {
     typedef int ResourceId;
@@ -369,4 +369,4 @@ namespace EventQueue {
         };
     }
 }
-#endif // CPP_EVENT_QUEUE_H
+#endif // GPP_EVENT_QUEUE_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_THERMOMETER_H
-#define DESIGN_PATTERNS_THERMOMETER_H
+#ifndef THERMOMETER_H
+#define THERMOMETER_H
 
 struct CheckTemperature;
 struct FurnaceController;
@@ -39,4 +39,4 @@ struct CheckTemperature* Thermometer_getItsCheckTemperature_1(const Thermometer*
 
 void Thermometer_setItsCheckTemperature_1(Thermometer* const me, struct CheckTemperature* p_CheckTemperature);
 
-#endif // DESIGN_PATTERNS_THERMOMETER_H
+#endif // THERMOMETER_H

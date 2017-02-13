@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CHECKTEMPERATURE_H
-#define DESIGN_PATTERNS_CHECKTEMPERATURE_H
+#ifndef CHECKTEMPERATURE_H
+#define CHECKTEMPERATURE_H
 
 struct FurnaceController;
 
@@ -26,4 +26,4 @@ CheckTemperature* CheckTemperature_Create(void);
 
 void CheckTemperature_Destroy(CheckTemperature* const me);
 
-#endif // DESIGN_PATTERNS_CHECKTEMPERATURE_H
+#endif // CHECKTEMPERATURE_H

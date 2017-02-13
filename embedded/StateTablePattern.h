@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STATETABLEPATTERN_H
-#define DESIGN_PATTERNS_STATETABLEPATTERN_H
+#ifndef STATETABLEPATTERN_H
+#define STATETABLEPATTERN_H
 
 typedef enum TSTATETYPE {
     NULL_STATE,
@@ -47,4 +47,4 @@ typedef struct TableEntryType {
 /* digit returns an int value of the char That is: return c-'0' */
 int digit(char c);
 
-#endif // DESIGN_PATTERNS_STATETABLEPATTERN_H
+#endif // STATETABLEPATTERN_H

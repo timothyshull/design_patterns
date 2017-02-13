@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASDATAQUEUE_H
-#define DESIGN_PATTERNS_GASDATAQUEUE_H
+#ifndef GASDATAQUEUE_H
+#define GASDATAQUEUE_H
 
 #include "GasDataExample.h"
 
@@ -29,4 +29,4 @@ GasDataQueue* GasDataQueue_Create(void);
 
 void GasDataQueue_Destroy(GasDataQueue* const me);
 
-#endif // DESIGN_PATTERNS_GASDATAQUEUE_H
+#endif // GASDATAQUEUE_H

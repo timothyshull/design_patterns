@@ -1,4 +1,6 @@
-#pragma once
+#ifndef GPP_UTILS_H
+#define GPP_UTILS_H
+
 
 #include <algorithm>
 #include <cstdlib>
@@ -74,3 +76,5 @@ void shuffle(T* array, int length)
         array[j] = temp;
     }
 }
+
+#endif // GPP_UTILS_H

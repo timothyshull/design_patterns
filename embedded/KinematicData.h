@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_KINEMATICDATA_H
-#define DESIGN_PATTERNS_KINEMATICDATA_H
+#ifndef KINEMATICDATA_H
+#define KINEMATICDATA_H
 
 #include "GuardedCallExample.h"
 #include "Attitude.h"
@@ -32,4 +32,4 @@ KinematicData* KinematicData_Create(void);
 
 void KinematicData_Destroy(KinematicData* const me);
 
-#endif // DESIGN_PATTERNS_KINEMATICDATA_H
+#endif // KINEMATICDATA_H

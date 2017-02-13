@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_introduction_h
-#define cpp_introduction_h
+#ifndef GPP_INTRODUCTION_H
+#define GPP_INTRODUCTION_H
 
 //^update
 bool update()
@@ -17,4 +17,4 @@ bool update()
 }
 //^update
 
-#endif
+#endif // GPP_INTRODUCTION_H

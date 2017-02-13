@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASDATAEXAMPLE_H
-#define DESIGN_PATTERNS_GASDATAEXAMPLE_H
+#ifndef GASDATAEXAMPLE_H
+#define GASDATAEXAMPLE_H
 
 struct GasController;
 struct GasData;
@@ -30,4 +30,4 @@ void OS_lock_semaphore(struct OSSemaphore* sPtr);
 
 void OS_release_semaphore(struct OSSemaphore* sPtr);
 
-#endif // DESIGN_PATTERNS_GASDATAEXAMPLE_H
+#endif // GASDATAEXAMPLE_H

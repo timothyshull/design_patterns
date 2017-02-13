@@ -1,3 +1,6 @@
+#ifndef GPP_DOUBLE_BUFFER_H
+#define GPP_DOUBLE_BUFFER_H
+
 #include <iostream>
 
 #define WHITE 0
@@ -369,3 +372,5 @@ namespace SwapOffset {
     };
     //^13
 }
+
+#endif // GPP_DOUBLE_BUFFER_H

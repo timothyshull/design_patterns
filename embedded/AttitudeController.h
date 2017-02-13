@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ATTITUDECONTROLLER_H
-#define DESIGN_PATTERNS_ATTITUDECONTROLLER_H
+#ifndef ATTITUDECONTROLLER_H
+#define ATTITUDECONTROLLER_H
 
 #include "GuardedCallExample.h"
 #include "Attitude.h"
@@ -29,4 +29,4 @@ AttitudeController* AttitudeController_Create(void);
 
 void AttitudeController_Destroy(AttitudeController* const me);
 
-#endif // DESIGN_PATTERNS_ATTITUDECONTROLLER_H
+#endif // ATTITUDECONTROLLER_H

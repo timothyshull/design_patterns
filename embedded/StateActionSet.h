@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STATEACTIONSET_H
-#define DESIGN_PATTERNS_STATEACTIONSET_H
+#ifndef STATEACTIONSET_H
+#define STATEACTIONSET_H
 
 #include "StatePattern.h"
 
@@ -23,4 +23,4 @@ StateActionSet* StateActionSet_Create(void);
 
 void StateActionSet_Destroy(StateActionSet* const me);
 
-#endif // DESIGN_PATTERNS_STATEACTIONSET_H
+#endif // STATEACTIONSET_H

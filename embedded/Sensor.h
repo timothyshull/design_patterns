@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SENSOR_H
-#define DESIGN_PATTERNS_SENSOR_H
+#ifndef SENSOR_H
+#define SENSOR_H
 
 /*## class Sensor */
 typedef struct Sensor Sensor;
@@ -24,4 +24,4 @@ Sensor* Sensor_Create(void);
 
 void Sensor_Destroy(Sensor* const me);
 
-#endif // DESIGN_PATTERNS_SENSOR_H
+#endif // SENSOR_H

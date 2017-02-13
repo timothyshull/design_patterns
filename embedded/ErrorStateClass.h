@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ERRORSTATECLASS_H
-#define DESIGN_PATTERNS_ERRORSTATECLASS_H
+#ifndef ERRORSTATECLASS_H
+#define ERRORSTATECLASS_H
 
 #include "LightPkg.h"
 #include "StateActionSet.h"
@@ -42,4 +42,4 @@ ErrorStateClass* ErrorStateClass_Create(void);
 
 void ErrorStateClass_Destroy(ErrorStateClass* const me);
 
-#endif // DESIGN_PATTERNS_ERRORSTATECLASS_H
+#endif // ERRORSTATECLASS_H

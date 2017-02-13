@@ -1,5 +1,5 @@
-#ifndef cpp_bytecode_h
-#define cpp_bytecode_h
+#ifndef GPP_BYTECODE_H
+#define GPP_BYTECODE_H
 
 #include "common.h"
 
@@ -342,4 +342,4 @@ namespace Bytecode {
     }
 }
 
-#endif
+#endif // GPP_BYTECODE_H

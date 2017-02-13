@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_POSITION_H
-#define DESIGN_PATTERNS_POSITION_H
+#ifndef POSITION_H
+#define POSITION_H
 
 #include "GuardedCallExample.h"
 
@@ -36,4 +36,4 @@ Position* Position_Create(void);
 
 void Position_Destroy(Position* const me);
 
-#endif // DESIGN_PATTERNS_POSITION_H
+#endif // POSITION_H

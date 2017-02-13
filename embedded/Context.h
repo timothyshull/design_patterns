@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CONTEXT_H
-#define DESIGN_PATTERNS_CONTEXT_H
+#ifndef CONTEXT_H
+#define CONTEXT_H
 
 #include "StatePattern.h"
 #include "GN_ProcessingFractionState.h"
@@ -42,4 +42,4 @@ Context* Context_Create(void);
 
 void Context_Destroy(Context* const me);
 
-#endif // DESIGN_PATTERNS_CONTEXT_H
+#endif // CONTEXT_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_THREADBARRIER_H
-#define DESIGN_PATTERNS_THREADBARRIER_H
+#ifndef THREADBARRIER_H
+#define THREADBARRIER_H
 
 /*# # auto_generated */
 #include <oxf/Ric.h>
@@ -32,4 +32,4 @@ ThreadBarrier* ThreadBarrier_Create(void);
 
 void ThreadBarrier_Destroy(ThreadBarrier* const me);
 
-#endif // DESIGN_PATTERNS_THREADBARRIER_H
+#endif // THREADBARRIER_H

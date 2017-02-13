@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PATIENTDATACLASS_H
-#define DESIGN_PATTERNS_PATIENTDATACLASS_H
+#ifndef PATIENTDATACLASS_H
+#define PATIENTDATACLASS_H
 
 #include "SmartDataExample.h"
 #include "AlarmManager.h"
@@ -54,4 +54,4 @@ PatientDataClass* PatientDataClass_Create(AlarmManager* errMgr);
 
 void PatientDataClass_Destroy(PatientDataClass* const me);
 
-#endif // DESIGN_PATTERNS_PATIENTDATACLASS_H
+#endif // PATIENTDATACLASS_H

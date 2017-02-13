@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STATEPATTERN_H
-#define DESIGN_PATTERNS_STATEPATTERN_H
+#ifndef STATEPATTERN_H
+#define STATEPATTERN_H
 
 struct Context;
 struct GN_ProcessingFractionState;
@@ -23,4 +23,4 @@ typedef int (* ActionPtr1)(void*, char);
 
 int digit(char c); /* returns c-‘0’ */
 
-#endif // DESIGN_PATTERNS_STATEPATTERN_H
+#endif // STATEPATTERN_H

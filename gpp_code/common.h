@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GPP_COMMON_H
+#define GPP_COMMON_H
 
 // Makes the argument appear to be used so that we don't get an unused
 // variable warning for it. Lets us leave that warning on to catch unintended
@@ -24,3 +25,5 @@ void assert(bool condition)
         exit(1);
     }
 }
+
+#endif // GPP_COMMON_H

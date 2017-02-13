@@ -1,3 +1,6 @@
+#ifndef GPP_SUBCLASS_SANDBOX
+#define GPP_SUBCLASS_SANDBOX
+
 typedef int SoundId;
 
 typedef int ParticleType;
@@ -304,3 +307,5 @@ namespace UseServiceLocator {
     };
     //^12
 }
+
+#endif // GPP_SUBCLASS_SANDBOX

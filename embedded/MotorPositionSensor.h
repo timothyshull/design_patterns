@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MONITORPOSITIONSENSOR_H
-#define DESIGN_PATTERNS_MONITORPOSITIONSENSOR_H
+#ifndef MONITORPOSITIONSENSOR_H
+#define MONITORPOSITIONSENSOR_H
 
 void MotorPositionSensor_Init(void);
 
@@ -11,4 +11,4 @@ void getPosition(void);
 
 void MotorPositionSensor_initRelations(void);
 
-#endif // DESIGN_PATTERNS_MONITORPOSITIONSENSOR_H
+#endif // MONITORPOSITIONSENSOR_H

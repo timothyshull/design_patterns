@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MOTORPROXY_H
-#define DESIGN_PATTERNS_MOTORPROXY_H
+#ifndef MOTORPROXY_H
+#define MOTORPROXY_H
 
 #include "HardwareProxyExample.h"
 #include "MotorData.h"
@@ -48,4 +48,4 @@ MotorProxy* MotorProxy_Create(void);
 
 void MotorProxy_Destroy(MotorProxy* const me);
 
-#endif // DESIGN_PATTERNS_MOTORPROXY_H
+#endif // MOTORPROXY_H

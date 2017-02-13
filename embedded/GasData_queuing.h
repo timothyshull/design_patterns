@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASDATA_QUEUING_H
-#define DESIGN_PATTERNS_GASDATA_QUEUING_H
+#ifndef GASDATA_QUEUING_H
+#define GASDATA_QUEUING_H
 
 #include "QueuingExample.h"
 
@@ -20,4 +20,4 @@ GasData* GasData_Create(void);
 
 void GasData_Destroy(GasData* const me);
 
-#endif // DESIGN_PATTERNS_GASDATA_QUEUING_H
+#endif // GASDATA_QUEUING_H

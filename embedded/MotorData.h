@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MOTORDATA_H
-#define DESIGN_PATTERNS_MOTORDATA_H
+#ifndef MOTORDATA_H
+#define MOTORDATA_H
 
 #include "HardwareProxyExample.h"
 
@@ -19,4 +19,4 @@ struct MotorData {
     unsigned char unknownError;
 };
 
-#endif // DESIGN_PATTERNS_MOTORDATA_H
+#endif // MOTORDATA_H

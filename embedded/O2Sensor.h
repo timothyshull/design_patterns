@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_O2SENSOR_H
-#define DESIGN_PATTERNS_O2SENSOR_H
+#ifndef O2SENSOR_H
+#define O2SENSOR_H
 
 #include "QueuingExample.h"
 
@@ -22,4 +22,4 @@ O2Sensor* O2Sensor_Create(void);
 
 void O2Sensor_Destroy(O2Sensor* const me);
 
-#endif // DESIGN_PATTERNS_O2SENSOR_H
+#endif // O2SENSOR_H

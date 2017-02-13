@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TSREVENTQUEUE_H
-#define DESIGN_PATTERNS_TSREVENTQUEUE_H
+#ifndef TSREVENTQUEUE_H
+#define TSREVENTQUEUE_H
 
 #include "TokenizerAsyncSinglePkg.h"
 
@@ -43,4 +43,4 @@ TSREventQueue* TSREventQueue_Create(void);
 
 void TSREventQueue_Destroy(TSREventQueue* const me);
 
-#endif // DESIGN_PATTERNS_TSREVENTQUEUE_H
+#endif // TSREVENTQUEUE_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASDATA_H
-#define DESIGN_PATTERNS_GASDATA_H
+#ifndef GASDATA_H
+#define GASDATA_H
 
 typedef struct GasData GasData;
 
@@ -18,4 +18,4 @@ GasData* GasData_Create(void);
 
 void GasData_Destroy(GasData* const me);
 
-#endif // DESIGN_PATTERNS_GASDATA_H
+#endif // GASDATA_H

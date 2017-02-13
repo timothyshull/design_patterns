@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ECGMODULE_H
-#define DESIGN_PATTERNS_ECGMODULE_H
+#ifndef ECGMODULE_H
+#define ECGMODULE_H
 
 #include <stdio.h>
 #include "ECGPkg.h"
@@ -34,4 +34,4 @@ ECG_Module* ECG_Module_Create(void);
 
 void ECG_Module_Destroy(ECG_Module* const me);
 
-#endif // DESIGN_PATTERNS_ECGMODULE_H
+#endif // ECGMODULE_H

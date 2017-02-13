@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STATEACTIONSET_LC_H
-#define DESIGN_PATTERNS_STATEACTIONSET_LC_H
+#ifndef STATEACTIONSET_LC_H
+#define STATEACTIONSET_LC_H
 
 #include "LightPkg.h"
 
@@ -27,4 +27,4 @@ StateActionSet* StateActionSet_Create(void);
 
 void StateActionSet_Destroy(StateActionSet* const me);
 
-#endif // DESIGN_PATTERNS_STATEACTIONSET_LC_H
+#endif // STATEACTIONSET_LC_H

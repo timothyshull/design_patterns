@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SMARTDATAEXAMPLE_H
-#define DESIGN_PATTERNS_SMARTDATAEXAMPLE_H
+#ifndef SMARTDATAEXAMPLE_H
+#define SMARTDATAEXAMPLE_H
 
 struct AlarmManager;
 struct PatientDataClass;
@@ -26,4 +26,4 @@ typedef enum ColorType { BLACK,
     WHITE
 } ColorType;
 
-#endif // DESIGN_PATTERNS_SMARTDATAEXAMPLE_H
+#endif // SMARTDATAEXAMPLE_H

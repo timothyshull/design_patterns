@@ -1,3 +1,6 @@
+#ifndef GPP_OBJECT_POOL
+#define GPP_OBJECT_POOL
+
 #include <iostream>
 
 namespace Version1 {
@@ -316,3 +319,5 @@ void TestParticlePool()
     pool.create(2, 0, 1, 1, 10);
     // pool.update();
 }
+
+#endif // GPP_OBJECT_POOL

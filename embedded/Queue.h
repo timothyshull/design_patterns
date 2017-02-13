@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_QUEUE_H
-#define DESIGN_PATTERNS_QUEUE_H
+#ifndef QUEUE_H
+#define QUEUE_H
 
 #define QUEUE_SIZE 10
 
@@ -47,4 +47,4 @@ Queue* Queue_Create(void);
 
 void Queue_Destroy(Queue* const me);
 
-#endif // DESIGN_PATTERNS_QUEUE_H
+#endif // QUEUE_H

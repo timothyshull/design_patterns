@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_state_h
-#define cpp_state_h
+#ifndef GPP_STATE_H
+#define GPP_STATE_H
 
 namespace State {
     enum Input {
@@ -686,4 +686,4 @@ namespace State {
     }
 }
 
-#endif
+#endif // GPP_STATE_H

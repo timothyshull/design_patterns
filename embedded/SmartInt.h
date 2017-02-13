@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SMARTINT_H
-#define DESIGN_PATTERNS_SMARTINT_H
+#ifndef SMARTINT_H
+#define SMARTINT_H
 
 #include "SmartDataExample.h"
 
@@ -55,4 +55,4 @@ SmartInt* SmartInt_Create(int val, int low, int high, struct AlarmManager* errMg
 
 void SmartInt_Destroy(SmartInt* const me);
 
-#endif // DESIGN_PATTERNS_SMARTINT_H
+#endif // SMARTINT_H

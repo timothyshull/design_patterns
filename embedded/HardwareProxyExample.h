@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_HARDWAREPROXYEXAMPLE_H
-#define DESIGN_PATTERNS_HARDWAREPROXYEXAMPLE_H
+#ifndef HARDWAREPROXYEXAMPLE_H
+#define HARDWAREPROXYEXAMPLE_H
 
 struct MotorController;
 struct MotorData;
@@ -12,4 +12,4 @@ typedef enum DirectionType {
     REVERSE
 } DirectionType;
 
-#endif // DESIGN_PATTERNS_HARDWAREPROXYEXAMPLE_H
+#endif // HARDWAREPROXYEXAMPLE_H

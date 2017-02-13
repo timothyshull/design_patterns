@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_BCPERIODICPOLLER_H
-#define DESIGN_PATTERNS_BCPERIODICPOLLER_H
+#ifndef BCPERIODICPOLLER_H
+#define BCPERIODICPOLLER_H
 
 typedef int deviceData;
 
@@ -58,4 +58,4 @@ void BCPeriodicPoller__setItsBCTimer(BCPeriodicPoller* const me, struct BCTimer*
 
 void BCPeriodicPoller__clearItsBCTimer(BCPeriodicPoller* const me);
 
-#endif // DESIGN_PATTERNS_BCPERIODICPOLLER_H
+#endif // BCPERIODICPOLLER_H

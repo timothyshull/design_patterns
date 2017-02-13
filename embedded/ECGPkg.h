@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ECGPKG_H
-#define DESIGN_PATTERNS_ECGPKG_H
+#ifndef ECGPKG_H
+#define ECGPKG_H
 
 #include <stdio.h>
 
@@ -17,4 +17,4 @@ struct WaveformDisplay;
 
 typedef unsigned char boolean;
 
-#endif // DESIGN_PATTERNS_ECGPKG_H
+#endif // ECGPKG_H

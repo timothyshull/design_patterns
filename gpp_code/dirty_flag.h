@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_dirty_flag_h
-#define cpp_dirty_flag_h
+#ifndef GPP_DIRTY_FLAG_H
+#define GPP_DIRTY_FLAG_H
 
 namespace DirtyFlag {
     //^transform
@@ -169,4 +169,4 @@ namespace DirtyFlag {
     }
 }
 
-#endif
+#endif // GPP_DIRTY_FLAG_H

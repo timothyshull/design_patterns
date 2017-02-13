@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_update_method_h
-#define cpp_update_method_h
+#ifndef GPP_UPDATE_METHOD_H
+#define GPP_UPDATE_METHOD_H
 
 namespace UpdateMethod {
     namespace Motivation {
@@ -289,4 +289,4 @@ namespace UpdateMethod {
 
 }
 
-#endif
+#endif // GPP_UPDATE_METHOD_H

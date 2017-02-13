@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ROBOTARMMANAGER_H
-#define DESIGN_PATTERNS_ROBOTARMMANAGER_H
+#ifndef ROBOTARMMANAGER_H
+#define ROBOTARMMANAGER_H
 
 #include "GraspingManipulator.h"
 #include "RotatingArmJoint.h"
@@ -67,4 +67,4 @@ void RobotArmManager_removeItsAction(RobotArmManager* const me, struct Action* p
 
 void RobotArmManager_clearItsAction(RobotArmManager* const me);
 
-#endif // DESIGN_PATTERNS_ROBOTARMMANAGER_H
+#endif // ROBOTARMMANAGER_H

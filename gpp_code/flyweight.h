@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_flyweight_h
-#define cpp_flyweight_h
+#ifndef GPP_FLYWEIGHT_H
+#define GPP_FLYWEIGHT_H
 
 namespace Flyweight {
     class Mesh {};
@@ -257,4 +257,4 @@ namespace Flyweight {
     }
 }
 
-#endif
+#endif // GPP_FLYWEIGHT_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TOKENIZEASYNCSINGLEPKG_H
-#define DESIGN_PATTERNS_TOKENIZEASYNCSINGLEPKG_H
+#ifndef TOKENIZEASYNCSINGLEPKG_H
+#define TOKENIZEASYNCSINGLEPKG_H
 /* this is the size of the event queue */
 #define QSIZE 100
 
@@ -37,4 +37,4 @@ void postSignal(void);
 
 void waitOnSignal(void);
 
-#endif // DESIGN_PATTERNS_TOKENIZEASYNCSINGLEPKG_H
+#endif // TOKENIZEASYNCSINGLEPKG_H

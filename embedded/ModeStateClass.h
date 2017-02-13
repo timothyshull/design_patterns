@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MODESTATECLASS_H
-#define DESIGN_PATTERNS_MODESTATECLASS_H
+#ifndef MODESTATECLASS_H
+#define MODESTATECLASS_H
 
 #include "LightPkg.h"
 #include "StateActionSet.h"
@@ -40,4 +40,4 @@ ModeStateClass* ModeStateClass_Create(void);
 
 void ModeStateClass_Destroy(ModeStateClass* const me);
 
-#endif // DESIGN_PATTERNS_MODESTATECLASS_H
+#endif // MODESTATECLASS_H

@@ -1,5 +1,5 @@
-#ifndef cpp_prototype_h
-#define cpp_prototype_h
+#ifndef GPP_PROTOTYPE_H
+#define GPP_PROTOTYPE_H
 
 namespace PrototypePattern {
     namespace Classes {
@@ -173,4 +173,4 @@ namespace PrototypePattern {
     }
 }
 
-#endif
+#endif // GPP_PROTOTYPE_H

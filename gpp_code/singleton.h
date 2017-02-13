@@ -1,3 +1,6 @@
+#ifndef GPP_SINGLETON_H
+#define GPP_SINGLETON_H
+
 #include <iostream>
 
 namespace Singleton1 {
@@ -329,3 +332,6 @@ namespace Singleton10 {
         //^12
     }
 }
+
+
+#endif // GPP_SINGLETON_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_NOTIFICATIONHANDLE_H
-#define DESIGN_PATTERNS_NOTIFICATIONHANDLE_H
+#ifndef NOTIFICATIONHANDLE_H
+#define NOTIFICATIONHANDLE_H
 
 #include <stdio.h>
 #include "ECGPkg.h"
@@ -24,4 +24,4 @@ NotificationHandle* NotificationHandle_Create(void);
 
 void NotificationHandle_Destroy(NotificationHandle* const me);
 
-#endif // DESIGN_PATTERNS_NOTIFICATIONHANDLE_H
+#endif // NOTIFICATIONHANDLE_H

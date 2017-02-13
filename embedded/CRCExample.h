@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CRCEXAMPLE_H
-#define DESIGN_PATTERNS_CRCEXAMPLE_H
+#ifndef CRCEXAMPLE_H
+#define CRCEXAMPLE_H
 
 struct AlarmManager;
 struct BloodO2Sensor;
@@ -42,4 +42,4 @@ typedef struct PatientDataType {
     double weight;
 } PatientDataType;
 
-#endif // DESIGN_PATTERNS_CRCEXAMPLE_H
+#endif // CRCEXAMPLE_H

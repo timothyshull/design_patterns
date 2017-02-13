@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GN_PROCESSINGFRACTIONSTATE_H
-#define DESIGN_PATTERNS_GN_PROCESSINGFRACTIONSTATE_H
+#ifndef GN_PROCESSINGFRACTIONSTATE_H
+#define GN_PROCESSINGFRACTIONSTATE_H
 
 #include "StatePattern.h"
 #include "StateActionSet.h"
@@ -42,4 +42,4 @@ GN_ProcessingFractionState* GN_ProcessingFractionState_Create(void);
 
 void GN_ProcessingFractionState_Destroy(GN_ProcessingFractionState* const me);
 
-#endif // DESIGN_PATTERNS_GN_PROCESSINGFRACTIONSTATE_H
+#endif // GN_PROCESSINGFRACTIONSTATE_H

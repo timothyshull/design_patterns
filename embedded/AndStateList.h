@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ANDSTATELIST_H
-#define DESIGN_PATTERNS_ANDSTATELIST_H
+#ifndef ANDSTATELIST_H
+#define ANDSTATELIST_H
 
 #include "LightPkg.h"
 struct ErrorStateClass;
@@ -19,4 +19,4 @@ AndStateList* AndStateList_Create(void);
 
 void AndStateList_Destroy(AndStateList* const me);
 
-#endif // DESIGN_PATTERNS_ANDSTATELIST_H
+#endif // ANDSTATELIST_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TMDQUEUE_H
-#define DESIGN_PATTERNS_TMDQUEUE_H
+#ifndef TMDQUEUE_H
+#define TMDQUEUE_H
 
 /*## auto_generated */
 #include <stdio.h>
@@ -39,4 +39,4 @@ TMDQueue* TMDQueue_Create(void);
 
 void TMDQueue_Destroy(TMDQueue* const me);
 
-#endif // DESIGN_PATTERNS_TMDQUEUE_H
+#endif // TMDQUEUE_H

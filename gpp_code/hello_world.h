@@ -1,3 +1,6 @@
+#ifndef GPP_HELLO_WORLD
+#define GPP_HELLO_WORLD
+
 #include <iostream>
 
 class HelloWorld {
@@ -12,3 +15,5 @@ public:
     }
     //^1
 };
+
+#endif // GPP_HELLO_WORLD

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GUARDEDCALLEXAMPLE_H
-#define DESIGN_PATTERNS_GUARDEDCALLEXAMPLE_H
+#ifndef GUARDEDCALLEXAMPLE_H
+#define GUARDEDCALLEXAMPLE_H
 struct Attitude;
 struct AttitudeController;
 struct FlightDataDisplay;
@@ -19,4 +19,4 @@ void OS_lock_semaphore(struct OSSemaphore* sPtr);
 
 void OS_release_semaphore(struct OSSemaphore* sPtr);
 
-#endif // DESIGN_PATTERNS_GUARDEDCALLEXAMPLE_H
+#endif // GUARDEDCALLEXAMPLE_H

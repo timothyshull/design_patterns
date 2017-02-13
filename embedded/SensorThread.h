@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SENSORTHREAD_H
-#define DESIGN_PATTERNS_SENSORTHREAD_H
+#ifndef SENSORTHREAD_H
+#define SENSORTHREAD_H
 
 /* ... initial declaratons stuff above ... */
 typedef struct SensorThread SensorThread;
@@ -15,4 +15,4 @@ struct SensorThread {
 void SensorThread_updateData(SensorThread* const me);
 /* ... other operations here ... */
 
-#endif // DESIGN_PATTERNS_SENSORTHREAD_H
+#endif // SENSORTHREAD_H

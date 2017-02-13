@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_BUTTONDRIVER_H
-#define DESIGN_PATTERNS_BUTTONDRIVER_H
+#ifndef BUTTONDRIVER_H
+#define BUTTONDRIVER_H
 #define LOOPS_PER_MS (1000) #define DEBOUNCE_TIME (40)
 struct Button;
 struct MicrowaveEmitter;
@@ -44,4 +44,4 @@ void ButtonDriver__setItsButton(ButtonDriver* const me, struct Button* p_Button)
 
 void ButtonDriver__clearItsButton(ButtonDriver* const me);
 
-#endif // DESIGN_PATTERNS_BUTTONDRIVER_H
+#endif // BUTTONDRIVER_H

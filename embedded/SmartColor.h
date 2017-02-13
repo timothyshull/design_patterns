@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SMARTCOLOR_H
-#define DESIGN_PATTERNS_SMARTCOLOR_H
+#ifndef SMARTCOLOR_H
+#define SMARTCOLOR_H
 
 #include "SmartDataExample.h"
 #include "SmartInt.h"
@@ -56,4 +56,4 @@ SmartColor* SmartColor_Create(ColorType val, ColorType low, ColorType high, stru
 
 void SmartColor_Destroy(SmartColor* const me);
 
-#endif // DESIGN_PATTERNS_SMARTCOLOR_H
+#endif // SMARTCOLOR_H

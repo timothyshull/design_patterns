@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASSENSOR_H
-#define DESIGN_PATTERNS_GASSENSOR_H
+#ifndef GASSENSOR_H
+#define GASSENSOR_H
 
 #include "GasData.h"
 
@@ -50,4 +50,4 @@ GasSensor* GasSensor_Create(void);
 
 void GasSensor_Destroy(GasSensor* const me);
 
-#endif // DESIGN_PATTERNS_GASSENSOR_H
+#endif // GASSENSOR_H

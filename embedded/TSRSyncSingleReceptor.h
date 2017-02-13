@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TSRSYNCSINGLERECEPTOR_H
-#define DESIGN_PATTERNS_TSRSYNCSINGLERECEPTOR_H
+#ifndef TSRSYNCSINGLERECEPTOR_H
+#define TSRSYNCSINGLERECEPTOR_H
 
 #include <stdio.h>
 #include "TokenizerSyncSingleReceptorPkg.h"
@@ -47,4 +47,4 @@ TokenizerSyncSingleReceptor* TokenizerSyncSingleReceptor_Create(void);
 
 void TokenizerSyncSingleReceptor_Destroy(TokenizerSyncSingleReceptor* const me);
 
-#endif // DESIGN_PATTERNS_TSRSYNCSINGLERECEPTOR_H
+#endif // TSRSYNCSINGLERECEPTOR_H

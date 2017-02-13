@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_FLIGHTDATADISPLAY_H
-#define DESIGN_PATTERNS_FLIGHTDATADISPLAY_H
+#ifndef FLIGHTDATADISPLAY_H
+#define FLIGHTDATADISPLAY_H
 
 #include "GuardedCallExample.h" struct KinematicData;
 
@@ -25,4 +25,4 @@ FlightDataDisplay* FlightDataDisplay_Create(void);
 
 void FlightDataDisplay_Destroy(FlightDataDisplay* const me);
 
-#endif // DESIGN_PATTERNS_FLIGHTDATADISPLAY_H
+#endif // FLIGHTDATADISPLAY_H

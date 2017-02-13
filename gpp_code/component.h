@@ -1,3 +1,6 @@
+#ifndef GPP_COMPONENT_H
+#define GPP_COMPONENT_H
+
 #include <iostream>
 
 #include "common.h"
@@ -568,3 +571,5 @@ namespace ComponentMessaging {
         Component* components_[MAX_COMPONENTS];
     };
 }
+
+#endif // GPP_COMPONENT_H

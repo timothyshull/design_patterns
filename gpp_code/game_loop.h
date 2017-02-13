@@ -1,3 +1,6 @@
+#ifndef GPP_GAME_LOOP
+#define GPP_GAME_LOOP
+
 void processInput() {}
 
 void update() {}
@@ -136,3 +139,5 @@ namespace Interpolate {
         //^7
     }
 }
+
+#endif // GPP_GAME_LOOP

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TOKENIZEMULTIRECEPTOR_H
-#define DESIGN_PATTERNS_TOKENIZEMULTIRECEPTOR_H
+#ifndef TOKENIZEMULTIRECEPTOR_H
+#define TOKENIZEMULTIRECEPTOR_H
 
 #include "TokenizerMultiReceptor.h"
 #include "TokenizerUtility.h"
@@ -53,4 +53,4 @@ struct Mutex* TokenizerMultiReceptor_getItsMutex(const TokenizerMultiReceptor* c
 
 void TokenizerMultiReceptor_setItsMutex(TokenizerMultiReceptor* const me, struct Mutex* p_Mutex);
 
-#endif // DESIGN_PATTERNS_TOKENIZEMULTIRECEPTOR_H
+#endif // TOKENIZEMULTIRECEPTOR_H

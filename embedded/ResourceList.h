@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_RESOURCELIST_H
-#define DESIGN_PATTERNS_RESOURCELIST_H
+#ifndef RESOURCELIST_H
+#define RESOURCELIST_H
 
 #include "OrderedLockingExample.h"
 
@@ -36,4 +36,4 @@ ResourceList* ResourceList_Create(void);
 
 void ResourceList_Destroy(ResourceList* const me);
 
-#endif // DESIGN_PATTERNS_RESOURCELIST_H
+#endif // RESOURCELIST_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASCONTROLLER_SENSOR_THREAD_H
-#define DESIGN_PATTERNS_GASCONTROLLER_SENSOR_THREAD_H
+#ifndef GASCONTROLLER_SENSOR_THREAD_H
+#define GASCONTROLLER_SENSOR_THREAD_H
 
 #include "QueuingExample.h"
 #include "GasData.h"
@@ -28,4 +28,4 @@ GasController* GasController_Create(void);
 
 void GasController_Destroy(GasController* const me);
 
-#endif // DESIGN_PATTERNS_GASCONTROLLER_SENSOR_THREAD_H
+#endif // GASCONTROLLER_SENSOR_THREAD_H

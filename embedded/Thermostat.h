@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_THERMOSTAT_H
-#define DESIGN_PATTERNS_THERMOSTAT_H
+#ifndef THERMOSTAT_H
+#define THERMOSTAT_H
 
 struct FurnaceController;
 
@@ -31,4 +31,4 @@ Thermostat* Thermostat_Create(void);
 
 void Thermostat_Destroy(Thermostat* const me);
 
-#endif // DESIGN_PATTERNS_THERMOSTAT_H
+#endif // THERMOSTAT_H

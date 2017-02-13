@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_NAVIGATOR_H
-#define DESIGN_PATTERNS_NAVIGATOR_H
+#ifndef NAVIGATOR_H
+#define NAVIGATOR_H
 
 #include "GuardedCallExample.h"
 #include "Position.h"
@@ -29,4 +29,4 @@ Navigator* Navigator_Create(void);
 
 void Navigator_Destroy(Navigator* const me);
 
-#endif // DESIGN_PATTERNS_NAVIGATOR_H
+#endif // NAVIGATOR_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CACHEDQUEUE_H
-#define DESIGN_PATTERNS_CACHEDQUEUE_H
+#ifndef CACHEDQUEUE_H
+#define CACHEDQUEUE_H
 
 #include "Queue.h"
 
@@ -58,4 +58,4 @@ CachedQueue* CachedQueue_Create(void);
 
 void CachedQueue_Destroy(CachedQueue* const me);
 
-#endif // DESIGN_PATTERNS_CACHEDQUEUE_H
+#endif // CACHEDQUEUE_H

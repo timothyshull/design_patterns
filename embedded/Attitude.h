@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ATTITUDE_H
-#define DESIGN_PATTERNS_ATTITUDE_H
+#ifndef ATTITUDE_H
+#define ATTITUDE_H
 
 #include "GuardedCallExample.h"
 
@@ -33,4 +33,4 @@ Attitude* Attitude_Create(void);
 
 void Attitude_Destroy(Attitude* const me);
 
-#endif // DESIGN_PATTERNS_ATTITUDE_H
+#endif // ATTITUDE_H

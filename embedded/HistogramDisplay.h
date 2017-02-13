@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_HISTOGRAMDISPLAY_H
-#define DESIGN_PATTERNS_HISTOGRAMDISPLAY_H
+#ifndef HISTOGRAMDISPLAY_H
+#define HISTOGRAMDISPLAY_H
 
 #include <stdio.h>
 #include "ECGPkg.h"
@@ -32,4 +32,4 @@ HistogramDisplay* HistogramDisplay_Create(void);
 
 void HistogramDisplay_Destroy(HistogramDisplay* const me);
 
-#endif // DESIGN_PATTERNS_HISTOGRAMDISPLAY_H
+#endif // HISTOGRAMDISPLAY_H

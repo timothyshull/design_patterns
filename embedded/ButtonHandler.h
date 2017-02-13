@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_BUTTONHANDLER_H
-#define DESIGN_PATTERNS_BUTTONHANDLER_H
+#ifndef BUTTONHANDLER_H
+#define BUTTONHANDLER_H
 
 typedef void (* ButtonVectorPtr)(void);
 
@@ -18,4 +18,4 @@ struct LED* ButtonHandler_getItsLED(void);
 
 void ButtonHandler_setItsLED(struct LED* p_LED);
 
-#endif // DESIGN_PATTERNS_BUTTONHANDLER_H
+#endif // BUTTONHANDLER_H

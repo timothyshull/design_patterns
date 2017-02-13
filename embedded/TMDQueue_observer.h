@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TMDQUEUE_OBSERVER_H
-#define DESIGN_PATTERNS_TMDQUEUE_OBSERVER_H
+#ifndef TMDQUEUE_OBSERVER_H
+#define TMDQUEUE_OBSERVER_H
 
 /*## auto_generated */
 #include <stdio.h>
@@ -51,4 +51,4 @@ TMDQueue* TMDQueue_Create(void);
 
 void TMDQueue_Destroy(TMDQueue* const me);
 
-#endif // DESIGN_PATTERNS_TMDQUEUE_OBSERVER_H
+#endif // TMDQUEUE_OBSERVER_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_LIGHTCONTROLLER_H
-#define DESIGN_PATTERNS_LIGHTCONTROLLER_H
+#ifndef LIGHTCONTROLLER_H
+#define LIGHTCONTROLLER_H
 
 #include "LightPkg.h" #include "AndStateList.h" #include "ErrorStateClass.h" #include "ModeStateClass.h"
 
@@ -71,4 +71,4 @@ LightController* LightController_Create(void);
 
 void LightController_Destroy(LightController* const me);
 
-#endif // DESIGN_PATTERNS_LIGHTCONTROLLER_H
+#endif // LIGHTCONTROLLER_H

@@ -1,7 +1,9 @@
-#include <time.h>
 
-#ifndef cpp_data_locality_h
-#define cpp_data_locality_h
+
+#ifndef GPP_DATA_LOCALITY_H
+#define GPP_DATA_LOCALITY_H
+
+#include <time.h>
 
 // TODO(bob):
 //
@@ -318,4 +320,4 @@ namespace DataLocality {
     }
 }
 
-#endif
+#endif // GPP_DATA_LOCALITY_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TESTBUILDER_H
-#define DESIGN_PATTERNS_TESTBUILDER_H
+#ifndef TESTBUILDER_H
+#define TESTBUILDER_H
 
 #include <stdio.h>
 #include "ECGPkg.h"
@@ -43,4 +43,4 @@ TestBuilder* TestBuilder_Create(void);
 
 void TestBuilder_Destroy(TestBuilder* const me);
 
-#endif // DESIGN_PATTERNS_TESTBUILDER_H
+#endif // TESTBUILDER_H

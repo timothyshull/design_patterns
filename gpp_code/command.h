@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef cpp_command_h
-#define cpp_command_h
+#ifndef GPP_COMMAND_H
+#define GPP_COMMAND_H
 
 namespace CommandPattern {
     enum Button {
@@ -271,4 +271,4 @@ namespace CommandPattern {
     }
 }
 
-#endif
+#endif // GPP_COMMAND_H

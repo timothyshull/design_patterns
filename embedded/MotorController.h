@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MOTORCONTROLLER_H
-#define DESIGN_PATTERNS_MOTORCONTROLLER_H
+#ifndef MOTORCONTROLLER_H
+#define MOTORCONTROLLER_H
 
 void MotorController_Init(void);
 
@@ -13,4 +13,4 @@ void zero(void);
 
 void MotorController_initRelations(void);
 
-#endif // DESIGN_PATTERNS_MOTORCONTROLLER_H
+#endif // MOTORCONTROLLER_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_GASDISPLAY_H
-#define DESIGN_PATTERNS_GASDISPLAY_H
+#ifndef GASDISPLAY_H
+#define GASDISPLAY_H
 
 typedef struct GasDisplay GasDisplay;
 
@@ -19,4 +19,4 @@ GasDisplay* GasDisplay_Create(void);
 
 void GasDisplay_Destroy(GasDisplay* const me);
 
-#endif // DESIGN_PATTERNS_GASDISPLAY_H
+#endif // GASDISPLAY_H

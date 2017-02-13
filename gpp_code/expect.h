@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Bob Nystrom. All rights reserved.
 //
 
-#ifndef gpp_expect_h
-#define gpp_expect_h
+#ifndef GPP_EXPECT_H
+#define GPP_EXPECT_H
+
+#include <iostream>
 
 #define EXPECT(condition) \
 expect_(__FILE__, __LINE__, #condition, condition)
@@ -27,4 +29,4 @@ static void expect_(const char* file, int line,
     }
 }
 
-#endif
+#endif // GPP_EXPECT_H

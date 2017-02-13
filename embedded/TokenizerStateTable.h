@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TOKENIZERSTATETABLE_H
-#define DESIGN_PATTERNS_TOKENIZERSTATETABLE_H
+#ifndef TOKENIZERSTATETABLE_H
+#define TOKENIZERSTATETABLE_H
 
 #include "StateTablePattern.h" struct Mutex;
 
@@ -59,4 +59,4 @@ void TokenizerStateTable_Frac2Frac(TokenizerStateTable* const me, char c);
 
 void TokenizerStateTable_printResult(TokenizerStateTable* const me);
 
-#endif // DESIGN_PATTERNS_TOKENIZERSTATETABLE_H
+#endif // TOKENIZERSTATETABLE_H

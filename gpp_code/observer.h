@@ -1,5 +1,5 @@
-#ifndef observer_h
-#define observer_h
+#ifndef GPP_OBSERVER_H
+#define GPP_OBSERVER_H
 
 namespace ObserverPattern {
     using namespace std;
@@ -695,4 +695,4 @@ namespace ObserverPattern {
     }
 }
 
-#endif
+#endif // GPP_OBSERVER_H

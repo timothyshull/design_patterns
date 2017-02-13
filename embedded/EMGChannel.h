@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_EMGCHANNEL_H
-#define DESIGN_PATTERNS_EMGCHANNEL_H
+#ifndef EMGCHANNEL_H
+#define EMGCHANNEL_H
 
 #include "CalculateColor.h"
 #include "ConvertToFrequency.h"
@@ -47,4 +47,4 @@ EMGChannel* EMGChannel_Create(void);
 
 void EMGChannel_Destroy(EMGChannel* const me);
 
-#endif // DESIGN_PATTERNS_EMGCHANNEL_H
+#endif // EMGCHANNEL_H

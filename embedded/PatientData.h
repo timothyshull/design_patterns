@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PATIENTDATA_H
-#define DESIGN_PATTERNS_PATIENTDATA_H
+#ifndef PATIENTDATA_H
+#define PATIENTDATA_H
 
 #include "CRCExample.h"
 
@@ -66,4 +66,4 @@ PatientData* PatientData_Create(void);
 
 void PatientData_Destroy(PatientData* const me);
 
-#endif // DESIGN_PATTERNS_PATIENTDATA_H
+#endif // PATIENTDATA_H

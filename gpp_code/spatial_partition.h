@@ -1,3 +1,6 @@
+#ifndef GPP_SPATIAL_PARTITION
+#define GPP_SPATIAL_PARTITION
+
 #include <vector>
 #include "expect.h"
 
@@ -535,3 +538,5 @@ namespace SpatialPartition {
         FixedGrid::test();
     }
 }
+
+#endif // GPP_SPATIAL_PARTITION

@@ -1,3 +1,6 @@
+#ifndef GPP_SERVICE_LOCATOR
+#define GPP_SERVICE_LOCATOR
+
 #include <iostream>
 
 class AudioSystem {
@@ -235,3 +238,5 @@ namespace Version5 {
     }
     //^13
 }
+
+#endif // GPP_SERVICE_LOCATOR

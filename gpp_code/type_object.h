@@ -1,3 +1,6 @@
+#ifndef GPP_TYPE_OBJECT
+#define GPP_TYPE_OBJECT
+
 #include "common.h"
 
 namespace Subclasses {
@@ -276,3 +279,5 @@ namespace OverrideAttack {
     }
     //^12
 }
+
+#endif // GPP_TYPE_OBJECT
