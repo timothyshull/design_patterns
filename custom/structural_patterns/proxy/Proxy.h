@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PROXY_H
-#define DESIGN_PATTERNS_PROXY_H
+#ifndef PROXY_H
+#define PROXY_H
 
 class Subject {
 public:
@@ -34,4 +34,4 @@ private:
     Subject* _sub;
 };
 
-#endif //DESIGN_PATTERNS_PROXY_H
+#endif //PROXY_H

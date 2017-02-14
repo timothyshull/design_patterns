@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SUBJECT_H
-#define DESIGN_PATTERNS_SUBJECT_H
+#ifndef SUBJECT_H
+#define SUBJECT_H
 
 #include <list>
 #include <string>
@@ -43,4 +43,4 @@ private:
     State _st;
 };
 
-#endif //DESIGN_PATTERNS_SUBJECT_H
+#endif //SUBJECT_H

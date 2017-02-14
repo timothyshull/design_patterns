@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STATE_H
-#define DESIGN_PATTERNS_STATE_H
+#ifndef STATE_H
+#define STATE_H
 
 class Context;
 
@@ -39,4 +39,4 @@ public:
     virtual void operation_change_state(Context*);
 };
 
-#endif //DESIGN_PATTERNS_STATE_H
+#endif //STATE_H

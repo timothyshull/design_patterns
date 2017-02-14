@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_STRATEGY_H
-#define DESIGN_PATTERNS_STRATEGY_H
+#ifndef STRATEGY_H
+#define STRATEGY_H
 
 class Strategy {
 public:
@@ -28,4 +28,4 @@ public:
     void algorithm_interface();
 };
 
-#endif //DESIGN_PATTERNS_STRATEGY_H
+#endif //STRATEGY_H

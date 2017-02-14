@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PRODUCT_H
-#define DESIGN_PATTERNS_PRODUCT_H
+#ifndef PRODUCT_H
+#define PRODUCT_H
 
 class Abstract_product_a {
 public:
@@ -57,4 +57,4 @@ public:
     void show();
 };
 
-#endif //DESIGN_PATTERNS_PRODUCT_H
+#endif //PRODUCT_H

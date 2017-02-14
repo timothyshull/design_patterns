@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CONTEXT_H
-#define DESIGN_PATTERNS_CONTEXT_H
+#ifndef CONTEXT_H
+#define CONTEXT_H
 
 class State;
 
@@ -24,4 +24,4 @@ private:
     State* _state;
 };
 
-#endif //DESIGN_PATTERNS_CONTEXT_H
+#endif //CONTEXT_H

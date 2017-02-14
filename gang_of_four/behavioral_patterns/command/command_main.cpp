@@ -4,8 +4,9 @@
 
 int main()
 {
-    My_class* receiver{new My_class};
-    Command* command{new Simple_command<My_class>(receiver, &My_class::action)};
-    command->execute();
+    My_class receiver;
+    Simple_command<My_class> simple_command{&receiver, &My_class::action};
+    Command& command = simple_command;
+    command.execute();
     return 0;
 }

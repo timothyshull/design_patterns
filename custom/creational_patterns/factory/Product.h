@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PRODUCT_H
-#define DESIGN_PATTERNS_PRODUCT_H
+#ifndef PRODUCT_H
+#define PRODUCT_H
 
 class Product {
 public:
@@ -16,4 +16,4 @@ public:
     ConcreteProduct();
 };
 
-#endif //DESIGN_PATTERNS_PRODUCT_H
+#endif //PRODUCT_H

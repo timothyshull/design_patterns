@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_FLYWEIGHT_H
-#define DESIGN_PATTERNS_FLYWEIGHT_H
+#ifndef FLYWEIGHT_H
+#define FLYWEIGHT_H
 
 #include <string>
 
@@ -28,4 +28,4 @@ public:
     void operation(const std::string& extrinsic_state);
 };
 
-#endif //DESIGN_PATTERNS_FLYWEIGHT_H
+#endif //FLYWEIGHT_H

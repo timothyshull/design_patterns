@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_FLYWEIGHT_FACTORY_H
-#define DESIGN_PATTERNS_FLYWEIGHT_FACTORY_H
+#ifndef FLYWEIGHT_FACTORY_H
+#define FLYWEIGHT_FACTORY_H
 
 #include <string>
 #include <vector>
@@ -17,4 +17,4 @@ private:
     std::vector<Flyweight*> _fly;
 };
 
-#endif //DESIGN_PATTERNS_FLYWEIGHT_FACTORY_H
+#endif //FLYWEIGHT_FACTORY_H

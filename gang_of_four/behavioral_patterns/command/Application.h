@@ -1,7 +1,7 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
-class Document;
+#include "Document.h"
 
 class Application {
 public:

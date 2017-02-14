@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_FACADE_H
-#define DESIGN_PATTERNS_FACADE_H
+#ifndef FACADE_H
+#define FACADE_H
 
 class Subsystem_1 {
 public:
@@ -32,4 +32,4 @@ private:
     Subsystem_2* _subs2;
 };
 
-#endif //DESIGN_PATTERNS_FACADE_H
+#endif //FACADE_H

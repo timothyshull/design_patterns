@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ABSTRACTION_IMPL_H
-#define DESIGN_PATTERNS_ABSTRACTION_IMPL_H
+#ifndef ABSTRACTION_IMPL_H
+#define ABSTRACTION_IMPL_H
 
 class Abstraction_impl {
 public:
@@ -29,4 +29,4 @@ public:
     virtual void operation();
 };
 
-#endif //DESIGN_PATTERNS_ABSTRACTION_IMPL_H
+#endif //ABSTRACTION_IMPL_H

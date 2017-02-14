@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_DECORATOR_H
-#define DESIGN_PATTERNS_DECORATOR_H
+#ifndef DECORATOR_H
+#define DECORATOR_H
 
 class Component {
 public:
@@ -43,4 +43,4 @@ public:
     void added_behavior();
 };
 
-#endif //DESIGN_PATTERNS_DECORATOR_H
+#endif //DECORATOR_H

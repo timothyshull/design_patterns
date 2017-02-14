@@ -1,13 +1,13 @@
-#ifndef DESIGN_PATTERNS_INVOKER_H
-#define DESIGN_PATTERNS_INVOKER_H
+#ifndef INVOKER_H
+#define INVOKER_H
 
 class Command;
 
 class Invoker {
 public:
-    Invoker(Command* cmd);
+    Invoker(Command& cmd);
 
-    ~Invoker();
+    ~Invoker() = default;
 
     void invoke();
 
@@ -15,4 +15,4 @@ private:
     Command* _cmd;
 };
 
-#endif //DESIGN_PATTERNS_INVOKER_H
+#endif //INVOKER_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_AGGREGATE_H
-#define DESIGN_PATTERNS_AGGREGATE_H
+#ifndef AGGREGATE_H
+#define AGGREGATE_H
 
 class Iterator;
 
@@ -39,4 +39,4 @@ private:
     Object _objs[SIZE];
 };
 
-#endif //DESIGN_PATTERNS_AGGREGATE_H
+#endif //AGGREGATE_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ITERATOR_H
-#define DESIGN_PATTERNS_ITERATOR_H
+#ifndef ITERATOR_H
+#define ITERATOR_H
 
 class Aggregate;
 
@@ -40,4 +40,4 @@ private:
     int _idx;
 };
 
-#endif //DESIGN_PATTERNS_ITERATOR_H
+#endif //ITERATOR_H

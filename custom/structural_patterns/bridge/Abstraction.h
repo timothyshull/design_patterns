@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ABSTRACTION_H
-#define DESIGN_PATTERNS_ABSTRACTION_H
+#ifndef ABSTRACTION_H
+#define ABSTRACTION_H
 
 class Abstraction_impl;
 
@@ -29,4 +29,4 @@ private:
     Abstraction_impl* _imp;
 };
 
-#endif //DESIGN_PATTERNS_ABSTRACTION_H
+#endif //ABSTRACTION_H

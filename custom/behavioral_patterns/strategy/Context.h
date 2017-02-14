@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_CONTEXT_H
-#define DESIGN_PATTERNS_CONTEXT_H
+#ifndef CONTEXT_H
+#define CONTEXT_H
 
 class Strategy;
 
@@ -15,4 +15,4 @@ private:
     Strategy* _stg;
 };
 
-#endif //DESIGN_PATTERNS_CONTEXT_H
+#endif //CONTEXT_H

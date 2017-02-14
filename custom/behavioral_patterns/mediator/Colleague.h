@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_COLLAGE_H
-#define DESIGN_PATTERNS_COLLAGE_H
+#ifndef COLLAGE_H
+#define COLLAGE_H
 
 #include <string>
 
@@ -59,4 +59,4 @@ private:
     std::string _sdt;
 };
 
-#endif //DESIGN_PATTERNS_COLLAGE_H
+#endif //COLLAGE_H

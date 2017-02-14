@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_OBSERVER_H
-#define DESIGN_PATTERNS_OBSERVER_H
+#ifndef OBSERVER_H
+#define OBSERVER_H
 
 #include <string>
 #include "Subject.h"
@@ -52,4 +52,4 @@ private:
     Subject* _sub;
 };
 
-#endif //DESIGN_PATTERNS_OBSERVER_H
+#endif //OBSERVER_H

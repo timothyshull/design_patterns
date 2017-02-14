@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ADAPTER_CLASS_H
-#define DESIGN_PATTERNS_ADAPTER_CLASS_H
+#ifndef ADAPTER_CLASS_H
+#define ADAPTER_CLASS_H
 
 class Target {
 public:
@@ -28,4 +28,4 @@ public:
     void request();
 };
 
-#endif //DESIGN_PATTERNS_ADAPTER_CLASS_H
+#endif //ADAPTER_CLASS_H

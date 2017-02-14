@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ABSTRACT_FACTORY_H
-#define DESIGN_PATTERNS_ABSTRACT_FACTORY_H
+#ifndef ABSTRACT_FACTORY_H
+#define ABSTRACT_FACTORY_H
 
 class Abstract_product_a;
 
@@ -39,4 +39,4 @@ public:
     Abstract_product_b* create_product_b();
 };
 
-#endif //DESIGN_PATTERNS_ABSTRACT_FACTORY_H
+#endif //ABSTRACT_FACTORY_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ADAPTER_OBJECT_H
-#define DESIGN_PATTERNS_ADAPTER_OBJECT_H
+#ifndef ADAPTER_OBJECT_H
+#define ADAPTER_OBJECT_H
 
 class Target {
 public:
@@ -31,4 +31,4 @@ private:
     Adaptee* _ade;
 };
 
-#endif //DESIGN_PATTERNS_ADAPTER_OBJECT_H
+#endif //ADAPTER_OBJECT_H

@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_FACTORY_H
-#define DESIGN_PATTERNS_FACTORY_H
+#ifndef FACTORY_H
+#define FACTORY_H
 
 class Product;
 
@@ -22,4 +22,4 @@ public:
     Product* create_product();
 };
 
-#endif //DESIGN_PATTERNS_FACTORY_H
+#endif //FACTORY_H

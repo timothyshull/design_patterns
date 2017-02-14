@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_ELEMENT_H
-#define DESIGN_PATTERNS_ELEMENT_H
+#ifndef ELEMENT_H
+#define ELEMENT_H
 
 class Visitor;
 
@@ -31,4 +31,4 @@ public:
     void accept(Visitor* vis);
 };
 
-#endif //DESIGN_PATTERNS_ELEMENT_H
+#endif //ELEMENT_H

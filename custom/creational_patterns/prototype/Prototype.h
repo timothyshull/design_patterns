@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_PROTOTYPE_H
-#define DESIGN_PATTERNS_PROTOTYPE_H
+#ifndef PROTOTYPE_H
+#define PROTOTYPE_H
 
 class Prototype {
 public:
@@ -22,4 +22,4 @@ public:
     Prototype* clone() const;
 };
 
-#endif //DESIGN_PATTERNS_PROTOTYPE_H
+#endif //PROTOTYPE_H

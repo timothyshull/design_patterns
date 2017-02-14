@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_COMPONENT_H
-#define DESIGN_PATTERNS_COMPONENT_H
+#ifndef COMPONENT_H
+#define COMPONENT_H
 
 class Component {
 public:
@@ -17,4 +17,4 @@ public:
     virtual Component* get_child(int);
 };
 
-#endif //DESIGN_PATTERNS_COMPONENT_H
+#endif //COMPONENT_H

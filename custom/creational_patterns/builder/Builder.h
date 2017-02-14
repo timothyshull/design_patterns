@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_BUILDER_H
-#define DESIGN_PATTERNS_BUILDER_H
+#ifndef BUILDER_H
+#define BUILDER_H
 
 #include <string>
 
@@ -36,4 +36,4 @@ public:
     Product* get_product();
 };
 
-#endif //DESIGN_PATTERNS_BUILDER_H
+#endif //BUILDER_H

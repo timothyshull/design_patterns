@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_TEMPLATE_H
-#define DESIGN_PATTERNS_TEMPLATE_H
+#ifndef TEMPLATE_H
+#define TEMPLATE_H
 
 class Abstract_class {
 public:
@@ -39,4 +39,4 @@ protected:
     void primitive_operation_2();
 };
 
-#endif //DESIGN_PATTERNS_TEMPLATE_H
+#endif //TEMPLATE_H

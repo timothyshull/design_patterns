@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_COMPOSITE_H
-#define DESIGN_PATTERNS_COMPOSITE_H
+#ifndef COMPOSITE_H
+#define COMPOSITE_H
 
 #include <vector>
 #include "Component.h"
@@ -23,4 +23,4 @@ private:
     std::vector<Component*> _component_vector;
 };
 
-#endif //DESIGN_PATTERNS_COMPOSITE_H
+#endif //COMPOSITE_H

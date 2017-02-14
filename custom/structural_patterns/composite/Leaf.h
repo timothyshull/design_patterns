@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_LEAF_H
-#define DESIGN_PATTERNS_LEAF_H
+#ifndef LEAF_H
+#define LEAF_H
 
 #include "Component.h"
 
@@ -12,4 +12,4 @@ public:
     void operation();
 };
 
-#endif //DESIGN_PATTERNS_LEAF_H
+#endif //LEAF_H

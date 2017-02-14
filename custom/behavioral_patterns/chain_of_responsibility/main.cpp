@@ -1,10 +1,18 @@
-#include "Handle.h"
+#include <string>
+#include "Base_responder.h"
+#include "Concrete_responders.h"
 
 int main(int argc, char* argv[])
 {
-    Handle* h1 = new Concrete_handle_a();
-    Handle* h2 = new Concrete_handle_b();
-    h1->set_successor(h2);
-    h1->handle_request();
+    Responder_a ra;
+    Responder_b rb;
+    Responder_c rc;
+
+    ra.set_successor(rb);
+    rb.set_successor(rc);
+
+    std::string req{"Handle this request!"};
+    ra.handle_request(req);
+
     return 0;
 }

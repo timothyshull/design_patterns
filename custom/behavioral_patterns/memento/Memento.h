@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_MEMENTO_H
-#define DESIGN_PATTERNS_MEMENTO_H
+#ifndef MEMENTO_H
+#define MEMENTO_H
 
 #include <string>
 
@@ -52,4 +52,4 @@ private:
     State _sdt;
 };
 
-#endif //DESIGN_PATTERNS_MEMENTO_H
+#endif //MEMENTO_H

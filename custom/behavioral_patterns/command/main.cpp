@@ -1,13 +1,14 @@
 #include <iostream>
 #include "Command.h"
+#include "Concrete_command.h"
 #include "Invoker.h"
-#include "Reciever.h"
 
-int main(int argc, char* argv[])
+int main()
 {
-    Reciever* reciever = new Reciever();
-    Command* cmd = new Concrete_command(reciever);
-    Invoker* invoker = new Invoker(cmd);
-    invoker->invoke();
+    auto custom_lambda = [](){ std::cout << "calling custom_lambda"; };
+
+    Concrete_command<decltype(custom_lambda)> cmd{custom_lambda};
+    Invoker invoker{cmd};
+    invoker.invoke();
     return 0;
 }

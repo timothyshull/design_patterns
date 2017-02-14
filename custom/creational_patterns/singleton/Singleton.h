@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_SINGLETON_H
-#define DESIGN_PATTERNS_SINGLETON_H
+#ifndef SINGLETON_H
+#define SINGLETON_H
 
 #include <iostream>
 
@@ -14,4 +14,4 @@ private:
     static Singleton* _instance;
 };
 
-#endif //DESIGN_PATTERNS_SINGLETON_H
+#endif //SINGLETON_H

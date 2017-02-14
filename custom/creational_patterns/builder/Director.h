@@ -1,5 +1,5 @@
-#ifndef DESIGN_PATTERNS_DIRECTOR_H
-#define DESIGN_PATTERNS_DIRECTOR_H
+#ifndef DIRECTOR_H
+#define DIRECTOR_H
 
 class Builder;
 
@@ -15,4 +15,4 @@ private:
     Builder* _bld;
 };
 
-#endif //DESIGN_PATTERNS_DIRECTOR_H
+#endif //DIRECTOR_H
