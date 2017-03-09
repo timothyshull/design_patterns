@@ -4,11 +4,6 @@
 #include <string>
 
 class Context;
-//enum class Primitive_type {
-//    boolean,
-//    floating_point,
-//    integer
-//};
 
 class Expression {
 public:

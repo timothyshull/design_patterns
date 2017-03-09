@@ -2,101 +2,101 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="design_patterns" targetName="template_method" />
-      <config projectName="design_patterns" targetName="custom_singleton" />
+      <config projectName="design_patterns" targetName="tmp" />
+      <config projectName="design_patterns" targetName="custom_Decorator" />
+      <config projectName="design_patterns" targetName="chain_of_responsibility1" />
       <config projectName="design_patterns" targetName="iterator_main" />
-      <config projectName="design_patterns" targetName="Builder" />
-      <config projectName="design_patterns" targetName="composite" />
-      <config projectName="design_patterns" targetName="iterator1" />
-      <config projectName="design_patterns" targetName="abstract_factory" />
-      <config projectName="design_patterns" targetName="state" />
-      <config projectName="design_patterns" targetName="singleton_basic" />
-      <config projectName="design_patterns" targetName="custom_interpreter" />
-      <config projectName="design_patterns" targetName="custom_Facade" />
-      <config projectName="design_patterns" targetName="custom_strategy" />
-      <config projectName="design_patterns" targetName="custom_builder" />
-      <config projectName="design_patterns" targetName="custom_template" />
-      <config projectName="design_patterns" targetName="composite1" />
-      <config projectName="design_patterns" targetName="custom_bridge" />
-      <config projectName="design_patterns" targetName="factory_method_sample_code1" />
-      <config projectName="design_patterns" targetName="iterator" />
-      <config projectName="design_patterns" targetName="Composite" />
-      <config projectName="design_patterns" targetName="abstract_factory1" />
-      <config projectName="design_patterns" targetName="facade" />
       <config projectName="design_patterns" targetName="custom_Flyweight" />
+      <config projectName="design_patterns" targetName="object_adapter" />
+      <config projectName="design_patterns" targetName="interpreter" />
+      <config projectName="design_patterns" targetName="internal_list_iterator" />
+      <config projectName="design_patterns" targetName="prototype" />
+      <config projectName="design_patterns" targetName="builder2" />
+      <config projectName="design_patterns" targetName="abstract_factory" />
+      <config projectName="design_patterns" targetName="adapter_class" />
+      <config projectName="design_patterns" targetName="custom_state" />
+      <config projectName="design_patterns" targetName="custom_strategy" />
+      <config projectName="design_patterns" targetName="strategy" />
+      <config projectName="design_patterns" targetName="proxy" />
+      <config projectName="design_patterns" targetName="decorator1" />
       <config projectName="design_patterns" targetName="custom_iterator" />
       <config projectName="design_patterns" targetName="custom_decorator" />
-      <config projectName="design_patterns" targetName="AbstactFactory" />
-      <config projectName="design_patterns" targetName="adapter_object" />
-      <config projectName="design_patterns" targetName="visitor" />
-      <config projectName="design_patterns" targetName="external_iterator" />
-      <config projectName="design_patterns" targetName="custom_chain_of_responsibility" />
-      <config projectName="design_patterns" targetName="adapter" />
-      <config projectName="design_patterns" targetName="mediator" />
-      <config projectName="design_patterns" targetName="Bridge" />
-      <config projectName="design_patterns" targetName="bridge" />
-      <config projectName="design_patterns" targetName="builder" />
-      <config projectName="design_patterns" targetName="interpreter" />
-      <config projectName="design_patterns" targetName="memento" />
-      <config projectName="design_patterns" targetName="Singleton" />
-      <config projectName="design_patterns" targetName="chain_of_responsibility1" />
-      <config projectName="design_patterns" targetName="custom_abstract_factory" />
-      <config projectName="design_patterns" targetName="custom_factory" />
-      <config projectName="design_patterns" targetName="object_adapter" />
-      <config projectName="design_patterns" targetName="proxy" />
-      <config projectName="design_patterns" targetName="custom_state" />
-      <config projectName="design_patterns" targetName="flyweight1" />
-      <config projectName="design_patterns" targetName="prototype1" />
-      <config projectName="design_patterns" targetName="chain_of_responsibility" />
-      <config projectName="design_patterns" targetName="strategy1" />
-      <config projectName="design_patterns" targetName="custom_memento" />
-      <config projectName="design_patterns" targetName="builder1" />
-      <config projectName="design_patterns" targetName="custom_adapter_object" />
-      <config projectName="design_patterns" targetName="custom_facade" />
-      <config projectName="design_patterns" targetName="builder2" />
-      <config projectName="design_patterns" targetName="custom_observer" />
-      <config projectName="design_patterns" targetName="creational_patterns" />
-      <config projectName="design_patterns" targetName="custom_command" />
-      <config projectName="design_patterns" targetName="custom_Composite" />
-      <config projectName="design_patterns" targetName="template" />
-      <config projectName="design_patterns" targetName="Flyweight" />
-      <config projectName="design_patterns" targetName="Prototype" />
-      <config projectName="design_patterns" targetName="custom_proxy" />
-      <config projectName="design_patterns" targetName="custom_prototype" />
-      <config projectName="design_patterns" targetName="command1" />
-      <config projectName="design_patterns" targetName="custom_mediator" />
-      <config projectName="design_patterns" targetName="custom_composite" />
-      <config projectName="design_patterns" targetName="decorator" />
-      <config projectName="design_patterns" targetName="Proxy" />
-      <config projectName="design_patterns" targetName="Facade" />
-      <config projectName="design_patterns" targetName="custom_Bridge" />
-      <config projectName="design_patterns" targetName="prototype" />
-      <config projectName="design_patterns" targetName="command" />
-      <config projectName="design_patterns" targetName="internal_list_iterator" />
-      <config projectName="design_patterns" targetName="foundation_classes" />
-      <config projectName="design_patterns" targetName="registry_of_singletons" />
-      <config projectName="design_patterns" targetName="singleton" />
+      <config projectName="design_patterns" targetName="custom_builder" />
+      <config projectName="design_patterns" targetName="Builder" />
       <config projectName="design_patterns" targetName="calculator" />
-      <config projectName="design_patterns" targetName="factory" />
-      <config projectName="design_patterns" targetName="strategy" />
-      <config projectName="design_patterns" targetName="tmp" />
-      <config projectName="design_patterns" targetName="custom_flyweight" />
-      <config projectName="design_patterns" targetName="custom_adapter_class" />
+      <config projectName="design_patterns" targetName="AbstactFactory" />
+      <config projectName="design_patterns" targetName="custom_interpreter" />
+      <config projectName="design_patterns" targetName="Factory" />
+      <config projectName="design_patterns" targetName="observer" />
+      <config projectName="design_patterns" targetName="external_iterator" />
+      <config projectName="design_patterns" targetName="factory_method_sample_code1" />
+      <config projectName="design_patterns" targetName="custom_abstract_factory" />
       <config projectName="design_patterns" targetName="proxylib" />
       <config projectName="design_patterns" targetName="custom_Proxy" />
-      <config projectName="design_patterns" targetName="adapter_class" />
-      <config projectName="design_patterns" targetName="observer" />
-      <config projectName="design_patterns" targetName="custom_Decorator" />
-      <config projectName="design_patterns" targetName="custom_visitor" />
-      <config projectName="design_patterns" targetName="decorator1" />
+      <config projectName="design_patterns" targetName="prototype1" />
+      <config projectName="design_patterns" targetName="custom_command" />
+      <config projectName="design_patterns" targetName="custom_observer" />
+      <config projectName="design_patterns" targetName="custom_flyweight" />
+      <config projectName="design_patterns" targetName="composite" />
+      <config projectName="design_patterns" targetName="strategy1" />
       <config projectName="design_patterns" targetName="Decorator" />
+      <config projectName="design_patterns" targetName="Prototype" />
+      <config projectName="design_patterns" targetName="memento" />
+      <config projectName="design_patterns" targetName="chain_of_responsibility" />
+      <config projectName="design_patterns" targetName="custom_chain_of_responsibility" />
       <config projectName="design_patterns" targetName="class_adapter" />
-      <config projectName="design_patterns" targetName="interp" />
-      <config projectName="design_patterns" targetName="creator1" />
+      <config projectName="design_patterns" targetName="custom_adapter_class" />
+      <config projectName="design_patterns" targetName="adapter" />
       <config projectName="design_patterns" targetName="creator2" />
+      <config projectName="design_patterns" targetName="Proxy" />
+      <config projectName="design_patterns" targetName="custom_Facade" />
+      <config projectName="design_patterns" targetName="Bridge" />
+      <config projectName="design_patterns" targetName="custom_factory" />
+      <config projectName="design_patterns" targetName="builder" />
+      <config projectName="design_patterns" targetName="custom_prototype" />
+      <config projectName="design_patterns" targetName="custom_composite" />
+      <config projectName="design_patterns" targetName="adapter_object" />
+      <config projectName="design_patterns" targetName="custom_mediator" />
+      <config projectName="design_patterns" targetName="custom_singleton" />
+      <config projectName="design_patterns" targetName="custom_visitor" />
+      <config projectName="design_patterns" targetName="custom_proxy" />
       <config projectName="design_patterns" targetName="flyweight" />
+      <config projectName="design_patterns" targetName="abstract_factory1" />
+      <config projectName="design_patterns" targetName="custom_Bridge" />
+      <config projectName="design_patterns" targetName="Facade" />
+      <config projectName="design_patterns" targetName="interp" />
+      <config projectName="design_patterns" targetName="Composite" />
+      <config projectName="design_patterns" targetName="bridge" />
+      <config projectName="design_patterns" targetName="singleton_basic" />
+      <config projectName="design_patterns" targetName="Singleton" />
+      <config projectName="design_patterns" targetName="creational_patterns" />
+      <config projectName="design_patterns" targetName="registry_of_singletons" />
+      <config projectName="design_patterns" targetName="state" />
+      <config projectName="design_patterns" targetName="command1" />
+      <config projectName="design_patterns" targetName="custom_bridge" />
+      <config projectName="design_patterns" targetName="flyweight1" />
+      <config projectName="design_patterns" targetName="template_method" />
+      <config projectName="design_patterns" targetName="facade" />
+      <config projectName="design_patterns" targetName="custom_Composite" />
+      <config projectName="design_patterns" targetName="decorator" />
+      <config projectName="design_patterns" targetName="composite1" />
+      <config projectName="design_patterns" targetName="visitor" />
+      <config projectName="design_patterns" targetName="command" />
+      <config projectName="design_patterns" targetName="custom_template" />
+      <config projectName="design_patterns" targetName="iterator1" />
+      <config projectName="design_patterns" targetName="creator1" />
+      <config projectName="design_patterns" targetName="Flyweight" />
+      <config projectName="design_patterns" targetName="custom_memento" />
+      <config projectName="design_patterns" targetName="template" />
+      <config projectName="design_patterns" targetName="builder1" />
+      <config projectName="design_patterns" targetName="mediator" />
+      <config projectName="design_patterns" targetName="custom_adapter_object" />
+      <config projectName="design_patterns" targetName="custom_facade" />
+      <config projectName="design_patterns" targetName="iterator" />
+      <config projectName="design_patterns" targetName="singleton" />
+      <config projectName="design_patterns" targetName="foundation_classes" />
       <config projectName="design_patterns" targetName="creator3" />
-      <config projectName="design_patterns" targetName="Factory" />
+      <config projectName="design_patterns" targetName="factory" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -106,66 +106,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a295b65-bcaf-4f7b-9d05-72e0bca1221c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Command.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Reciever.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Reciever.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpret.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpret.h" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/Handle.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/Base_responder.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/Handle.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/Base_responder.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Binary_expression.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Call_expression.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_definition.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_prototype.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Number_expression.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Variable_expression.cpp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/CMakeLists.txt" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/chain_of_responsibility/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/CMakeLists.txt" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/command/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Command.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/command/Command.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Invoker.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/command/Invoker.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/Invoker.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/command/Invoker.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/command/main.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/command/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/main.cpp" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Aggregate.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Aggregate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/CMakeLists.txt" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Iterator.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Iterator.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/mediator/Colleague.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/mediator/Colleague.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/memento/Memento.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/memento/Memento.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Observer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/observer/Subject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/state/Context.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/state/Context.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/state/State.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/state/State.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/strategy/Context.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/strategy/Context.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/strategy/Strategy.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/strategy/Strategy.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/template/Template.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/template/Template.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/behavioral_patterns/visitor/Element.h" afterPath="$PROJECT_DIR$/custom/behavioral_patterns/visitor/Element.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/abstract_factory/Abstract_factory.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/abstract_factory/Abstract_factory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/abstract_factory/Product.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/abstract_factory/Product.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/builder/Builder.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/builder/Builder.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/builder/Director.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/builder/Director.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/builder/Product.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/builder/Product.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/factory/Factory.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/factory/Factory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/factory/Product.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/factory/Product.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/prototype/Prototype.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/prototype/Prototype.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/creational_patterns/singleton/Singleton.h" afterPath="$PROJECT_DIR$/custom/creational_patterns/singleton/Singleton.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/adapter/adapter_class/Adapter.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/adapter/adapter_class/Adapter.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/adapter/adapter_object/Adapter.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/adapter/adapter_object/Adapter.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/bridge/Abstraction.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/bridge/Abstraction.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/bridge/Abstraction_impl.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/bridge/Abstraction_impl.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/composite/Component.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/composite/Component.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/composite/Composite.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/composite/Composite.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/composite/Leaf.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/composite/Leaf.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/decorator/Decorator.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/decorator/Decorator.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/facade/Facade.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/facade/Facade.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/flyweight/Flyweight.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/flyweight/Flyweight.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/flyweight/Flyweight_factory.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/flyweight/Flyweight_factory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/structural_patterns/proxy/Proxy.h" afterPath="$PROJECT_DIR$/custom/structural_patterns/proxy/Proxy.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/Button.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/chain_of_responsibility/chain_of_responsibility_main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Application.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Simple_command.h" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/Simple_command.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/command/command_main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/CMakeLists.txt" afterPath="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.cpp" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h" afterPath="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.cpp" afterPath="$PROJECT_DIR$/gang_of_four/structural_patterns/bridge/Window.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,104 +136,105 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Function_prototype.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_prototype.h">
+      <file leaf-file-name="CRCCalculator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/CRCCalculator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.cpp">
+      <file leaf-file-name="AcmeO2Adapter.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/AcmeO2Adapter.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binary_expression.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Binary_expression.h">
+      <file leaf-file-name="AndStateList.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/AndStateList.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <marker date="1487060794000" expanded="true" signature="177:508" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="memory" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="3140" column="0" lean-forward="false" selection-start-line="3140" selection-start-column="0" selection-end-line="3140" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expression.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h">
+      <file leaf-file-name="AndStateList.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/AndStateList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt">
+      <file leaf-file-name="Attitude.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/Attitude.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expression.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.cpp">
+      <file leaf-file-name="Attitude.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/Attitude.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.h">
+      <file leaf-file-name="AttitudeController.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/AttitudeController.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map">
+      <file leaf-file-name="AttitudeController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/AttitudeController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="1577" column="0" lean-forward="false" selection-start-line="1577" selection-start-column="0" selection-end-line="1577" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Number_expression.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Number_expression.h">
+      <file leaf-file-name="KinematicData.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded/KinematicData.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/embedded/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -367,12 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gpp_code/bytecode.h" />
-        <option value="$PROJECT_DIR$/embedded/AndStateList.h" />
-        <option value="$PROJECT_DIR$/gpp_code/game_loop.h" />
-        <option value="$PROJECT_DIR$/gpp_code/hello_world.h" />
-        <option value="$PROJECT_DIR$/gpp_code/object_pool.h" />
-        <option value="$PROJECT_DIR$/gpp_code/service_locator.h" />
         <option value="$PROJECT_DIR$/gpp_code/spatial_partition.h" />
         <option value="$PROJECT_DIR$/gpp_code/subclass_sandbox.h" />
         <option value="$PROJECT_DIR$/gpp_code/type_object.h" />
@@ -413,11 +363,17 @@
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Token_stream.cpp" />
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/token.h" />
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.cpp" />
-        <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h" />
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Binary_expression.h" />
-        <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.h" />
         <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.cpp" />
+        <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h" />
+        <option value="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Container.h" />
+        <option value="$PROJECT_DIR$/custom/behavioral_patterns/iterator/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/custom/behavioral_patterns/iterator/Iterator.h" />
+        <option value="$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.cpp" />
+        <option value="$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h" />
       </list>
     </option>
   </component>
@@ -473,7 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gang_of_four" />
+              <option name="myItemId" value="gpp_code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,10 +446,6 @@
               <option name="myItemId" value="gang_of_four" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behavioral_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -505,37 +457,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gang_of_four" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behavioral_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interpreter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design_patterns" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gang_of_four" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behavioral_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
+              <option name="myItemId" value="embedded" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,6 +534,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behavioral_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain_of_responsibility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1172,35 +1116,40 @@
       <workItem from="1486997199472" duration="176000" />
       <workItem from="1487029381085" duration="4706000" />
       <workItem from="1487045723199" duration="13663000" />
-      <workItem from="1487059632076" duration="1497000" />
+      <workItem from="1487059632076" duration="1699000" />
+      <workItem from="1487092107243" duration="2325000" />
+      <workItem from="1487130840252" duration="1001000" />
+      <workItem from="1487134999024" duration="3000" />
+      <workItem from="1487301423252" duration="1080000" />
+      <workItem from="1487309984054" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86407000" />
+    <option name="totallyTimeSpent" value="91024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1216,152 +1165,185 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/command/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="67" lean-forward="false" selection-start-line="0" selection-start-column="67" selection-end-line="0" selection-end-column="67" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/command/Concrete_command.h">
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Digital_clock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Observer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Widget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/observer/Subject.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Coord.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Event.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Event.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/List.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Point.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/foundation_classes/Point.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/StandardMazeBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/MazeBuilder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/CountingMazeBuilder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/creational_patterns/builder/builder2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/object_adapter/TextShape.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Number_expression.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/command/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Context.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/interpreter_main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../stroustroup_calculator/stroustroup_calculator/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Variable_exp.h">
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.cpp">
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-285">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/And_exp.h">
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_prototype.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Boolean_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1649" column="0" lean-forward="false" selection-start-line="1649" selection-start-column="0" selection-end-line="1649" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/expression_types.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Number_expression.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Variable_expression.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_prototype.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_definition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gang_of_four/behavioral_patterns/interpreter/Not_exp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1372,192 +1354,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/utility.cpp">
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/utility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/ctype.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpret.h" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Variable_expression.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/kaleidoscope.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpret.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/tmp.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/calculator.cpp" />
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Call_expression.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Call_expression.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="135" lean-forward="false" selection-start-line="10" selection-start-column="135" selection-end-line="10" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <marker date="1487060182000" expanded="true" signature="242:1374" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Binary_expression.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Token_stream.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Token_stream.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/token.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Function_prototype.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/token.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Shape.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/Manipulator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/TextView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gang_of_four/structural_patterns/adapter/class_adapter/TextShape.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/DisplayClient_gas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/DisplayClient_gas.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/DisplayClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/DisplayClient.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/cyclic_executive_processing_loop.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/CRCCalculator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Number_expression.h">
+    <entry file="file://$PROJECT_DIR$/embedded/AcmeO2Adapter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
+    <entry file="file://$PROJECT_DIR$/embedded/AndStateList.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="3140" column="0" lean-forward="false" selection-start-line="3140" selection-start-column="0" selection-end-line="3140" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Expression.h">
+    <entry file="file://$PROJECT_DIR$/embedded/AndStateList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Binary_expression.h">
+    <entry file="file://$PROJECT_DIR$/embedded/Attitude.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <marker date="1487060794000" expanded="true" signature="177:508" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map">
+    <entry file="file://$PROJECT_DIR$/embedded/Attitude.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1577" column="0" lean-forward="false" selection-start-line="1577" selection-start-column="0" selection-end-line="1577" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Context.h">
+    <entry file="file://$PROJECT_DIR$/embedded/AttitudeController.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/behavioral_patterns/interpreter/Interpreter.cpp">
+    <entry file="file://$PROJECT_DIR$/embedded/AttitudeController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/KinematicData.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

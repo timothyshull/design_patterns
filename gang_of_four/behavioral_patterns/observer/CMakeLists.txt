@@ -4,7 +4,10 @@ include_directories(../iterator)
 set(observer_SRCS
         Clock_timer.cpp
         Digital_clock.cpp
-        Subject.cpp)
+        Subject.cpp
+        Analog_clock.h
+        Observer.h
+        Widget.h)
 
 add_library(observer SHARED ${observer_SRCS})
 target_link_libraries(observer foundation_classes)

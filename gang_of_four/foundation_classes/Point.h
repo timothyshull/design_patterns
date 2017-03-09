@@ -12,13 +12,13 @@ public:
 
     Point(Coord x = 0.0, Coord y = 0.0);
 
-    Coord X() const;
+    Coord get_x() const;
 
-    void X(Coord x);
+    void set_x(Coord x);
 
-    Coord Y() const;
+    Coord get_y() const;
 
-    void Y(Coord y);
+    void set_y(Coord y);
 
     friend Point operator+(const Point&, const Point&);
 

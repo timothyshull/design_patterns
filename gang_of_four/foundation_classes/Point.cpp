@@ -3,25 +3,24 @@
 
 const Point Point::zero(0, 0);
 
-Point::Point(Coord x, Coord y)
-        : _x(x), _y(y) {}
+Point::Point(Coord x, Coord y) : _x(x), _y(y) {}
 
-Coord Point::X() const
+Coord Point::get_x() const
 {
     return _x;
 }
 
-Coord Point::Y() const
+Coord Point::get_y() const
 {
     return _y;
 }
 
-void Point::X(Coord x)
+void Point::set_x(Coord x)
 {
     _x = x;
 }
 
-void Point::Y(Coord y)
+void Point::set_y(Coord y)
 {
     _y = y;
 }
